@@ -6,13 +6,14 @@
   <title>Projeto700mil</title>
   <style>
     :root {
-      --azul: #3f6fd1;
-      --azul-escuro: #2e57ab;
+      --azul: #4774d1;
       --fundo: #e9e9e9;
       --branco: #ffffff;
       --texto: #1f1f1f;
       --borda: #cfcfcf;
-      --cinza: #777777;
+      --cinza-claro: #efefef;
+      --cinza-escuro: #e2e2e2;
+      --cinza-texto: #666666;
     }
 
     * {
@@ -30,7 +31,7 @@
     .topbar {
       display: grid;
       grid-template-columns: 180px 1fr;
-      min-height: 120px;
+      min-height: 126px;
       background: var(--azul);
       color: white;
     }
@@ -42,9 +43,20 @@
     .topbar-title {
       display: flex;
       align-items: center;
+      gap: 12px;
       padding: 0 28px;
-      font-size: 54px;
-      line-height: 1.1;
+      line-height: 1.05;
+      white-space: nowrap;
+      overflow: hidden;
+    }
+
+    .topbar-title-main {
+      font-size: 56px;
+      font-weight: 400;
+    }
+
+    .topbar-title-sub {
+      font-size: 53px;
       font-weight: 400;
     }
 
@@ -60,7 +72,7 @@
       background: var(--azul);
       color: white;
       padding: 22px 16px;
-      min-height: calc(100vh - 148px);
+      min-height: calc(100vh - 154px);
     }
 
     .sidebar button,
@@ -82,16 +94,31 @@
     .left-column,
     .right-column {
       min-width: 0;
+      align-self: start;
     }
 
     .text-panel {
-      background: linear-gradient(to bottom, #efefef 0%, #efefef 62%, #e2e2e2 62%, #e2e2e2 100%);
       border: 1px solid var(--borda);
-      min-height: 650px;
-      padding: 42px 32px;
+      min-height: 648px;
+      display: grid;
+      grid-template-rows: 62% 38%;
+      overflow: hidden;
+    }
+
+    .text-panel-top {
+      background: var(--cinza-claro);
       display: flex;
-      flex-direction: column;
-      justify-content: space-between;
+      align-items: center;
+      justify-content: center;
+      padding: 34px;
+    }
+
+    .text-panel-bottom {
+      background: var(--cinza-escuro);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 34px;
     }
 
     .text-panel p {
@@ -99,10 +126,6 @@
       font-size: 28px;
       line-height: 1.35;
       text-align: center;
-    }
-
-    .text-panel .lead {
-      margin-top: 10px;
     }
 
     .form-button {
@@ -122,7 +145,7 @@
 
     .counter-box {
       border: 1px solid var(--borda);
-      background: #efefef;
+      background: var(--cinza-claro);
     }
 
     .counter-number {
@@ -143,6 +166,7 @@
       text-align: center;
       font-size: 30px;
       padding: 12px 16px;
+      font-weight: 400;
     }
 
     .list-box {
@@ -155,7 +179,7 @@
 
     .victim-card {
       display: grid;
-      grid-template-columns: 92px 1fr 1fr 1fr;
+      grid-template-columns: 92px 1.3fr 1fr 1fr;
       border-bottom: 1px solid #d7d7d7;
       min-height: 122px;
     }
@@ -198,6 +222,7 @@
       width: 100%;
       height: 100%;
       object-fit: cover;
+      display: block;
     }
 
     .photo-box svg {
@@ -207,9 +232,9 @@
     }
 
     .name-age {
+      flex-direction: column;
       font-size: 18px;
       line-height: 1.35;
-      flex-direction: column;
     }
 
     .name-age strong {
@@ -333,7 +358,7 @@
     }
 
     .small-muted {
-      color: var(--cinza);
+      color: var(--cinza-texto);
       font-size: 14px;
     }
 
@@ -347,17 +372,17 @@
       cursor: pointer;
     }
 
-    @media (max-width: 1200px) {
-      .topbar-title {
-        font-size: 42px;
+    @media (max-width: 1240px) {
+      .topbar-title-main {
+        font-size: 48px;
+      }
+
+      .topbar-title-sub {
+        font-size: 45px;
       }
 
       .counter-number {
-        font-size: 84px;
-      }
-
-      .victim-card {
-        grid-template-columns: 86px 1.2fr 1fr 1fr;
+        font-size: 86px;
       }
     }
 
@@ -366,20 +391,17 @@
         grid-template-columns: 180px 1fr;
       }
 
+      .left-column,
       .right-column {
         grid-column: 2;
       }
 
-      .left-column {
-        grid-column: 2;
+      .topbar {
+        grid-template-columns: 180px 1fr;
       }
 
       .text-panel {
-        min-height: 460px;
-      }
-
-      .topbar {
-        grid-template-columns: 180px 1fr;
+        min-height: 500px;
       }
     }
 
@@ -394,8 +416,17 @@
       }
 
       .topbar-title {
-        font-size: 30px;
         padding: 18px;
+        white-space: normal;
+        flex-wrap: wrap;
+      }
+
+      .topbar-title-main {
+        font-size: 34px;
+      }
+
+      .topbar-title-sub {
+        font-size: 31px;
       }
 
       .page {
@@ -414,6 +445,11 @@
 
       .text-panel {
         min-height: auto;
+        grid-template-rows: auto auto;
+      }
+
+      .text-panel-top,
+      .text-panel-bottom {
         padding: 28px 20px;
       }
 
@@ -461,7 +497,10 @@
 <body>
   <header class="topbar">
     <div class="topbar-spacer"></div>
-    <div class="topbar-title">Projeto700mil – Cada nome importa.</div>
+    <div class="topbar-title">
+      <span class="topbar-title-main">Projeto700mil</span>
+      <span class="topbar-title-sub">– Cada nome importa.</span>
+    </div>
   </header>
 
   <div class="page">
@@ -475,12 +514,16 @@
 
     <section class="left-column">
       <div class="text-panel">
-        <p class="lead">
-          O Projeto700mil é um memorial digital colaborativo que busca registrar o nome das 700.000 vítimas da pandemia de COVID-19 no Brasil.
-        </p>
-        <p>
-          Ajude a preservar a memória das vítimas da COVID-19 no Brasil.
-        </p>
+        <div class="text-panel-top">
+          <p>
+            O Projeto700mil é um memorial digital colaborativo que busca registrar o nome das 700.000 vítimas da pandemia de COVID-19 no Brasil.
+          </p>
+        </div>
+        <div class="text-panel-bottom">
+          <p>
+            Ajude a preservar a memória das vítimas da COVID-19 no Brasil.
+          </p>
+        </div>
       </div>
 
       <button class="form-button" type="button" data-modal="formModal">
@@ -641,7 +684,15 @@
     const counter = document.getElementById('counter');
 
     function formatCount(number) {
-      return number.toString().padStart(6, '0').replace(/(\\d{3})(\\d{3})/, '$1.$2');
+      return number.toString().padStart(6, '0').replace(/(\d{3})(\d{3})/, '$1.$2');
+    }
+
+    function normalizeText(text) {
+      return String(text || '')
+        .normalize('NFD')
+        .replace(/[\u0300-\u036f]/g, '')
+        .toLowerCase()
+        .trim();
     }
 
     function avatarMarkup(photo, name) {
@@ -725,7 +776,7 @@
     }
 
     searchInput.addEventListener('input', function (e) {
-      const term = e.target.value.trim().toLowerCase();
+      const term = normalizeText(e.target.value);
 
       if (!term) {
         renderList(victims);
@@ -733,7 +784,7 @@
       }
 
       const filtered = victims.filter((v) => {
-        const nome = safeValue(v.nome, '').toLowerCase();
+        const nome = normalizeText(v.nome);
         return nome.includes(term);
       });
 
