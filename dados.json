@@ -1,18 +1,2906 @@
 [
-{
-"nome":"Sérgio Trindade",
-"idade":"79",
-"profissao":"Engenheiro químico e pesquisador",
-"data":"18/03/2020",
-"local":"não informado",
-"foto":""
-},
-{
-"nome":"Pedro Di Marco da Cruza",
-"idade":"65",
-"profissao":"Médico(a) - Cardiologista",
-"data":"22/03/2020",
-"local":"Rio de Janeiro – RJ",
-"foto":""
-}
+  {
+    "nome": "Sérgio Trindade",
+    "idade": "79",
+    "profissao": "Engenheiro químico e pesquisador",
+    "data": "18/03/2020",
+    "local": "não informado",
+    "foto": ""
+  },
+  {
+    "nome": "Pedro Di Marco da Cruza",
+    "idade": "65",
+    "profissao": "Médico(a) - Cardiologista",
+    "data": "22/03/2020",
+    "local": "Rio de Janeiro – RJ",
+    "foto": ""
+  },
+  {
+    "nome": "Diamir Gomes",
+    "idade": "74",
+    "profissao": "Médico(a) - Anestesiologista",
+    "data": "25/03/2020",
+    "local": "Santos – SP",
+    "foto": ""
+  },
+  {
+    "nome": "Martinho Lutero Galati",
+    "idade": "66",
+    "profissao": "Maestro e professor universitário",
+    "data": "25/03/2020",
+    "local": "não informado",
+    "foto": ""
+  },
+  {
+    "nome": "Naomi Munakata",
+    "idade": "64",
+    "profissao": "Maestrina titular do Coro da Osesp",
+    "data": "26/03/2020",
+    "local": "não informado",
+    "foto": ""
+  },
+  {
+    "nome": "Daniel Azulay",
+    "idade": "72",
+    "profissao": "Artista plástico, desenhista e educador",
+    "data": "27/03/2020",
+    "local": "não informado",
+    "foto": ""
+  },
+  {
+    "nome": "Alex Sandro de Carvalho",
+    "idade": "39",
+    "profissao": "Técnico de enfermagem",
+    "data": "04/2020",
+    "local": "Rio de Janeiro - RJ",
+    "foto": ""
+  },
+  {
+    "nome": "Hermes Roberto Radtke",
+    "idade": "43",
+    "profissao": "Médico(a) - Médico radiologista",
+    "data": "02/04/2020",
+    "local": "Fortaleza – CE",
+    "foto": ""
+  },
+  {
+    "nome": "Nelson Martins Schiavinatto",
+    "idade": "80",
+    "profissao": "Médico(a) - Radiologista",
+    "data": "03/04/2020",
+    "local": "Cianorte – PR",
+    "foto": ""
+  },
+  {
+    "nome": "Chiang Jeng Tyng",
+    "idade": "idade não informada",
+    "profissao": "Médico(a) - Radiologista",
+    "data": "03/04/2020",
+    "local": "São Paulo – SP",
+    "foto": ""
+  },
+  {
+    "nome": "Alberto Carlos Gamboggi Calastretti",
+    "idade": "80",
+    "profissao": "Médico(a) - Cardiologista",
+    "data": "04/04/2020",
+    "local": "São Paulo – SP",
+    "foto": ""
+  },
+  {
+    "nome": "Ricardo Antonio Piacenso",
+    "idade": "idade não informada",
+    "profissao": "Médico(a) - Cardiologista",
+    "data": "05/04/2020",
+    "local": "Rio de Janeiro – RJ",
+    "foto": ""
+  },
+  {
+    "nome": "Paulo Fernando Moreira Palazzo",
+    "idade": "56",
+    "profissao": "Médico(a) - Hematologista",
+    "data": "05/04/2020",
+    "local": "São Paulo – SP",
+    "foto": ""
+  },
+  {
+    "nome": "José Manoel de Melo Gomes",
+    "idade": "idade não informada",
+    "profissao": "Médico(a) - Anestesista",
+    "data": "05/04/2020",
+    "local": "Rio de Janeiro – RJ",
+    "foto": ""
+  },
+  {
+    "nome": "Maria Altamira de Oliveira",
+    "idade": "71",
+    "profissao": "Médico(a) - Proctologista",
+    "data": "05/04/2020",
+    "local": "Natal – RN",
+    "foto": ""
+  },
+  {
+    "nome": "Ana Cláudia Monteiro",
+    "idade": "46",
+    "profissao": "Médico(a) - Oftalmologista",
+    "data": "08/04/2020",
+    "local": "Divinópolis – MG",
+    "foto": ""
+  },
+  {
+    "nome": "Claudia Nogueira Cardoso",
+    "idade": "56",
+    "profissao": "Médico(a) - Endocrinologista",
+    "data": "08/04/2020",
+    "local": "Rio de Janeiro – RJ",
+    "foto": ""
+  },
+  {
+    "nome": "João Batista Marangoni",
+    "idade": "65",
+    "profissao": "Médico(a) - Pediatra",
+    "data": "09/04/2020",
+    "local": "Rio de Janeiro – RJ",
+    "foto": ""
+  },
+  {
+    "nome": "Paulo Henrique Lima",
+    "idade": "40",
+    "profissao": "Técnico de enfermagem",
+    "data": "09/04/2020",
+    "local": "Rio de Janeiro - RJ",
+    "foto": ""
+  },
+  {
+    "nome": "Adelia Maria Araujo de Almeida Oliveira",
+    "idade": "idade não informada",
+    "profissao": "Médico(a) - Pediatra",
+    "data": "10/04/2020",
+    "local": "São Paulo – SP",
+    "foto": ""
+  },
+  {
+    "nome": "Lúcia Dantas Abrantes",
+    "idade": "66",
+    "profissao": "Médico(a)",
+    "data": "10/04/2020",
+    "local": "Iguatu – CE",
+    "foto": ""
+  },
+  {
+    "nome": "Luiz Augusto Chirighini Bicudo",
+    "idade": "74",
+    "profissao": "Médico(a)",
+    "data": "10/04/2020",
+    "local": "Santos – SP",
+    "foto": ""
+  },
+  {
+    "nome": "José Ruy de Alvarenga Sampaio",
+    "idade": "idade não informada",
+    "profissao": "Médico(a) - Cirurgião",
+    "data": "10/04/2020",
+    "local": "São Paulo – SP",
+    "foto": ""
+  },
+  {
+    "nome": "Jaime Takeo Matsumoto",
+    "idade": "idade não informada",
+    "profissao": "Médico(a) - Ortopedista",
+    "data": "11/04/2020",
+    "local": "São Paulo – SP",
+    "foto": ""
+  },
+  {
+    "nome": "Altamir Bindá",
+    "idade": "idade não informada",
+    "profissao": "Médico(a) - Pneumologista",
+    "data": "12/04/2020",
+    "local": "Manaus – AM",
+    "foto": ""
+  },
+  {
+    "nome": "Antônio Tadeu Pinto da Fonseca",
+    "idade": "66",
+    "profissao": "Médico(a) - Ortopedista",
+    "data": "12/04/2020",
+    "local": "Rio Claro – SP",
+    "foto": ""
+  },
+  {
+    "nome": "Kátia Kohler",
+    "idade": "idade não informada",
+    "profissao": "Médico(a) - Ginecologista",
+    "data": "12/04/2020",
+    "local": "Santana do Parnaíba – SP",
+    "foto": ""
+  },
+  {
+    "nome": "Raimundo Ferreira Rodrigues",
+    "idade": "75",
+    "profissao": "Médico(a) - Obstetra",
+    "data": "12/04/2020",
+    "local": "Manaus – AM",
+    "foto": ""
+  },
+  {
+    "nome": "Antonio Tadeu Pinto da Fonseca",
+    "idade": "66",
+    "profissao": "Médico(a) - Ortopedista",
+    "data": "12/04/2020",
+    "local": "Rio Claro – SP",
+    "foto": ""
+  },
+  {
+    "nome": "Jorge Mauad Filho",
+    "idade": "idade não informada",
+    "profissao": "Médico(a) - Ortopedista",
+    "data": "13/04/2020",
+    "local": "Uberaba – MG",
+    "foto": ""
+  },
+  {
+    "nome": "Maria de Fátima Castelo Branco",
+    "idade": "60",
+    "profissao": "Médico(a)",
+    "data": "13/04/2020",
+    "local": "João Pessoa – PB",
+    "foto": ""
+  },
+  {
+    "nome": "Jorge Alexandre de Oliveira Andrade",
+    "idade": "45",
+    "profissao": "Técnico de enfermagem",
+    "data": "13/04/2020",
+    "local": "Rio de Janeiro - RJ",
+    "foto": ""
+  },
+  {
+    "nome": "Ernane Avelar Fonseca",
+    "idade": "72",
+    "profissao": "Médico(a) - Ortopedista",
+    "data": "14/04/2020",
+    "local": "Belo Horizonte – MG",
+    "foto": ""
+  },
+  {
+    "nome": "Carla do Nascimento Dias",
+    "idade": "46",
+    "profissao": "Técnica de enfermagem",
+    "data": "15/04/2020",
+    "local": "Rio de Janeiro - RJ",
+    "foto": ""
+  },
+  {
+    "nome": "Carlos Augusto Estorari",
+    "idade": "48",
+    "profissao": "Médico(a) - Clínico geral",
+    "data": "16/04/2020",
+    "local": "Parauapebas – PA",
+    "foto": ""
+  },
+  {
+    "nome": "Élio César Marson",
+    "idade": "52",
+    "profissao": "Médico(a) - Cirurgião plástico",
+    "data": "16/04/2020",
+    "local": "Mossoró – RN",
+    "foto": ""
+  },
+  {
+    "nome": "Paulo Sergio Gonzales",
+    "idade": "60",
+    "profissao": "Médico(a) - Cirurgião geral",
+    "data": "16/04/2020",
+    "local": "Campinas – SP",
+    "foto": ""
+  },
+  {
+    "nome": "Anita Souza Vianna",
+    "idade": "63",
+    "profissao": "Técnica de enfermagem",
+    "data": "16/04/2020",
+    "local": "Rio de Janeiro - RJ",
+    "foto": ""
+  },
+  {
+    "nome": "Astolfo Serra",
+    "idade": "idade não informada",
+    "profissao": "Médico(a) - Cardiologista",
+    "data": "17/04/2020",
+    "local": "Rio de Janeiro – RJ",
+    "foto": ""
+  },
+  {
+    "nome": "Celso de Almeida Felício",
+    "idade": "68",
+    "profissao": "Médico(a) - Cardiologista",
+    "data": "17/04/2020",
+    "local": "Rio de Janeiro – RJ",
+    "foto": ""
+  },
+  {
+    "nome": "Cláudio Maurício Santana",
+    "idade": "59",
+    "profissao": "Maqueiro",
+    "data": "17/04/2020",
+    "local": "Rio de Janeiro - RJ",
+    "foto": ""
+  },
+  {
+    "nome": "Ricardo Vicente da Silva",
+    "idade": "idade não informada",
+    "profissao": "Médico(a) - Pediatra",
+    "data": "18/04/2020",
+    "local": "Jundiaí – SP",
+    "foto": ""
+  },
+  {
+    "nome": "Jayme de Oliveira Júnior",
+    "idade": "52",
+    "profissao": "Médico(a) - Angiologista",
+    "data": "19/04/2020",
+    "local": "Natal – RN",
+    "foto": ""
+  },
+  {
+    "nome": "Flávio Neves Lima",
+    "idade": "idade não informada",
+    "profissao": "Médico(a) - Cirurgião geral",
+    "data": "20/04/2020",
+    "local": "Castanhal – PA",
+    "foto": ""
+  },
+  {
+    "nome": "Frederic Jota S. Lima",
+    "idade": "idade não informada",
+    "profissao": "Médico(a)",
+    "data": "20/04/2020",
+    "local": "São Paulo – SP",
+    "foto": ""
+  },
+  {
+    "nome": "Gilmar Calazans Lima",
+    "idade": "55",
+    "profissao": "Médico(a)",
+    "data": "20/04/2020",
+    "local": "Ilhéus – BA",
+    "foto": ""
+  },
+  {
+    "nome": "Fernando Noburo Miyake",
+    "idade": "56",
+    "profissao": "Médico(a) - Clínico geral",
+    "data": "20/04/2020",
+    "local": "Santo André – SP",
+    "foto": ""
+  },
+  {
+    "nome": "Mauro Roberto dos Santos Guimarães",
+    "idade": "idade não informada",
+    "profissao": "Médico(a)",
+    "data": "20/04/2020",
+    "local": "cirurgião geral – PA",
+    "foto": ""
+  },
+  {
+    "nome": "André Fernando Miyake",
+    "idade": "idade não informada",
+    "profissao": "Médico(a)",
+    "data": "21/04/2020",
+    "local": "Santo André – SP",
+    "foto": ""
+  },
+  {
+    "nome": "Geraldo Gomes da Silva",
+    "idade": "idade não informada",
+    "profissao": "Médico(a)",
+    "data": "21/04/2020",
+    "local": "intensivista – PA",
+    "foto": ""
+  },
+  {
+    "nome": "Gastão Dias Junior",
+    "idade": "51",
+    "profissao": "Médico(a) - Pediatra",
+    "data": "22/04/2020",
+    "local": "Balneário Camboriú – SC",
+    "foto": ""
+  },
+  {
+    "nome": "Nagib Mutran Neto",
+    "idade": "62",
+    "profissao": "Médico(a) - Médico cirurgião",
+    "data": "22/04/2020",
+    "local": "Marabá – PA",
+    "foto": ""
+  },
+  {
+    "nome": "Elismar Almeida Amador",
+    "idade": "idade não informada",
+    "profissao": "Médico(a) - Médico ortopedista e traumatologista",
+    "data": "23/04/2020",
+    "local": "São Paulo – SP",
+    "foto": ""
+  },
+  {
+    "nome": "José Marcelino Nunes da Silva Júnior",
+    "idade": "idade não informada",
+    "profissao": "Médico(a) - Médico do trabalho",
+    "data": "23/04/2020",
+    "local": "Belém – PA",
+    "foto": ""
+  },
+  {
+    "nome": "Mário Tadashi Komeçu",
+    "idade": "idade não informada",
+    "profissao": "Médico(a) - Ortopedista",
+    "data": "23/04/2020",
+    "local": "São Paulo – SP",
+    "foto": ""
+  },
+  {
+    "nome": "Paulo Affonso Chamma",
+    "idade": "idade não informada",
+    "profissao": "Médico(a) - Obstetra",
+    "data": "23/04/2020",
+    "local": "Rio de Janeiro – RJ",
+    "foto": ""
+  },
+  {
+    "nome": "Sergio Fagundes",
+    "idade": "idade não informada",
+    "profissao": "Médico(a) - Cardiologista",
+    "data": "23/04/2020",
+    "local": "Rio de Janeiro – RJ",
+    "foto": ""
+  },
+  {
+    "nome": "Suzana Aparecida Vital",
+    "idade": "idade não informada",
+    "profissao": "Médico(a) - Ginecologista",
+    "data": "23/04/2020",
+    "local": "São Paulo – SP",
+    "foto": ""
+  },
+  {
+    "nome": "Celso de Almeida Felício",
+    "idade": "idade não informada",
+    "profissao": "Médico(a) - Intensivista",
+    "data": "24/04/2020",
+    "local": "Rio de Janeiro – RJ",
+    "foto": ""
+  },
+  {
+    "nome": "Edson Yukinari Takeda",
+    "idade": "55",
+    "profissao": "Médico(a) - Ortopedista",
+    "data": "25/04/2020",
+    "local": "Mogi das Cruzes – SP",
+    "foto": ""
+  },
+  {
+    "nome": "Paulo Gonzales",
+    "idade": "60",
+    "profissao": "Médico(a) - Clínico geral",
+    "data": "26/04/2020",
+    "local": "60 anos - SP",
+    "foto": ""
+  },
+  {
+    "nome": "Avelar Feitosa",
+    "idade": "idade não informada",
+    "profissao": "Médico(a) - Ginecologista, ginecologista",
+    "data": "27/04/2020",
+    "local": "Belém – PA",
+    "foto": ""
+  },
+  {
+    "nome": "Magna Sandra Gomes de Deus",
+    "idade": "61",
+    "profissao": "Médico(a) - Ginecologista",
+    "data": "27/04/2020",
+    "local": "Niterói – RJ",
+    "foto": ""
+  },
+  {
+    "nome": "Justino José Lage Neto",
+    "idade": "idade não informada",
+    "profissao": "Médico(a)",
+    "data": "27/04/2020",
+    "local": "anestesiologista – Rio de Janeiro – RJ",
+    "foto": ""
+  },
+  {
+    "nome": "Luiz Sérgio Peixoto Herthal",
+    "idade": "idade não informada",
+    "profissao": "Médico(a) - Cardiologista",
+    "data": "27/04/2020",
+    "local": "Rio de Janeiro – RJ",
+    "foto": ""
+  },
+  {
+    "nome": "Ana Maria Caldonceli Vidal Sartori",
+    "idade": "48",
+    "profissao": "Médico(a) - Ginecologista",
+    "data": "28/04/2020",
+    "local": "Rio de Janeiro – RJ",
+    "foto": ""
+  },
+  {
+    "nome": "Edsneider Souza",
+    "idade": "42",
+    "profissao": "Médico(a)",
+    "data": "28/04/2020",
+    "local": "Vassouras – RJ",
+    "foto": ""
+  },
+  {
+    "nome": "Helena do Rosário Vieira",
+    "idade": "idade não informada",
+    "profissao": "Médico(a)",
+    "data": "29/04/2020",
+    "local": "Helena do Rosário Vieira - PA",
+    "foto": ""
+  },
+  {
+    "nome": "Paulo César da Silva Saraiva",
+    "idade": "65",
+    "profissao": "Médico(a) - Ginecologista e obstetra",
+    "data": "30/04/2020",
+    "local": "Rio de Janeiro – RJ",
+    "foto": ""
+  },
+  {
+    "nome": "Rosa Maria Papaléo",
+    "idade": "65",
+    "profissao": "Médico(a) - Anestesiologista e acupuntirista",
+    "data": "30/04/2020",
+    "local": "Recife – PE",
+    "foto": ""
+  },
+  {
+    "nome": "Darlan Buíssa",
+    "idade": "77",
+    "profissao": "Médico(a) - Pediatra",
+    "data": "01/05/2020",
+    "local": "Rio de Janeiro – RJ",
+    "foto": ""
+  },
+  {
+    "nome": "Fernando Freire",
+    "idade": "idade não informada",
+    "profissao": "Médico(a) - Psiquiatra",
+    "data": "01/05/2020",
+    "local": "São Luís – MA",
+    "foto": ""
+  },
+  {
+    "nome": "José Guilherme da Silva Tabosa",
+    "idade": "idade não informada",
+    "profissao": "Médico(a)",
+    "data": "01/05/2020",
+    "local": "reumatologista – PA",
+    "foto": ""
+  },
+  {
+    "nome": "Maria da Graça Barra Valente",
+    "idade": "idade não informada",
+    "profissao": "Médico(a)",
+    "data": "01/05/2020",
+    "local": "Maria da Graça Barra Valente - PA",
+    "foto": ""
+  },
+  {
+    "nome": "Maurício Barbosa Lima",
+    "idade": "idade não informada",
+    "profissao": "Médico(a) - Endocrinologista",
+    "data": "01/05/2020",
+    "local": "Rio de Janeiro – RJ",
+    "foto": ""
+  },
+  {
+    "nome": "Sérgio Paulo Almeida Bueno de Camargo",
+    "idade": "73",
+    "profissao": "Médico(a) - Cardiologista",
+    "data": "02/05/2020",
+    "local": "São Paulo – SP",
+    "foto": ""
+  },
+  {
+    "nome": "Marsel Alencar Seabra",
+    "idade": "63",
+    "profissao": "Médico(a) - Geriatra",
+    "data": "03/05/2020",
+    "local": "Rio de Janeiro – RJ",
+    "foto": ""
+  },
+  {
+    "nome": "Milton Luiz Ciappina",
+    "idade": "72",
+    "profissao": "Médico(a) - Médico de saúde da família",
+    "data": "03/05/2020",
+    "local": "Paraná – PR",
+    "foto": ""
+  },
+  {
+    "nome": "Rubens Esquenazi",
+    "idade": "idade não informada",
+    "profissao": "Médico(a) - Infectologista",
+    "data": "03/05/2020",
+    "local": "Rio de Janeiro – RJ",
+    "foto": ""
+  },
+  {
+    "nome": "Aldir Blanc Mendes",
+    "idade": "73",
+    "profissao": "Médico(a) - Psiquiatra",
+    "data": "04/05/2020",
+    "local": "Rio de Janeiro – RJ",
+    "foto": ""
+  },
+  {
+    "nome": "Dennis Rollano Torres",
+    "idade": "68",
+    "profissao": "Médico(a) - Cirurgião geral",
+    "data": "04/05/2020",
+    "local": "Cotia – SP",
+    "foto": ""
+  },
+  {
+    "nome": "Gilberto Fonseca",
+    "idade": "idade não informada",
+    "profissao": "Médico(a) - Anestesista",
+    "data": "04/05/2020",
+    "local": "Rio de Janeiro – RJ",
+    "foto": ""
+  },
+  {
+    "nome": "Maurício Naoto Saheki",
+    "idade": "41",
+    "profissao": "Médico(a) - Infectologia",
+    "data": "04/05/2020",
+    "local": "Rio de Janeiro – RJ",
+    "foto": ""
+  },
+  {
+    "nome": "Marcio Rubens de Almeida Ribeiro",
+    "idade": "idade não informada",
+    "profissao": "Médico(a)",
+    "data": "04/05/2020",
+    "local": "ginecologista – PA",
+    "foto": ""
+  },
+  {
+    "nome": "Raimundo Nonato Costa de Viveiros",
+    "idade": "idade não informada",
+    "profissao": "Médico(a)",
+    "data": "04/05/2020",
+    "local": "dermatologista – PA",
+    "foto": ""
+  },
+  {
+    "nome": "Aldir Blanc",
+    "idade": "73",
+    "profissao": "Compositor, escritor e psiquiatra",
+    "data": "04/05/2020",
+    "local": "não informado",
+    "foto": ""
+  },
+  {
+    "nome": "Rodolfo Walter Garcia Arizmendi",
+    "idade": "73",
+    "profissao": "Médico(a) - Clínico geral",
+    "data": "05/05/2020",
+    "local": "Manaus – AM",
+    "foto": ""
+  },
+  {
+    "nome": "Ciro Pessoa",
+    "idade": "62",
+    "profissao": "Músico e cantor",
+    "data": "05/05/2020",
+    "local": "não informado",
+    "foto": ""
+  },
+  {
+    "nome": "Claudio Antonio Figueiredo Reis",
+    "idade": "idade não informada",
+    "profissao": "Médico(a)",
+    "data": "06/05/2020",
+    "local": "ginecologista – PA",
+    "foto": ""
+  },
+  {
+    "nome": "Ramon Pinto Lobo",
+    "idade": "60",
+    "profissao": "Médico(a) - Clínico geral",
+    "data": "06/05/2020",
+    "local": "Jequitinhonha – MG",
+    "foto": ""
+  },
+  {
+    "nome": "Solon Pereira Lopes Ferreira",
+    "idade": "61",
+    "profissao": "Médico(a) - Clínico geral",
+    "data": "06/05/2020",
+    "local": "João Pessoa – PB",
+    "foto": ""
+  },
+  {
+    "nome": "Célia Bastos Pereira",
+    "idade": "idade não informada",
+    "profissao": "Médico(a) - Radiologista",
+    "data": "07/05/2020",
+    "local": "Rio de Janeiro – RJ",
+    "foto": ""
+  },
+  {
+    "nome": "Flávio Rezende Dias",
+    "idade": "83",
+    "profissao": "Médico(a) - Oftalmologista",
+    "data": "07/05/2020",
+    "local": "Rio de Janeiro – RJ",
+    "foto": ""
+  },
+  {
+    "nome": "Roberto Carvalho Lima",
+    "idade": "idade não informada",
+    "profissao": "Médico(a)",
+    "data": "07/05/2020",
+    "local": "Roberto Carvalho Lima - PA",
+    "foto": ""
+  },
+  {
+    "nome": "Daisy Lúcidi",
+    "idade": "90",
+    "profissao": "Atriz, política e radialista",
+    "data": "07/05/2020",
+    "local": "não informado",
+    "foto": ""
+  },
+  {
+    "nome": "Alex Ribeiro Bello",
+    "idade": "53",
+    "profissao": "Médico(a)",
+    "data": "08/05/2020",
+    "local": "Xinguara – PA",
+    "foto": ""
+  },
+  {
+    "nome": "Carlos Ronald Correia",
+    "idade": "idade não informada",
+    "profissao": "Médico(a) - Cirurgião",
+    "data": "08/05/2020",
+    "local": "Iguatu – CE",
+    "foto": ""
+  },
+  {
+    "nome": "Hugo Hurtado Valderrama",
+    "idade": "63",
+    "profissao": "Médico(a) - Médico reumatologista",
+    "data": "08/05/2020",
+    "local": "São Paulo – SP",
+    "foto": ""
+  },
+  {
+    "nome": "Manoel Amaral Maciel",
+    "idade": "idade não informada",
+    "profissao": "Médico(a)",
+    "data": "08/05/2020",
+    "local": "Manoel Amaral Maciel - PA",
+    "foto": ""
+  },
+  {
+    "nome": "Cliciane Fochesatto",
+    "idade": "idade não informada",
+    "profissao": "Médico(a)",
+    "data": "09/05/2020",
+    "local": "Fonte Boa – AM",
+    "foto": ""
+  },
+  {
+    "nome": "Elivaldo Batista de Souza",
+    "idade": "idade não informada",
+    "profissao": "Médico(a)",
+    "data": "09/05/2020",
+    "local": "ginecologista – PA",
+    "foto": ""
+  },
+  {
+    "nome": "Josefina Darwich Borges Leal",
+    "idade": "idade não informada",
+    "profissao": "Médico(a)",
+    "data": "09/05/2020",
+    "local": "Josefina Darwich Borges Leal - PA",
+    "foto": ""
+  },
+  {
+    "nome": "Osmar Seabra",
+    "idade": "idade não informada",
+    "profissao": "Médico(a)",
+    "data": "09/05/2020",
+    "local": "urologista – PA",
+    "foto": ""
+  },
+  {
+    "nome": "Sergio Moreira",
+    "idade": "68",
+    "profissao": "Médico(a)",
+    "data": "09/05/2020",
+    "local": "São Paulo – SP",
+    "foto": ""
+  },
+  {
+    "nome": "Abraham Palatnik",
+    "idade": "92",
+    "profissao": "Artista plástico e inventor",
+    "data": "09/05/2020",
+    "local": "não informado",
+    "foto": ""
+  },
+  {
+    "nome": "José Guilherme Henrique dos Santos",
+    "idade": "idade não informada",
+    "profissao": "Médico(a)",
+    "data": "10/05/2020",
+    "local": "cardiologista – PA",
+    "foto": ""
+  },
+  {
+    "nome": "Ramon Barbosa",
+    "idade": "43",
+    "profissao": "Médico(a)",
+    "data": "10/05/2020",
+    "local": "Jequié – BA",
+    "foto": ""
+  },
+  {
+    "nome": "Sérgio Sant'Anna",
+    "idade": "78",
+    "profissao": "Escritor e contista",
+    "data": "10/05/2020",
+    "local": "não informado",
+    "foto": ""
+  },
+  {
+    "nome": "David Corrêa",
+    "idade": "82",
+    "profissao": "Cantor e compositor",
+    "data": "10/05/2020",
+    "local": "não informado",
+    "foto": ""
+  },
+  {
+    "nome": "Danilo David Santos",
+    "idade": "33",
+    "profissao": "Médico(a) - Psiquiatra",
+    "data": "11/05/2020",
+    "local": "Rio de Janeiro – RJ",
+    "foto": ""
+  },
+  {
+    "nome": "Eliane Buarque de Freitas Machado",
+    "idade": "idade não informada",
+    "profissao": "Médico(a) - Pediatra",
+    "data": "11/05/2020",
+    "local": "Maceió – AL",
+    "foto": ""
+  },
+  {
+    "nome": "Valdir Pedro Pereira",
+    "idade": "60",
+    "profissao": "Médico(a) - Médico de família e comunidade",
+    "data": "11/05/2020",
+    "local": "Mauá – SP",
+    "foto": ""
+  },
+  {
+    "nome": "Caroline Barros Patrocínio",
+    "idade": "29",
+    "profissao": "Médico(a) - Pediatra",
+    "data": "12/05/2020",
+    "local": "Rio de Janeiro – RJ",
+    "foto": ""
+  },
+  {
+    "nome": "Carlos Marcos Buarque Gusmão",
+    "idade": "56",
+    "profissao": "Médico(a) - Socorrista do samu",
+    "data": "13/05/2020",
+    "local": "Taboão da Serra – SP",
+    "foto": ""
+  },
+  {
+    "nome": "Claudio Sérgio Carvalho de Amorim",
+    "idade": "69",
+    "profissao": "Médico(a) - Pediatra",
+    "data": "13/05/2020",
+    "local": "Belém – PA",
+    "foto": ""
+  },
+  {
+    "nome": "Gilberta Bensabath",
+    "idade": "95",
+    "profissao": "Médico(a)",
+    "data": "13/05/2020",
+    "local": "epidemiologista – PA",
+    "foto": ""
+  },
+  {
+    "nome": "Carlos Fernando Serizawa",
+    "idade": "idade não informada",
+    "profissao": "Médico(a) - Clínico geral",
+    "data": "14/05/2020",
+    "local": "Mauá – SP",
+    "foto": ""
+  },
+  {
+    "nome": "Jorge Puga Rebelo",
+    "idade": "idade não informada",
+    "profissao": "Médico(a) - Cirurgião plástico",
+    "data": "14/05/2020",
+    "local": "Belém – PA",
+    "foto": ""
+  },
+  {
+    "nome": "Marcos Paiva",
+    "idade": "67",
+    "profissao": "Médico(a) - Clínico geral",
+    "data": "14/05/2020",
+    "local": "João Pessoa – PB",
+    "foto": ""
+  },
+  {
+    "nome": "Raimundo Malcher Pinon",
+    "idade": "72",
+    "profissao": "Médico(a) - Pediatra",
+    "data": "14/05/2020",
+    "local": "Macapá – AM",
+    "foto": ""
+  },
+  {
+    "nome": "Thelmo Trilha Sym",
+    "idade": "65",
+    "profissao": "Médico(a) - Ginecologista",
+    "data": "14/05/2020",
+    "local": "Rio de Janeiro – RJ",
+    "foto": ""
+  },
+  {
+    "nome": "Agostinho Hermes de Miranda Neto",
+    "idade": "idade não informada",
+    "profissao": "Médico(a) - Clínico geral",
+    "data": "15/05/2020",
+    "local": "Belém – PA",
+    "foto": ""
+  },
+  {
+    "nome": "Benício Nunez",
+    "idade": "61",
+    "profissao": "Médico(a)",
+    "data": "15/05/2020",
+    "local": "Dourados – MS",
+    "foto": ""
+  },
+  {
+    "nome": "Victor Luiz Bom",
+    "idade": "idade não informada",
+    "profissao": "Médico(a) - Radiologista",
+    "data": "15/05/2020",
+    "local": "Rio de Janeiro – RJ",
+    "foto": ""
+  },
+  {
+    "nome": "Olga Savary",
+    "idade": "86",
+    "profissao": "Escritora, poeta e crítica literária",
+    "data": "15/05/2020",
+    "local": "não informado",
+    "foto": ""
+  },
+  {
+    "nome": "José Virgílio Ornellas de Freitas",
+    "idade": "idade não informada",
+    "profissao": "Médico(a) - Clínico geral",
+    "data": "16/05/2020",
+    "local": "Cabo Frio – RJ",
+    "foto": ""
+  },
+  {
+    "nome": "Luis Alberto Beleiro Barreiro",
+    "idade": "idade não informada",
+    "profissao": "Médico(a) - Angiologista",
+    "data": "17/05/2020",
+    "local": "Rio de Janeiro – RJ",
+    "foto": ""
+  },
+  {
+    "nome": "Homero Rodrigues",
+    "idade": "49",
+    "profissao": "Médico(a) - Ortopedista",
+    "data": "17/05/2020",
+    "local": "Cabo de Santo Agostinho – PE",
+    "foto": ""
+  },
+  {
+    "nome": "Oriel Brilhante Oliveira",
+    "idade": "idade não informada",
+    "profissao": "Médico(a) - Ortopedista",
+    "data": "17/05/2020",
+    "local": "João Pessoa – PB",
+    "foto": ""
+  },
+  {
+    "nome": "Pasquale Francisco Giglio",
+    "idade": "idade não informada",
+    "profissao": "Médico(a) - Urologista",
+    "data": "17/05/2020",
+    "local": "Rio de Janeiro – RJ",
+    "foto": ""
+  },
+  {
+    "nome": "Eduardo Vidoso",
+    "idade": "68",
+    "profissao": "Médico(a) - Ortopedista",
+    "data": "19/05/2020",
+    "local": "São Gonçalo – RJ",
+    "foto": ""
+  },
+  {
+    "nome": "Fernando Jordão de Souza",
+    "idade": "idade não informada",
+    "profissao": "Médico(a)",
+    "data": "19/05/2020",
+    "local": "urologista – PA",
+    "foto": ""
+  },
+  {
+    "nome": "José Ronaldo Menezes",
+    "idade": "60",
+    "profissao": "Médico(a) - Ginecologista",
+    "data": "19/05/2020",
+    "local": "Goiânia – GO",
+    "foto": ""
+  },
+  {
+    "nome": "Orlando Damascena",
+    "idade": "71",
+    "profissao": "Médico(a) - Ginecologista",
+    "data": "20/05/2020",
+    "local": "João Pessoa – PB",
+    "foto": ""
+  },
+  {
+    "nome": "Antonio Mateus Ferreira",
+    "idade": "idade não informada",
+    "profissao": "Médico(a) - Ortopedista",
+    "data": "21/05/2020",
+    "local": "Rio de Janeiro – RJ",
+    "foto": ""
+  },
+  {
+    "nome": "Iasmin de Albuquerque Cavalcanti Duarete",
+    "idade": "62",
+    "profissao": "Médico(a) - Pediatra",
+    "data": "22/05/2020",
+    "local": "Maceió – AL",
+    "foto": ""
+  },
+  {
+    "nome": "Paulo Sampaio",
+    "idade": "74",
+    "profissao": "Médico(a)",
+    "data": "22/05/2020",
+    "local": "São Gonçalo – RJ",
+    "foto": ""
+  },
+  {
+    "nome": "Augusto César Senna de Almeida",
+    "idade": "58",
+    "profissao": "Médico(a)",
+    "data": "23/05/2020",
+    "local": "São Gonçalo – RJ",
+    "foto": ""
+  },
+  {
+    "nome": "João Batista Medeiros Costa",
+    "idade": "65",
+    "profissao": "Médico(a) - Gastroenterologista",
+    "data": "24/05/2020",
+    "local": "Natal – RN",
+    "foto": ""
+  },
+  {
+    "nome": "Emivaldo Soares Martins",
+    "idade": "63",
+    "profissao": "Médico(a) - Ginecologista e obstetra",
+    "data": "25/05/2020",
+    "local": "Goiânia – GO",
+    "foto": ""
+  },
+  {
+    "nome": "Valeria Calife",
+    "idade": "idade não informada",
+    "profissao": "Médico(a)",
+    "data": "25/05/2020",
+    "local": "Natal – RN",
+    "foto": ""
+  },
+  {
+    "nome": "José Henrique Mello de Freitas",
+    "idade": "56",
+    "profissao": "Médico(a) - Ginecologista e obstetra",
+    "data": "28/05/2020",
+    "local": "Piracicaba – SP",
+    "foto": ""
+  },
+  {
+    "nome": "Evaldo Gouveia",
+    "idade": "91",
+    "profissao": "Músico e compositor",
+    "data": "29/05/2020",
+    "local": "não informado",
+    "foto": ""
+  },
+  {
+    "nome": "Enéas Andrade da Cunha",
+    "idade": "74",
+    "profissao": "Médico(a) - Pediatra",
+    "data": "01/06/2020",
+    "local": "Franca – SP",
+    "foto": ""
+  },
+  {
+    "nome": "Rafael Mussiello",
+    "idade": "77",
+    "profissao": "Médico(a) - Ginecologista e obstetra",
+    "data": "01/06/2020",
+    "local": "Vitoria – ES",
+    "foto": ""
+  },
+  {
+    "nome": "João Angelim",
+    "idade": "78",
+    "profissao": "Médico(a) - Urologista",
+    "data": "03/06/2020",
+    "local": "Rio Branco – AC",
+    "foto": ""
+  },
+  {
+    "nome": "Miss Biá",
+    "idade": "80",
+    "profissao": "Drag queen",
+    "data": "03/06/2020",
+    "local": "não informado",
+    "foto": ""
+  },
+  {
+    "nome": "Marden Washington Pires Cavalcante",
+    "idade": "idade não informada",
+    "profissao": "Médico(a) - Ortopedista",
+    "data": "04/06/2020",
+    "local": "Maceió – AL",
+    "foto": ""
+  },
+  {
+    "nome": "Fabiana Anastácio",
+    "idade": "45",
+    "profissao": "Cantora gospel",
+    "data": "04/06/2020",
+    "local": "não informado",
+    "foto": ""
+  },
+  {
+    "nome": "Dálvaro Borges Carneiro Junior",
+    "idade": "64",
+    "profissao": "Médico(a) - Cardiologista",
+    "data": "05/06/2020",
+    "local": "Presidente Prudente – SP",
+    "foto": ""
+  },
+  {
+    "nome": "Júlio César Bonifácio Vieira",
+    "idade": "63",
+    "profissao": "Médico(a) - Gastroenterologista",
+    "data": "05/06/2020",
+    "local": "Belém – PA",
+    "foto": ""
+  },
+  {
+    "nome": "Carlos Lessa",
+    "idade": "83",
+    "profissao": "Economista",
+    "data": "05/06/2020",
+    "local": "não informado",
+    "foto": ""
+  },
+  {
+    "nome": "Renato Menezes",
+    "idade": "69",
+    "profissao": "Médico(a) - Ortopedista",
+    "data": "06/06/2020",
+    "local": "São Paulo – SP",
+    "foto": ""
+  },
+  {
+    "nome": "Miguel Tavares",
+    "idade": "51",
+    "profissao": "Médico(a)",
+    "data": "07/06/2020",
+    "local": "Recife – PE",
+    "foto": ""
+  },
+  {
+    "nome": "Clóvis Gorski",
+    "idade": "72",
+    "profissao": "Médico(a) - Cirurgião",
+    "data": "09/06/2020",
+    "local": "Guarapuava – PR",
+    "foto": ""
+  },
+  {
+    "nome": "Edilson Dias Leão",
+    "idade": "55",
+    "profissao": "Médico(a) - Pediatra",
+    "data": "09/06/2020",
+    "local": "Imperatriz – MA",
+    "foto": ""
+  },
+  {
+    "nome": "Terezinha Aparecida Matos",
+    "idade": "idade não informada",
+    "profissao": "Médico(a)",
+    "data": "10/06/2020",
+    "local": "São Paulo – SP",
+    "foto": ""
+  },
+  {
+    "nome": "Rogelio Alonso Campuzano Cachaya",
+    "idade": "45",
+    "profissao": "Médico(a) - Cirurgião",
+    "data": "11/06/2020",
+    "local": "Tabatinga – AM",
+    "foto": ""
+  },
+  {
+    "nome": "Augusto Rivero",
+    "idade": "63",
+    "profissao": "Médico(a) - Clínico geral",
+    "data": "14/06/2020",
+    "local": "Palmas – TO",
+    "foto": ""
+  },
+  {
+    "nome": "Ricardo Passos",
+    "idade": "43",
+    "profissao": "Médico(a)",
+    "data": "14/06/2020",
+    "local": "Santa Rita – PB",
+    "foto": ""
+  },
+  {
+    "nome": "Reginaldo Silva",
+    "idade": "74",
+    "profissao": "Médico(a) - Ginecologista e obstetra",
+    "data": "15/06/2020",
+    "local": "Aracajú – SE",
+    "foto": ""
+  },
+  {
+    "nome": "José Amauri de Sousa Macedo",
+    "idade": "53",
+    "profissao": "Médico(a)",
+    "data": "16/06/2020",
+    "local": "Imperatiz – MA",
+    "foto": ""
+  },
+  {
+    "nome": "Paulinho Paiakã",
+    "idade": "66",
+    "profissao": "Líder indígena e ativista",
+    "data": "16/06/2020",
+    "local": "não informado",
+    "foto": ""
+  },
+  {
+    "nome": "Adonai Machado Albuquerque",
+    "idade": "48",
+    "profissao": "Médico(a) - Clínico geral",
+    "data": "17/06/2020",
+    "local": "Presidente Kennedy – ES",
+    "foto": ""
+  },
+  {
+    "nome": "Adelmaro Cavalcanti Júnior",
+    "idade": "62",
+    "profissao": "Médico(a) - Anestesiologista",
+    "data": "18/06/2020",
+    "local": "Natal – RN",
+    "foto": ""
+  },
+  {
+    "nome": "Marco Cesar Nicolato Peixoto",
+    "idade": "idade não informada",
+    "profissao": "Médico(a) - Clínico geral",
+    "data": "18/06/2020",
+    "local": "Lorena – SP",
+    "foto": ""
+  },
+  {
+    "nome": "Vinícius Barbosa Santos",
+    "idade": "44",
+    "profissao": "Médico(a) - Anestesiologista",
+    "data": "18/06/2020",
+    "local": "Cariacica – ES",
+    "foto": ""
+  },
+  {
+    "nome": "Agnaldo Cesário da Silva",
+    "idade": "53",
+    "profissao": "Médico(a)",
+    "data": "21/06/2020",
+    "local": "Lucas do Rio Verde – MT",
+    "foto": ""
+  },
+  {
+    "nome": "Maria de Lourdes Ponciano de Sena",
+    "idade": "68",
+    "profissao": "Médico(a) - Pediatra",
+    "data": "21/06/2020",
+    "local": "Imperatriz – MA",
+    "foto": ""
+  },
+  {
+    "nome": "Otoniel Ribeiro Meira Júnior",
+    "idade": "62",
+    "profissao": "Médico(a) - Gastroentereologista",
+    "data": "21/06/2020",
+    "local": "Jundiaí – SP",
+    "foto": ""
+  },
+  {
+    "nome": "Caio Martins Guedes",
+    "idade": "33",
+    "profissao": "Médico(a) - Ortopedista",
+    "data": "22/06/2020",
+    "local": "Curitiba – PA",
+    "foto": ""
+  },
+  {
+    "nome": "José Raymundo",
+    "idade": "71",
+    "profissao": "Médico(a) - Traumatologista",
+    "data": "22/06/2020",
+    "local": "Porto Alegre – RS",
+    "foto": ""
+  },
+  {
+    "nome": "Ciro Ricardo Pires de Castro",
+    "idade": "75",
+    "profissao": "Médico(a) - Clínico geral",
+    "data": "22/06/2020",
+    "local": "Porto Alegre – RS",
+    "foto": ""
+  },
+  {
+    "nome": "Papaléo Paes",
+    "idade": "67",
+    "profissao": "Médico(a) - Cardiologista",
+    "data": "25/06/2020",
+    "local": "Macapá – AP",
+    "foto": ""
+  },
+  {
+    "nome": "Frederico Cesar Simões Dias",
+    "idade": "44",
+    "profissao": "Médico(a) - Pediatra",
+    "data": "26/06/2020",
+    "local": "Macapá – AP",
+    "foto": ""
+  },
+  {
+    "nome": "Eiko Nishimura",
+    "idade": "idade não informada",
+    "profissao": "Médico(a) - Cardiologista",
+    "data": "27/06/2020",
+    "local": "Barueri – SP",
+    "foto": ""
+  },
+  {
+    "nome": "Poliana de Andrade Almeida",
+    "idade": "idade não informada",
+    "profissao": "Médico(a) - Oftalmologista",
+    "data": "27/06/2020",
+    "local": "Vila Velha – ES",
+    "foto": ""
+  },
+  {
+    "nome": "Luiz Antônio da Silva",
+    "idade": "61",
+    "profissao": "Médico(a) - Cardiologista",
+    "data": "28/06/2020",
+    "local": "Vila Velha – ES",
+    "foto": ""
+  },
+  {
+    "nome": "Marcos Didier",
+    "idade": "70",
+    "profissao": "Médico(a) - Cardiologista e geriatra",
+    "data": "28/06/2020",
+    "local": "Recife – PE",
+    "foto": ""
+  },
+  {
+    "nome": "Reinaldo Rodrigues de Oliveira",
+    "idade": "74",
+    "profissao": "Médico(a) - Pediatra",
+    "data": "28/06/2020",
+    "local": "Cuiabá – MT",
+    "foto": ""
+  },
+  {
+    "nome": "Samir Assi João",
+    "idade": "62",
+    "profissao": "Médico(a) - Cirurgião",
+    "data": "28/06/2020",
+    "local": "Natal – RN",
+    "foto": ""
+  },
+  {
+    "nome": "André Magualhães Pacheco",
+    "idade": "37",
+    "profissao": "Médico(a)",
+    "data": "30/06/2020",
+    "local": "Cacoal – RO",
+    "foto": ""
+  },
+  {
+    "nome": "Josias Rosa da Silva",
+    "idade": "78",
+    "profissao": "Médico(a) - Ginecologista e obstetra",
+    "data": "01/07/2020",
+    "local": "Goiânia – GO",
+    "foto": ""
+  },
+  {
+    "nome": "Miguel Yoneda",
+    "idade": "74",
+    "profissao": "Médico(a)",
+    "data": "01/07/2020",
+    "local": "Dourados – MS",
+    "foto": ""
+  },
+  {
+    "nome": "Nivaldo Sereno de Noronha Júnior",
+    "idade": "52",
+    "profissao": "Médico(a) - Pediatra",
+    "data": "01/07/2020",
+    "local": "Natal – RN",
+    "foto": ""
+  },
+  {
+    "nome": "Paulo Matos de Castro",
+    "idade": "64",
+    "profissao": "Médico(a) - Pediatra",
+    "data": "01/07/2020",
+    "local": "Natal – RN",
+    "foto": ""
+  },
+  {
+    "nome": "Renê Anísio Rodrigues",
+    "idade": "40",
+    "profissao": "Médico(a) - Clínico geral",
+    "data": "02/07/2020",
+    "local": "Natal – RN",
+    "foto": ""
+  },
+  {
+    "nome": "Ilmar Romão",
+    "idade": "72",
+    "profissao": "Médico(a)",
+    "data": "03/07/2020",
+    "local": "Palmeira dos Índios – AL",
+    "foto": ""
+  },
+  {
+    "nome": "Ivan Savóia Assef",
+    "idade": "70",
+    "profissao": "Médico(a) - Ginecologista",
+    "data": "05/07/2020",
+    "local": "Balneário Camboriú – SC",
+    "foto": ""
+  },
+  {
+    "nome": "Rafael Costa Cruz",
+    "idade": "60",
+    "profissao": "Médico(a) - Cardiologista",
+    "data": "05/07/2020",
+    "local": "Salvador – BA",
+    "foto": ""
+  },
+  {
+    "nome": "Dirceu Ferreira Guimarães",
+    "idade": "82",
+    "profissao": "Médico(a) - Cardiologista",
+    "data": "06/07/2020",
+    "local": "Dourados – MS",
+    "foto": ""
+  },
+  {
+    "nome": "Rafael Antônio Acevedo Trejos",
+    "idade": "73",
+    "profissao": "Médico(a) - Anestesista",
+    "data": "06/07/2020",
+    "local": "Boa Vista – RR",
+    "foto": ""
+  },
+  {
+    "nome": "Carlos Alfredo",
+    "idade": "70",
+    "profissao": "Médico(a) - Ginecologista",
+    "data": "07/07/2020",
+    "local": "Volta Redonda – RJ",
+    "foto": ""
+  },
+  {
+    "nome": "Jorge Karigyo",
+    "idade": "62",
+    "profissao": "Médico(a) - Clínico geral",
+    "data": "08/07/2020",
+    "local": "Maringá – PR",
+    "foto": ""
+  },
+  {
+    "nome": "Antônio Carlos Monteiro",
+    "idade": "59",
+    "profissao": "Médico(a) - Pneumologista",
+    "data": "09/07/2020",
+    "local": "Dourados – MS",
+    "foto": ""
+  },
+  {
+    "nome": "Marcel Baracat de Almeida",
+    "idade": "39",
+    "profissao": "Médico(a) - Clínico geral",
+    "data": "09/07/2020",
+    "local": "Cuiabá – MT",
+    "foto": ""
+  },
+  {
+    "nome": "Aloysio da Nóbrega Motta",
+    "idade": "66",
+    "profissao": "Médico(a) - Anestesiologista",
+    "data": "11/07/2020",
+    "local": "Linhares – ES",
+    "foto": ""
+  },
+  {
+    "nome": "Marco Antonio Campos Santana",
+    "idade": "35",
+    "profissao": "Médico(a)",
+    "data": "13/07/2020",
+    "local": "Aracajú – SE",
+    "foto": ""
+  },
+  {
+    "nome": "Ary Jacomossi",
+    "idade": "idade não informada",
+    "profissao": "Médico(a) - Clínico geral",
+    "data": "13/07/2020",
+    "local": "Maringá – PR",
+    "foto": ""
+  },
+  {
+    "nome": "Lindomar de Freitas Santos",
+    "idade": "65",
+    "profissao": "Médico(a) - Teresina pi",
+    "data": "13/07/2020",
+    "local": "não informado",
+    "foto": ""
+  },
+  {
+    "nome": "Benício Cunha Cavalcanti",
+    "idade": "70",
+    "profissao": "Médico(a) - Ortopedista",
+    "data": "14/07/2020",
+    "local": "Feira de Santana – BA",
+    "foto": ""
+  },
+  {
+    "nome": "Fábio Carvalho",
+    "idade": "39",
+    "profissao": "Médico(a) - Anestesiologista",
+    "data": "14/07/2020",
+    "local": "Teresina – PI",
+    "foto": ""
+  },
+  {
+    "nome": "Fernando Ferretti",
+    "idade": "idade não informada",
+    "profissao": "Médico(a)",
+    "data": "14/07/2020",
+    "local": "São Roque – SP",
+    "foto": ""
+  },
+  {
+    "nome": "José Amauri de Sousa Macedo",
+    "idade": "53",
+    "profissao": "Médico(a) - Clínico geral",
+    "data": "14/07/2020",
+    "local": "Imperatriz – MA",
+    "foto": ""
+  },
+  {
+    "nome": "Gabriele Righetti",
+    "idade": "45",
+    "profissao": "Médico(a) - Otorrinolaringologista",
+    "data": "16/07/2020",
+    "local": "Curitiba – PR",
+    "foto": ""
+  },
+  {
+    "nome": "João José Carneiro",
+    "idade": "78",
+    "profissao": "Médico(a) - Cardiologista",
+    "data": "17/07/2020",
+    "local": "Ribeirão Preto – SP",
+    "foto": ""
+  },
+  {
+    "nome": "José Denilson Souza de Melo",
+    "idade": "idade não informada",
+    "profissao": "Médico(a) - Cirurgião geral",
+    "data": "17/07/2020",
+    "local": "Maceió – AL",
+    "foto": ""
+  },
+  {
+    "nome": "Fernando Augusto Moreno Gurginski",
+    "idade": "26",
+    "profissao": "Médico(a) - Clínico geral",
+    "data": "18/07/2020",
+    "local": "Cuiabá – MT",
+    "foto": ""
+  },
+  {
+    "nome": "Walter Tapias Tetilla",
+    "idade": "65",
+    "profissao": "Médico(a) - Ortopedista",
+    "data": "18/07/2020",
+    "local": "Cuiabá – MT",
+    "foto": ""
+  },
+  {
+    "nome": "Feliciano Esteban Corralez Lopez",
+    "idade": "idade não informada",
+    "profissao": "Médico(a) - Clínico geral e pediatra",
+    "data": "19/07/2020",
+    "local": "Dourados – MS",
+    "foto": ""
+  },
+  {
+    "nome": "Eduardo Campero Garcia",
+    "idade": "idade não informada",
+    "profissao": "Médico(a) - Cirurgião geral",
+    "data": "20/07/2020",
+    "local": "Natal – RN",
+    "foto": ""
+  },
+  {
+    "nome": "Gerson Márcio Negrissoli",
+    "idade": "51",
+    "profissao": "Médico(a)",
+    "data": "20/07/2020",
+    "local": "Alto Piquiri – PR",
+    "foto": ""
+  },
+  {
+    "nome": "Ana Lúcia Freire Cantalice",
+    "idade": "56",
+    "profissao": "Médico(a) - Pediatra",
+    "data": "23/07/2020",
+    "local": "João Pessoa – PB",
+    "foto": ""
+  },
+  {
+    "nome": "Giltamar da Silva Gomes",
+    "idade": "78",
+    "profissao": "Médico(a) - Obstetra",
+    "data": "23/07/2020",
+    "local": "Barreiras – BA",
+    "foto": ""
+  },
+  {
+    "nome": "Clodoaldo Pirani Júnior",
+    "idade": "47",
+    "profissao": "Médico(a) - Neurologista",
+    "data": "25/07/2020",
+    "local": "Barra do Garças – MT",
+    "foto": ""
+  },
+  {
+    "nome": "Daniel Felipe Alves Cecchetti",
+    "idade": "42",
+    "profissao": "Médico(a) - Oftalmologista",
+    "data": "25/07/2020",
+    "local": "Ribeirão Preto – SP",
+    "foto": ""
+  },
+  {
+    "nome": "Jonas Coelho Lehmkuhl",
+    "idade": "55",
+    "profissao": "Médico(a) - Geriatra",
+    "data": "25/07/2020",
+    "local": "Lages – SC",
+    "foto": ""
+  },
+  {
+    "nome": "Raul Lima Barros",
+    "idade": "28",
+    "profissao": "Médico(a) - Clínico geral",
+    "data": "25/07/2020",
+    "local": "São Mateus – ES",
+    "foto": ""
+  },
+  {
+    "nome": "Hugo Roberto Colombo Aguilera",
+    "idade": "65",
+    "profissao": "Médico(a)",
+    "data": "26/07/2020",
+    "local": "Corumbá – MS",
+    "foto": ""
+  },
+  {
+    "nome": "João Neves de Paula Teixeira",
+    "idade": "69",
+    "profissao": "Médico(a) - Ginecologista e obstetra",
+    "data": "28/07/2020",
+    "local": "Goiânia – GO",
+    "foto": ""
+  },
+  {
+    "nome": "Rodrigo Rodrigues",
+    "idade": "45",
+    "profissao": "Jornalista e apresentador",
+    "data": "28/07/2020",
+    "local": "não informado",
+    "foto": ""
+  },
+  {
+    "nome": "José Davy Bessa Nogueira",
+    "idade": "73",
+    "profissao": "Médico(a) - Ortopedista",
+    "data": "29/07/2020",
+    "local": "São Paulo – SP",
+    "foto": ""
+  },
+  {
+    "nome": "Serafin Sanchez Canquin",
+    "idade": "idade não informada",
+    "profissao": "Médico(a) - Anestesista",
+    "data": "29/07/2020",
+    "local": "Porto Velho – RO",
+    "foto": ""
+  },
+  {
+    "nome": "Vera Lúcia Machado Nunes",
+    "idade": "75",
+    "profissao": "Médico(a) - Ginecologista e obstetra",
+    "data": "30/07/2020",
+    "local": "Balneário Camboriú – SC",
+    "foto": ""
+  },
+  {
+    "nome": "Mansueto Martins Magalhães",
+    "idade": "86",
+    "profissao": "Médico(a) - Oftalmologista",
+    "data": "30/07/2020",
+    "local": "Teresina – PI",
+    "foto": ""
+  },
+  {
+    "nome": "Otoni Raimundo Costa Filho",
+    "idade": "69",
+    "profissao": "Médico(a) - Neurocirurgião",
+    "data": "30/07/2020",
+    "local": "Salvador – BA",
+    "foto": ""
+  },
+  {
+    "nome": "José Ivaldo de Oliveira",
+    "idade": "48",
+    "profissao": "Médico(a)",
+    "data": "31/07/2020",
+    "local": "Teresina – PI",
+    "foto": ""
+  },
+  {
+    "nome": "Marcelo Pavliuk",
+    "idade": "49",
+    "profissao": "Médico(a) - Pediatra",
+    "data": "31/07/2020",
+    "local": "São Paulo – SP",
+    "foto": ""
+  },
+  {
+    "nome": "Marco Aurélio de Oliveira Barros",
+    "idade": "85",
+    "profissao": "Médico(a) - Cardiologista",
+    "data": "01/08/2020",
+    "local": "João Pessoa – PB",
+    "foto": ""
+  },
+  {
+    "nome": "José Carlos Machado de Carvalho",
+    "idade": "idade não informada",
+    "profissao": "Médico(a)",
+    "data": "01/08/2020",
+    "local": "José Carlos Machado de Carvalho - PA",
+    "foto": ""
+  },
+  {
+    "nome": "Brancildes Olímpio do Espírito Santo Júnior",
+    "idade": "63",
+    "profissao": "Médico(a) - Hematologista",
+    "data": "02/08/2020",
+    "local": "Barreiras – BA",
+    "foto": ""
+  },
+  {
+    "nome": "Nelson Luiz Barichello",
+    "idade": "70",
+    "profissao": "Médico(a) - Nefrologista",
+    "data": "02/08/2020",
+    "local": "Itajaí – SC",
+    "foto": ""
+  },
+  {
+    "nome": "Wilson Lacerda Cabral Neto",
+    "idade": "41",
+    "profissao": "Médico(a) - Oftalmologista",
+    "data": "02/08/2020",
+    "local": "Governador Valadares – MG",
+    "foto": ""
+  },
+  {
+    "nome": "Juan Edwin Coca Flores",
+    "idade": "idade não informada",
+    "profissao": "Médico(a) - Ortopedista e traumatologista",
+    "data": "02/08/2020",
+    "local": "São LuÍS – MA",
+    "foto": ""
+  },
+  {
+    "nome": "Celso Luiz Gatti",
+    "idade": "61",
+    "profissao": "Médico(a) - Geriatra",
+    "data": "02/08/2020",
+    "local": "São Bernardo do Campo – SP",
+    "foto": ""
+  },
+  {
+    "nome": "Douglas Batista da Silva",
+    "idade": "56",
+    "profissao": "Médico(a) - Infectologista",
+    "data": "05/08/2020",
+    "local": "Tupã – SP",
+    "foto": ""
+  },
+  {
+    "nome": "José Carlos Lemgruber Porto",
+    "idade": "62",
+    "profissao": "Médico(a)",
+    "data": "05/08/2020",
+    "local": "Teresópolis – RJ",
+    "foto": ""
+  },
+  {
+    "nome": "Gésio Amadeu",
+    "idade": "73",
+    "profissao": "Ator",
+    "data": "05/08/2020",
+    "local": "não informado",
+    "foto": ""
+  },
+  {
+    "nome": "Aritana Yawalapiti",
+    "idade": "71",
+    "profissao": "Cacique indígena",
+    "data": "05/08/2020",
+    "local": "não informado",
+    "foto": ""
+  },
+  {
+    "nome": "Geraldo Arnaud de Assis Júnior",
+    "idade": "63",
+    "profissao": "Médico(a) - Anestesista",
+    "data": "06/08/2020",
+    "local": "Pombal – PB",
+    "foto": ""
+  },
+  {
+    "nome": "Raimundo Clodovil Cavalcante da Silva",
+    "idade": "52",
+    "profissao": "Médico(a) - Psiquiatra",
+    "data": "06/08/2020",
+    "local": "Mossoró – RN",
+    "foto": ""
+  },
+  {
+    "nome": "Esmeralda Marchesini Medrado",
+    "idade": "72",
+    "profissao": "Médico(a) - Anestesiologista",
+    "data": "07/08/2020",
+    "local": "Araguaína – TO",
+    "foto": ""
+  },
+  {
+    "nome": "Ricardo Baltazar Harada",
+    "idade": "51",
+    "profissao": "Médico(a) - Cardiologista e intensivista",
+    "data": "07/08/2020",
+    "local": "Mogi das Cruzes – SP",
+    "foto": ""
+  },
+  {
+    "nome": "Lucas Augusto Pires",
+    "idade": "32",
+    "profissao": "Médico(a) - Neurocirurgião",
+    "data": "08/08/2020",
+    "local": "Ivaiporã – PR",
+    "foto": ""
+  },
+  {
+    "nome": "Cristiano Lima Rodrigues",
+    "idade": "idade não informada",
+    "profissao": "Médico(a) - Cardiologista",
+    "data": "09/08/2020",
+    "local": "Rio de Janeiro – RJ",
+    "foto": ""
+  },
+  {
+    "nome": "Valentim Neder",
+    "idade": "idade não informada",
+    "profissao": "Médico(a) - Endoscopista",
+    "data": "09/08/2020",
+    "local": "Rondonópolis – MT",
+    "foto": ""
+  },
+  {
+    "nome": "Monique Silva Batista",
+    "idade": "29",
+    "profissao": "Médico(a) - Clínica geral",
+    "data": "10/08/2020",
+    "local": "Cuiabá – MT",
+    "foto": ""
+  },
+  {
+    "nome": "Manoel de Souza Neto",
+    "idade": "63",
+    "profissao": "Médico(a) - Neurologista",
+    "data": "11/08/2020",
+    "local": "Catanduva – SP",
+    "foto": ""
+  },
+  {
+    "nome": "Vicente Lúcio Viana Lopes",
+    "idade": "79",
+    "profissao": "Médico(a) - Pediatra",
+    "data": "11/08/2020",
+    "local": "Curitiba – PR",
+    "foto": ""
+  },
+  {
+    "nome": "André Karnikowski",
+    "idade": "54",
+    "profissao": "Médico(a) - Ortopedista",
+    "data": "13/08/2020",
+    "local": "Brusque – SC",
+    "foto": ""
+  },
+  {
+    "nome": "Paloma Alves dos Santos",
+    "idade": "27",
+    "profissao": "Médico(a)",
+    "data": "13/08/2020",
+    "local": "Teófilo Otoni – MG",
+    "foto": ""
+  },
+  {
+    "nome": "Francisco Honorato Sousa Lino",
+    "idade": "43",
+    "profissao": "Médico(a) - Socorrista do samu",
+    "data": "15/08/2020",
+    "local": "Montes Claros – MG",
+    "foto": ""
+  },
+  {
+    "nome": "Elsimar Metzker Coutinho",
+    "idade": "90",
+    "profissao": "Médico(a) - Endocrinologista",
+    "data": "17/08/2020",
+    "local": "São Paulo – SP",
+    "foto": ""
+  },
+  {
+    "nome": "Moacir José Cucco",
+    "idade": "72",
+    "profissao": "Médico(a) - Pediatra",
+    "data": "17/08/2020",
+    "local": "Lages – SC",
+    "foto": ""
+  },
+  {
+    "nome": "Jeferson Amaral dos Santos",
+    "idade": "46",
+    "profissao": "Médico(a) - Ginecologista e obstetra",
+    "data": "18/08/2020",
+    "local": "Ariquemes – RO",
+    "foto": ""
+  },
+  {
+    "nome": "Eduardo Fakiani Macatti",
+    "idade": "45",
+    "profissao": "Médico(a) - Infectologista",
+    "data": "19/08/2020",
+    "local": "Campinas – SP",
+    "foto": ""
+  },
+  {
+    "nome": "Francisco de Assis Oliveira",
+    "idade": "79",
+    "profissao": "Médico(a)",
+    "data": "19/08/2020",
+    "local": "Bom Jesus de Itabapoana – RJ",
+    "foto": ""
+  },
+  {
+    "nome": "Noel Fonseca",
+    "idade": "51",
+    "profissao": "Médico(a)",
+    "data": "19/08/2020",
+    "local": "São Luiz – MA",
+    "foto": ""
+  },
+  {
+    "nome": "Uilson Aparecido Machado",
+    "idade": "74",
+    "profissao": "Médico(a) - Ginecologista",
+    "data": "19/08/2020",
+    "local": "São Paulo – SP",
+    "foto": ""
+  },
+  {
+    "nome": "Mauríco Shigueo Oshiro",
+    "idade": "42",
+    "profissao": "Médico(a)",
+    "data": "22/08/2020",
+    "local": "Palmas – TO",
+    "foto": ""
+  },
+  {
+    "nome": "Welton Goularte Terres",
+    "idade": "79",
+    "profissao": "Médico(a)",
+    "data": "22/08/2020",
+    "local": "Porto Alegre – RS",
+    "foto": ""
+  },
+  {
+    "nome": "Urubatan Mello de Almeida",
+    "idade": "56",
+    "profissao": "Médico(a) - Cardiologista",
+    "data": "24/08/2020",
+    "local": "São Paulo – SP",
+    "foto": ""
+  },
+  {
+    "nome": "Marco Aurélio Rodrigues Lima",
+    "idade": "68",
+    "profissao": "Médico(a) - Anestesista",
+    "data": "25/08/2020",
+    "local": "Barra do Garças – MT",
+    "foto": ""
+  },
+  {
+    "nome": "Paulo Assunção Martins da Costa",
+    "idade": "48",
+    "profissao": "Médico(a)",
+    "data": "28/08/2020",
+    "local": "Serra – ES",
+    "foto": ""
+  },
+  {
+    "nome": "Reginaldo Boppre",
+    "idade": "65",
+    "profissao": "Médico(a) - Cirurgião vascular",
+    "data": "30/08/2020",
+    "local": "Tubarão – SC",
+    "foto": ""
+  },
+  {
+    "nome": "Wilson Meneguci",
+    "idade": "86",
+    "profissao": "Médico(a) - Pneumologista",
+    "data": "31/08/2020",
+    "local": "Presidente Prudente – SP",
+    "foto": ""
+  },
+  {
+    "nome": "Francisco de Assis Gouveia",
+    "idade": "62",
+    "profissao": "Médico(a) - Cardiologista",
+    "data": "31/08/2020",
+    "local": "Nossa Senhora da Glória – SE",
+    "foto": ""
+  },
+  {
+    "nome": "Alcides Pinheiro de Araújo Neto",
+    "idade": "64",
+    "profissao": "Médico(a) - Ginecologista e obstetra",
+    "data": "02/09/2020",
+    "local": "Teresina – PI",
+    "foto": ""
+  },
+  {
+    "nome": "Marcos Pety Sereja",
+    "idade": "34",
+    "profissao": "Médico(a) - Socorrista",
+    "data": "02/09/2020",
+    "local": "Campo Largo – PR",
+    "foto": ""
+  },
+  {
+    "nome": "Guido Céspedes",
+    "idade": "46",
+    "profissao": "Médico(a)",
+    "data": "02/09/2020",
+    "local": "Sinop – MT",
+    "foto": ""
+  },
+  {
+    "nome": "Antônio José Francisco Pereira dos Santos",
+    "idade": "73",
+    "profissao": "Médico(a) - Pediatra",
+    "data": "07/09/2020",
+    "local": "Brasília – DF",
+    "foto": ""
+  },
+  {
+    "nome": "Álvaro Gerhardt",
+    "idade": "idade não informada",
+    "profissao": "Médico(a)",
+    "data": "07/09/2020",
+    "local": "Porto Velho – RO",
+    "foto": ""
+  },
+  {
+    "nome": "Luiz Gonzaga de Figueiredo",
+    "idade": "85",
+    "profissao": "Médico(a) - Urologista",
+    "data": "08/09/2020",
+    "local": "São Paulo – SP",
+    "foto": ""
+  },
+  {
+    "nome": "Walter Marcelo Oliveira Carvalho",
+    "idade": "59",
+    "profissao": "Médico(a) - Pediatra",
+    "data": "11/09/2020",
+    "local": "Aracajú – SE",
+    "foto": ""
+  },
+  {
+    "nome": "Sírio Hassem Sobrinho",
+    "idade": "63",
+    "profissao": "Médico(a) - Cardiologista",
+    "data": "12/09/2020",
+    "local": "Rio Preto – SP",
+    "foto": ""
+  },
+  {
+    "nome": "Parrerito",
+    "idade": "67",
+    "profissao": "Cantor sertanejo",
+    "data": "13/09/2020",
+    "local": "não informado",
+    "foto": ""
+  },
+  {
+    "nome": "Paulo Ricardo Dias da Silva",
+    "idade": "72",
+    "profissao": "Médico(a) - Clínico geral",
+    "data": "15/09/2020",
+    "local": "Manaus – AM",
+    "foto": ""
+  },
+  {
+    "nome": "Elisaldo Luiz de Araujo Carlini",
+    "idade": "90",
+    "profissao": "Médico(a)",
+    "data": "16/09/2020",
+    "local": "São Paulo – SP",
+    "foto": ""
+  },
+  {
+    "nome": "Analice de Rossi",
+    "idade": "57",
+    "profissao": "Médico(a) - Socorrista",
+    "data": "18/09/2020",
+    "local": "Porto Alegre – RS",
+    "foto": ""
+  },
+  {
+    "nome": "Ubirajara Soares",
+    "idade": "idade não informada",
+    "profissao": "Médico(a) - Psiquiatra",
+    "data": "18/09/2020",
+    "local": "Teresina – PI",
+    "foto": ""
+  },
+  {
+    "nome": "Ubiratan Riella",
+    "idade": "77",
+    "profissao": "Médico(a) - Anestesista",
+    "data": "18/09/2020",
+    "local": "Ribeirão Preto – SP",
+    "foto": ""
+  },
+  {
+    "nome": "Flammarion Luiz Tavares",
+    "idade": "71",
+    "profissao": "Médico(a) - Cirurgião geral",
+    "data": "20/09/2020",
+    "local": "Aracajú – SE",
+    "foto": ""
+  },
+  {
+    "nome": "Nelson Tanoue Hasegawa",
+    "idade": "71",
+    "profissao": "Médico(a) - Ginecologista e obstetra",
+    "data": "22/09/2020",
+    "local": "São Paulo – SP",
+    "foto": ""
+  },
+  {
+    "nome": "Marissol Bassil",
+    "idade": "55",
+    "profissao": "Médico(a) - Pediatra",
+    "data": "23/09/2020",
+    "local": "Campo Largo – PR",
+    "foto": ""
+  },
+  {
+    "nome": "Antônio Marmo Campos Furtado",
+    "idade": "73",
+    "profissao": "Médico(a) - Neurologista",
+    "data": "24/09/2020",
+    "local": "Goiânia – GO",
+    "foto": ""
+  },
+  {
+    "nome": "Mário Nishikawa",
+    "idade": "79",
+    "profissao": "Médico(a) - Cirurgião",
+    "data": "25/09/2020",
+    "local": "Londrina – PR",
+    "foto": ""
+  },
+  {
+    "nome": "Luiz Eugênio Cervelline",
+    "idade": "79",
+    "profissao": "Médico(a) - Neurologista",
+    "data": "26/09/2020",
+    "local": "Cuiabá – MT",
+    "foto": ""
+  },
+  {
+    "nome": "João Roque Freitas Cordeiro",
+    "idade": "69",
+    "profissao": "Médico(a) - Cardiologista",
+    "data": "27/09/2020",
+    "local": "Araras – SP",
+    "foto": ""
+  },
+  {
+    "nome": "Emílio Fernandes Vasques Júnior",
+    "idade": "67",
+    "profissao": "Médico(a) - Psiquiatra",
+    "data": "27/09/2020",
+    "local": "São Paulo – SP",
+    "foto": ""
+  },
+  {
+    "nome": "Fábio Pesse",
+    "idade": "62",
+    "profissao": "Médico(a) - Pediatra",
+    "data": "02/10/2020",
+    "local": "Araras – SP",
+    "foto": ""
+  },
+  {
+    "nome": "Mariele Prestes Souza",
+    "idade": "36",
+    "profissao": "Médico(a) - Médica de família e comunidade",
+    "data": "08/10/2020",
+    "local": "Passo Fundo – RS",
+    "foto": ""
+  },
+  {
+    "nome": "Thomaz Rodrigues Porto da Cruz",
+    "idade": "78",
+    "profissao": "Médico(a) - Endocrinologista",
+    "data": "14/10/2020",
+    "local": "Salvador – BA",
+    "foto": ""
+  },
+  {
+    "nome": "Abdala Sebba Primo",
+    "idade": "71",
+    "profissao": "Médico(a) - Dermatologista",
+    "data": "15/10/2020",
+    "local": "Goiânia – GO",
+    "foto": ""
+  },
+  {
+    "nome": "João Pedro Rodrigues Feitosa",
+    "idade": "28",
+    "profissao": "Médico(a) - Clínico geral",
+    "data": "15/10/2020",
+    "local": "Rio de Janeiro – RJ",
+    "foto": ""
+  },
+  {
+    "nome": "Otávio Alves Pinto",
+    "idade": "77",
+    "profissao": "Médico(a) - Ginecologista",
+    "data": "18/10/2020",
+    "local": "São Paulo – SP",
+    "foto": ""
+  },
+  {
+    "nome": "Ricardo Figueiredo Camargo",
+    "idade": "54",
+    "profissao": "Médico(a) - Clínico geral",
+    "data": "19/10/2020",
+    "local": "Nova Friburgo – RJ",
+    "foto": ""
+  },
+  {
+    "nome": "Marcos Cardia de Oliveira",
+    "idade": "53",
+    "profissao": "Médico(a) - Cardiologista",
+    "data": "20/10/2020",
+    "local": "Porto Alegre – RS",
+    "foto": ""
+  },
+  {
+    "nome": "Marcelo Falco Garcia",
+    "idade": "61",
+    "profissao": "Médico(a) - Neurologista",
+    "data": "20/10/2020",
+    "local": "Ribeirão Preto – SP",
+    "foto": ""
+  },
+  {
+    "nome": "Arolde de Oliveira",
+    "idade": "83",
+    "profissao": "Político",
+    "data": "21/10/2020",
+    "local": "não informado",
+    "foto": ""
+  },
+  {
+    "nome": "Marcelo Takafumi Shyda",
+    "idade": "53",
+    "profissao": "Médico(a) - Cirurgião",
+    "data": "27/10/2020",
+    "local": "São Paulo – SP",
+    "foto": ""
+  },
+  {
+    "nome": "Ildemar Cavalcante Guedes",
+    "idade": "idade não informada",
+    "profissao": "Médico(a) - Clínico geral",
+    "data": "28/10/2020",
+    "local": "São José dos Campos – SP",
+    "foto": ""
+  },
+  {
+    "nome": "Murilo Borges",
+    "idade": "63",
+    "profissao": "Médico(a) - Psiquiatra",
+    "data": "29/10/2020",
+    "local": "Ribeirão Preto – SP",
+    "foto": ""
+  },
+  {
+    "nome": "Gilberto Severino",
+    "idade": "79",
+    "profissao": "Médico(a) - Ginecologista e obstetra",
+    "data": "30/10/2020",
+    "local": "Uberlândia – MG",
+    "foto": ""
+  },
+  {
+    "nome": "Cleusa Ema Quilici Belczak",
+    "idade": "69",
+    "profissao": "Médico(a) - Cirurgiã vascular",
+    "data": "30/10/2020",
+    "local": "Maringá – PR",
+    "foto": ""
+  },
+  {
+    "nome": "Jonathan Pliacekos",
+    "idade": "74",
+    "profissao": "Médico(a) - Clínico geral",
+    "data": "02/11/2020",
+    "local": "Foz do Iguaço – PR",
+    "foto": ""
+  },
+  {
+    "nome": "André Coelho",
+    "idade": "54",
+    "profissao": "Médico(a)",
+    "data": "03/11/2020",
+    "local": "Ourinhos – SP",
+    "foto": ""
+  },
+  {
+    "nome": "Bernardo Scarsinski",
+    "idade": "78",
+    "profissao": "Médico(a) - Pediatra",
+    "data": "05/11/2020",
+    "local": "Sorriso – MT",
+    "foto": ""
+  },
+  {
+    "nome": "Hélio Perroni",
+    "idade": "68",
+    "profissao": "Médico(a) - Ginecologista e obstetra",
+    "data": "06/11/2020",
+    "local": "Vitória – ES",
+    "foto": ""
+  },
+  {
+    "nome": "Sílvio Azarias de Oliveira",
+    "idade": "68",
+    "profissao": "Médico(a) - Psiquiatra",
+    "data": "07/11/2020",
+    "local": "Mineiros – GO",
+    "foto": ""
+  },
+  {
+    "nome": "José Clemente Alves Gondim",
+    "idade": "77",
+    "profissao": "Médico(a) - Oftalmologista, Brumado, BA",
+    "data": "08/11/2020",
+    "local": "não informado",
+    "foto": ""
+  },
+  {
+    "nome": "Fernando Antônio Rodrigues dos Santos",
+    "idade": "idade não informada",
+    "profissao": "Médico(a) - Cardiologista",
+    "data": "11/11/2020",
+    "local": "São Paulo – SP",
+    "foto": ""
+  },
+  {
+    "nome": "Zina de Oliveira Macedo",
+    "idade": "77",
+    "profissao": "Médico(a) - Pediatra",
+    "data": "12/11/2020",
+    "local": "Itabuna – BA",
+    "foto": ""
+  },
+  {
+    "nome": "Rui Manuel dos Prazeres Xavier",
+    "idade": "66",
+    "profissao": "Médico(a) - Cirurgião geral",
+    "data": "14/11/2020",
+    "local": "Belo Horizonte – MG",
+    "foto": ""
+  },
+  {
+    "nome": "Horácio Augusto de Miranda Brum",
+    "idade": "75",
+    "profissao": "Médico(a) - Proctologista",
+    "data": "15/11/2020",
+    "local": "Rio Grande – RS",
+    "foto": ""
+  },
+  {
+    "nome": "Roberto Castilho Pereira",
+    "idade": "74",
+    "profissao": "Médico(a) - Pediatra",
+    "data": "16/11/2020",
+    "local": "Manaus – AM",
+    "foto": ""
+  },
+  {
+    "nome": "Roberto Pinto",
+    "idade": "84",
+    "profissao": "Médico(a) - Oftalmologista",
+    "data": "18/11/2020",
+    "local": "Campina Grande – PB",
+    "foto": ""
+  },
+  {
+    "nome": "Roberto Castilho Pereira",
+    "idade": "69",
+    "profissao": "Médico(a) - Pediatra",
+    "data": "18/11/2020",
+    "local": "São Paulo – SP",
+    "foto": ""
+  },
+  {
+    "nome": "José Alejandro Arce Mejia Filho",
+    "idade": "56",
+    "profissao": "Médico(a) - Cirurgião geral e ginecologista",
+    "data": "19/11/2020",
+    "local": "Brasília – DF",
+    "foto": ""
+  },
+  {
+    "nome": "Marcus Brunner",
+    "idade": "33",
+    "profissao": "Médico(a) - Ortopedista e traumatologista",
+    "data": "19/11/2020",
+    "local": "São Paulo – SP",
+    "foto": ""
+  },
+  {
+    "nome": "Francisco de Assis Alves Carvalho",
+    "idade": "72",
+    "profissao": "Médico(a)",
+    "data": "20/11/2020",
+    "local": "Recife – PE",
+    "foto": ""
+  },
+  {
+    "nome": "Alba Santos Mesquita",
+    "idade": "58",
+    "profissao": "Médico(a) - Clínica geral",
+    "data": "21/11/2020",
+    "local": "Ilhéus  – BA",
+    "foto": ""
+  },
+  {
+    "nome": "Renaud Pimentel Frazão Filho",
+    "idade": "79",
+    "profissao": "Médico(a) - Reumatologista",
+    "data": "21/11/2020",
+    "local": "Blumenau – SC",
+    "foto": ""
+  },
+  {
+    "nome": "Marlene Abrantes Pereira",
+    "idade": "idade não informada",
+    "profissao": "Médico(a) - Pediatra",
+    "data": "21/11/2020",
+    "local": "João Pessoa – PB",
+    "foto": ""
+  },
+  {
+    "nome": "Marco Aurélio de Pádua Rocha",
+    "idade": "57",
+    "profissao": "Médico(a) - Ortopedista",
+    "data": "22/11/2020",
+    "local": "São Paulo – SP",
+    "foto": ""
+  },
+  {
+    "nome": "César Minor Obara",
+    "idade": "66",
+    "profissao": "Médico(a) - Anestesiologista",
+    "data": "23/11/2020",
+    "local": "Petrolina – PE",
+    "foto": ""
+  },
+  {
+    "nome": "Lucimar Maria da Silva Padilha",
+    "idade": "63",
+    "profissao": "Médico(a)",
+    "data": "23/11/2020",
+    "local": "Serra – ES",
+    "foto": ""
+  },
+  {
+    "nome": "Simão Pedro Carcara Reinaldo de Sousa",
+    "idade": "35",
+    "profissao": "Médico(a) - Ginecologista",
+    "data": "24/11/2020",
+    "local": "João Pessoa – PB",
+    "foto": ""
+  },
+  {
+    "nome": "Carlos Brandão",
+    "idade": "71",
+    "profissao": "Médico(a)",
+    "data": "25/11/2020",
+    "local": "Pinhão – PR",
+    "foto": ""
+  },
+  {
+    "nome": "Edson Takeyoshi Tanno",
+    "idade": "63",
+    "profissao": "Médico(a) - Intensivista",
+    "data": "30/11/2020",
+    "local": "Assis – SP",
+    "foto": ""
+  },
+  {
+    "nome": "Fuad Chammas",
+    "idade": "63",
+    "profissao": "Médico(a) - Ginecologista e obstetra",
+    "data": "01/12/2020",
+    "local": "Presidente Prudente – SP",
+    "foto": ""
+  },
+  {
+    "nome": "Jorge Boucinhas",
+    "idade": "70",
+    "profissao": "Médico(a) - Endocrinologista",
+    "data": "01/12/2020",
+    "local": "Natal  – RN",
+    "foto": ""
+  },
+  {
+    "nome": "José Reinaldo Daher",
+    "idade": "76",
+    "profissao": "Médico(a) - Ortopedista e traumatologista",
+    "data": "01/12/2020",
+    "local": "Goiânia – GO",
+    "foto": ""
+  },
+  {
+    "nome": "George Karam",
+    "idade": "59",
+    "profissao": "Médico(a) - Pediatra",
+    "data": "02/12/2020",
+    "local": "Guarapuava – SC",
+    "foto": ""
+  },
+  {
+    "nome": "Jesus José da Cruz",
+    "idade": "idade não informada",
+    "profissao": "Médico(a) - Clínico geral",
+    "data": "03/12/2020",
+    "local": "São Paulo – SP",
+    "foto": ""
+  },
+  {
+    "nome": "Milton Braga",
+    "idade": "85",
+    "profissao": "Médico(a) - Ginecologista e obstetra",
+    "data": "03/12/2020",
+    "local": "Niterói – RJ",
+    "foto": ""
+  },
+  {
+    "nome": "Marco Aurélio Lopes Gamborgi",
+    "idade": "57",
+    "profissao": "Médico(a) - Cirurgião plástico",
+    "data": "04/12/2020",
+    "local": "Curitiba – PR",
+    "foto": ""
+  },
+  {
+    "nome": "Tânia Regina Garcia",
+    "idade": "idade não informada",
+    "profissao": "Médico(a)",
+    "data": "04/12/2020",
+    "local": "Taboão da Serra – SP",
+    "foto": ""
+  },
+  {
+    "nome": "Edison de Barros e Silva",
+    "idade": "idade não informada",
+    "profissao": "Médico(a) - Radiologista",
+    "data": "05/12/2020",
+    "local": "Recife – PE",
+    "foto": ""
+  },
+  {
+    "nome": "Iran Guimarães de Azevedo",
+    "idade": "72",
+    "profissao": "Médico(a) - Obstetra",
+    "data": "06/12/2020",
+    "local": "Vitória – ES",
+    "foto": ""
+  },
+  {
+    "nome": "Reinaldo Barbosa Caixeta",
+    "idade": "63",
+    "profissao": "Médico(a) - Ginecologista",
+    "data": "06/12/2020",
+    "local": "São Mateus – ES",
+    "foto": ""
+  },
+  {
+    "nome": "José Walter Oliveira da Silva",
+    "idade": "64",
+    "profissao": "Médico(a) - Cirurgião geral",
+    "data": "06/12/2020",
+    "local": "Teresina – PI",
+    "foto": ""
+  },
+  {
+    "nome": "Fernando Tolentino",
+    "idade": "70",
+    "profissao": "Médico(a) - Obstetra",
+    "data": "07/12/2020",
+    "local": "Sete Lagoas – MG",
+    "foto": ""
+  },
+  {
+    "nome": "Eduardo Galvão",
+    "idade": "58",
+    "profissao": "Ator",
+    "data": "07/12/2020",
+    "local": "não informado",
+    "foto": ""
+  },
+  {
+    "nome": "Ricardo José Lopes da Cruz",
+    "idade": "66",
+    "profissao": "Médico(a)",
+    "data": "08/12/2020",
+    "local": "Rio de Janeiro – RJ",
+    "foto": ""
+  },
+  {
+    "nome": "Artur Sales Melo",
+    "idade": "50",
+    "profissao": "Médico(a)",
+    "data": "08/12/2020",
+    "local": "Sobral – CE",
+    "foto": ""
+  },
+  {
+    "nome": "Ubirany",
+    "idade": "80",
+    "profissao": "Cantor e músico",
+    "data": "11/12/2020",
+    "local": "não informado",
+    "foto": ""
+  },
+  {
+    "nome": "Paulinho",
+    "idade": "68",
+    "profissao": "Cantor e músico",
+    "data": "14/12/2020",
+    "local": "não informado",
+    "foto": ""
+  },
+  {
+    "nome": "Nicette Bruno",
+    "idade": "87",
+    "profissao": "Atriz",
+    "data": "20/12/2020",
+    "local": "não informado",
+    "foto": ""
+  },
+  {
+    "nome": "Genival Lacerda",
+    "idade": "89",
+    "profissao": "Cantor e compositor",
+    "data": "07/01/2021",
+    "local": "não informado",
+    "foto": ""
+  },
+  {
+    "nome": "Maguito Vilela",
+    "idade": "71",
+    "profissao": "Político",
+    "data": "13/01/2021",
+    "local": "não informado",
+    "foto": ""
+  },
+  {
+    "nome": "Zezinho Corrêa",
+    "idade": "69",
+    "profissao": "Cantor",
+    "data": "06/02/2021",
+    "local": "não informado",
+    "foto": ""
+  },
+  {
+    "nome": "José Maranhão",
+    "idade": "87",
+    "profissao": "Político",
+    "data": "08/02/2021",
+    "local": "não informado",
+    "foto": ""
+  },
+  {
+    "nome": "Major Olímpio",
+    "idade": "58",
+    "profissao": "Político",
+    "data": "18/03/2021",
+    "local": "não informado",
+    "foto": ""
+  },
+  {
+    "nome": "Irmão Lázaro",
+    "idade": "54",
+    "profissao": "Cantor gospel e político",
+    "data": "19/03/2021",
+    "local": "não informado",
+    "foto": ""
+  },
+  {
+    "nome": "João Acaiabe",
+    "idade": "76",
+    "profissao": "Ator",
+    "data": "31/03/2021",
+    "local": "não informado",
+    "foto": ""
+  },
+  {
+    "nome": "Agnaldo Timóteo",
+    "idade": "84",
+    "profissao": "Cantor e político",
+    "data": "03/04/2021",
+    "local": "não informado",
+    "foto": ""
+  },
+  {
+    "nome": "Paulo Gustavo",
+    "idade": "42",
+    "profissao": "Ator e comediante",
+    "data": "04/05/2021",
+    "local": "não informado",
+    "foto": ""
+  },
+  {
+    "nome": "Nelson Sargento",
+    "idade": "96",
+    "profissao": "Sambista e compositor",
+    "data": "27/05/2021",
+    "local": "não informado",
+    "foto": ""
+  },
+  {
+    "nome": "Tarcísio Meira",
+    "idade": "85",
+    "profissao": "Ator",
+    "data": "12/08/2021",
+    "local": "não informado",
+    "foto": ""
+  },
+  {
+    "nome": "Maria Prestes",
+    "idade": "92",
+    "profissao": "Militante política",
+    "data": "04/02/2022",
+    "local": "não informado",
+    "foto": ""
+  },
+  {
+    "nome": "Geraldo Sarno",
+    "idade": "83",
+    "profissao": "Diretor de cinema",
+    "data": "23/02/2022",
+    "local": "não informado",
+    "foto": ""
+  },
+  {
+    "nome": "José Murilo de Carvalho",
+    "idade": "83",
+    "profissao": "Cientista político e historiador",
+    "data": "13/08/2023",
+    "local": "não informado",
+    "foto": ""
+  },
+  {
+    "nome": "Nome",
+    "idade": "Idade",
+    "profissao": "Profissão",
+    "data": "Data",
+    "local": "Local",
+    "foto": ""
+  }
 ]
