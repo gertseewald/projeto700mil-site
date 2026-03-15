@@ -1,123 +1,669 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-<meta charset="UTF-8">
-<title>Projeto700mil</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Projeto700mil</title>
+  <style>
+    :root {
+      --azul: #0b61b3;
+      --azul-escuro: #084b8d;
+      --fundo: #e9e9e9;
+      --branco: #ffffff;
+      --texto: #1f1f1f;
+      --borda: #cfcfcf;
+      --cinza: #7a7a7a;
+    }
 
-<style>
+    * { box-sizing: border-box; }
 
-body{
-font-family: Arial, sans-serif;
-margin:0;
-background:#f4f4f4;
-}
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: var(--fundo);
+      color: var(--texto);
+    }
 
-header{
-background:#0b4fa2;
-color:white;
-padding:15px;
-font-size:24px;
-}
+    .topbar {
+      background: var(--azul);
+      color: white;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 12px 18px;
+      font-size: 18px;
+      font-weight: 700;
+      gap: 16px;
+    }
 
-.container{
-display:flex;
-}
+    .page {
+      display: grid;
+      grid-template-columns: 180px 1fr 360px;
+      gap: 14px;
+      padding: 14px;
+      min-height: calc(100vh - 52px);
+    }
 
-.sidebar{
-width:220px;
-background:#1f6ed4;
-color:white;
-padding:15px;
-height:100vh;
-}
+    .sidebar {
+      background: var(--azul);
+      color: white;
+      padding: 18px 14px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      min-height: 760px;
+    }
 
-.sidebar a{
-display:block;
-color:white;
-text-decoration:none;
-margin:10px 0;
-}
+    .sidebar a,
+    .sidebar button {
+      all: unset;
+      color: white;
+      font-size: 18px;
+      cursor: pointer;
+      display: block;
+      padding: 4px 0;
+      line-height: 1.35;
+    }
 
-.main{
-flex:1;
-padding:20px;
-}
+    .sidebar a:hover,
+    .sidebar button:hover {
+      text-decoration: underline;
+    }
 
-.counter{
-font-size:48px;
-font-weight:bold;
-margin:20px 0;
-}
+    .main-left,
+    .main-right {
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+    }
 
-.listbox{
-background:white;
-border:1px solid #ccc;
-height:300px;
-overflow-y:scroll;
-padding:10px;
-}
+    .panel {
+      background: var(--branco);
+      border: 1px solid var(--borda);
+      padding: 18px;
+    }
 
-.search{
-margin-top:20px;
-}
+    .intro {
+      min-height: 380px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      background: linear-gradient(to bottom, #efefef 0%, #efefef 62%, #e3e3e3 62%, #e3e3e3 100%);
+    }
 
-</style>
+    .intro p {
+      font-size: 28px;
+      line-height: 1.35;
+      margin: 0 0 18px 0;
+      max-width: 700px;
+    }
 
+    .intro p:last-child {
+      margin-bottom: 0;
+    }
+
+    .cta-box {
+      background: var(--branco);
+      border: 1px solid var(--borda);
+      min-height: 96px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      text-transform: lowercase;
+      font-size: 28px;
+      font-weight: 700;
+    }
+
+    .cta-box:hover {
+      background: #f7f7f7;
+    }
+
+    .counter-wrap {
+      background: var(--fundo);
+      border: 1px solid var(--borda);
+      padding: 0;
+    }
+
+    .counter {
+      background: #efefef;
+      text-align: center;
+      font-size: 84px;
+      letter-spacing: 2px;
+      font-weight: 700;
+      padding: 34px 12px 20px;
+      line-height: 1;
+    }
+
+    .counter-caption {
+      background: var(--azul);
+      color: white;
+      text-align: center;
+      font-size: 30px;
+      font-weight: 700;
+      padding: 14px 12px;
+      text-transform: lowercase;
+    }
+
+    .list-panel {
+      background: var(--branco);
+      border: 1px solid var(--borda);
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      min-height: 510px;
+    }
+
+    .victim-list {
+      overflow-y: auto;
+      padding: 12px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      min-height: 0;
+    }
+
+    .victim-card {
+      display: grid;
+      grid-template-columns: 64px 1fr;
+      gap: 12px;
+      border-bottom: 1px solid #e3e3e3;
+      padding-bottom: 10px;
+    }
+
+    .victim-card:last-child {
+      border-bottom: none;
+    }
+
+    .avatar {
+      width: 64px;
+      height: 64px;
+      border: 1px solid var(--borda);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: #f4f4f4;
+      overflow: hidden;
+      flex-shrink: 0;
+    }
+
+    .avatar img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+
+    .avatar svg {
+      width: 34px;
+      height: 34px;
+      fill: #8b8b8b;
+    }
+
+    .victim-name {
+      font-size: 22px;
+      font-weight: 700;
+      margin-bottom: 4px;
+      line-height: 1.2;
+    }
+
+    .victim-meta,
+    .victim-date {
+      font-size: 16px;
+      line-height: 1.35;
+      color: #333;
+    }
+
+    .search-panel {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      padding-top: 0;
+      border: none;
+      background: transparent;
+    }
+
+    .search-label {
+      font-size: 28px;
+      font-weight: 700;
+      text-transform: lowercase;
+    }
+
+    .search-input {
+      width: 100%;
+      height: 64px;
+      border: 1px solid var(--borda);
+      background: white;
+      padding: 0 18px;
+      font-size: 22px;
+      outline: none;
+    }
+
+    .modal {
+      position: fixed;
+      inset: 0;
+      background: rgba(0,0,0,0.45);
+      display: none;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+      z-index: 50;
+    }
+
+    .modal.open {
+      display: flex;
+    }
+
+    .modal-content {
+      background: white;
+      width: min(860px, 100%);
+      max-height: 90vh;
+      overflow-y: auto;
+      border: 1px solid var(--borda);
+      padding: 22px;
+      position: relative;
+    }
+
+    .modal-content h2 {
+      margin: 0 0 14px 0;
+      font-size: 30px;
+    }
+
+    .modal-content p,
+    .modal-content li,
+    .modal-content label,
+    .modal-content input,
+    .modal-content select,
+    .modal-content textarea {
+      font-size: 16px;
+      line-height: 1.45;
+    }
+
+    .close-btn {
+      position: absolute;
+      top: 10px;
+      right: 12px;
+      border: none;
+      background: transparent;
+      font-size: 28px;
+      cursor: pointer;
+    }
+
+    .form-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 14px;
+    }
+
+    .form-group {
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+    }
+
+    .form-group.full {
+      grid-column: 1 / -1;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="date"],
+    select,
+    textarea,
+    input[type="file"] {
+      border: 1px solid var(--borda);
+      padding: 10px 12px;
+      width: 100%;
+      font-family: inherit;
+    }
+
+    textarea {
+      min-height: 100px;
+      resize: vertical;
+    }
+
+    .form-note {
+      margin-top: 16px;
+      color: #444;
+    }
+
+    .submit-btn {
+      margin-top: 14px;
+      background: var(--azul);
+      color: white;
+      border: none;
+      padding: 14px 18px;
+      font-size: 16px;
+      font-weight: 700;
+      cursor: pointer;
+    }
+
+    .small-muted {
+      color: var(--cinza);
+      font-size: 14px;
+    }
+
+    @media (max-width: 1180px) {
+      .page {
+        grid-template-columns: 170px 1fr;
+      }
+      .main-right {
+        grid-column: 1 / -1;
+      }
+    }
+
+    @media (max-width: 760px) {
+      .topbar {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
+      .page {
+        grid-template-columns: 1fr;
+      }
+
+      .sidebar {
+        min-height: auto;
+      }
+
+      .intro p {
+        font-size: 22px;
+      }
+
+      .counter {
+        font-size: 58px;
+      }
+
+      .counter-caption,
+      .search-label,
+      .cta-box {
+        font-size: 24px;
+      }
+
+      .form-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
 </head>
-
 <body>
+  <header class="topbar">
+    <div>Projeto700mil – Cada nome importa.</div>
+    <div>nomes registrados</div>
+  </header>
 
-<header>
-Projeto700mil
-</header>
+  <div class="page">
+    <aside class="sidebar">
+      <button type="button" data-modal="instructionsModal">instruções</button>
+      <a href="mailto:projeto700mil@gmail.com?subject=Correção%20de%20registro%20-%20Projeto700mil">correções</a>
+      <a href="mailto:projeto700mil@gmail.com?subject=Pedido%20de%20remoção%20-%20Projeto700mil">remoção</a>
+      <a href="mailto:projeto700mil@gmail.com?subject=Contato%20-%20Projeto700mil">contato</a>
+      <button type="button" data-modal="aboutModal">sobre</button>
+    </aside>
 
-<div class="container">
+    <main class="main-left">
+      <section class="panel intro">
+        <div>
+          <p>O Projeto700mil é um memorial digital colaborativo que busca registrar o nome das 700.000 vítimas da pandemia de COVID-19 no Brasil.</p>
+          <p>Ajude a preservar a memória das vítimas da COVID-19 no Brasil.</p>
+        </div>
+      </section>
 
-<div class="sidebar">
+      <button class="cta-box" type="button" data-modal="formModal">formulário de cadastro</button>
+    </main>
 
-<b>Projeto700mil</b>
+    <section class="main-right">
+      <div class="counter-wrap">
+        <div class="counter" id="counter">000.363</div>
+        <div class="counter-caption">nomes registrados</div>
+      </div>
 
-<a href="#">Instruções</a>
-<a href="#">Correções</a>
-<a href="#">Remoção</a>
-<a href="#">Contato</a>
+      <section class="list-panel">
+        <div class="victim-list" id="victimList"></div>
+      </section>
 
-</div>
+      <section class="search-panel">
+        <div class="search-label">busca</div>
+        <input class="search-input" id="searchInput" type="text" placeholder="digite um nome" />
+      </section>
+    </section>
+  </div>
 
-<div class="main">
+  <div class="modal" id="instructionsModal" aria-hidden="true">
+    <div class="modal-content">
+      <button class="close-btn" type="button" data-close="instructionsModal">×</button>
+      <h2>Instruções</h2>
+      <p>O Projeto700mil é um memorial digital colaborativo que busca preservar a memória das pessoas que morreram de COVID-19 no Brasil.</p>
+      <p>Qualquer pessoa pode contribuir enviando informações sobre uma vítima da pandemia. O objetivo é registrar nomes e, sempre que possível, alguns dados básicos que ajudem a lembrar essas vidas.</p>
+      <p>Ao enviar informações, procure informar apenas dados corretos e verificáveis.</p>
+      <p>Os seguintes dados podem ser enviados:</p>
+      <ul>
+        <li>nome da vítima</li>
+        <li>idade (se conhecida)</li>
+        <li>profissão ou área de atuação (opcional)</li>
+        <li>data do falecimento</li>
+        <li>local do falecimento</li>
+        <li>fotografia (opcional)</li>
+        <li>nome e contato do declarante</li>
+      </ul>
+      <p>Nem todos os campos precisam ser preenchidos. Mesmo registros com informações incompletas podem ajudar a preservar a memória dessas pessoas.</p>
+      <p>As informações recebidas poderão ser revisadas antes de serem publicadas no memorial.</p>
+      <p>Caso familiares ou pessoas próximas identifiquem erros em algum registro, poderão solicitar correção ou remoção através do endereço de contato indicado no site.</p>
+      <p>O Projeto700mil tem caráter exclusivamente memorial e não possui finalidade comercial.</p>
+    </div>
+  </div>
 
-<h2>Cada nome importa</h2>
+  <div class="modal" id="aboutModal" aria-hidden="true">
+    <div class="modal-content">
+      <button class="close-btn" type="button" data-close="aboutModal">×</button>
+      <h2>Sobre</h2>
+      <p>O Projeto700mil é uma iniciativa de Gert Seewald, com o objetivo de preservar a memória das vítimas da COVID-19 no Brasil. Mais informações sobre o autor podem ser encontradas em seu <a href="https://pt.wikipedia.org/wiki/Gert_Seewald" target="_blank" rel="noopener noreferrer">verbete na Wikipédia</a>.</p>
+    </div>
+  </div>
 
-<p>
-Memorial digital colaborativo que busca registrar os nomes das pessoas
-que morreram de COVID-19 no Brasil.
-</p>
+  <div class="modal" id="formModal" aria-hidden="true">
+    <div class="modal-content">
+      <button class="close-btn" type="button" data-close="formModal">×</button>
+      <h2>Cadastro de vítima da COVID-19</h2>
+      <p>Ajude a preservar a memória das vítimas da pandemia no Brasil.</p>
 
-<div class="counter">
-363
-</div>
+      <form>
+        <div class="form-grid">
+          <div class="form-group">
+            <label for="declarante">Nome do declarante</label>
+            <input id="declarante" type="text" />
+          </div>
 
-<p>nomes registrados</p>
+          <div class="form-group">
+            <label for="email">E-mail</label>
+            <input id="email" type="email" />
+          </div>
 
-<div class="listbox">
+          <div class="form-group full">
+            <label for="ligacao">Grau de ligação com a vítima</label>
+            <select id="ligacao">
+              <option>familiar</option>
+              <option>amigo</option>
+              <option>colega</option>
+              <option>conhecido</option>
+              <option>outro</option>
+            </select>
+          </div>
 
-Maria da Silva – SP – 2021<br>
-José Pereira – RJ – 2020<br>
-Ana Oliveira – MG – 2021<br>
-Carlos Santos – BA – 2020<br>
-João Costa – PE – 2021<br>
+          <div class="form-group full">
+            <label for="nomeVitima">Nome da vítima</label>
+            <input id="nomeVitima" type="text" />
+          </div>
 
-</div>
+          <div class="form-group">
+            <label for="idade">Idade (se conhecida)</label>
+            <input id="idade" type="text" />
+          </div>
 
-<div class="search">
+          <div class="form-group">
+            <label for="profissao">Profissão / atuação (opcional)</label>
+            <input id="profissao" type="text" />
+          </div>
 
-<input type="text" placeholder="buscar nome">
+          <div class="form-group">
+            <label for="dataFalecimento">Data do falecimento</label>
+            <input id="dataFalecimento" type="date" />
+          </div>
 
-</div>
+          <div class="form-group">
+            <label for="localFalecimento">Local do falecimento (cidade / estado)</label>
+            <input id="localFalecimento" type="text" />
+          </div>
 
-</div>
+          <div class="form-group full">
+            <label for="fonte">Fonte da informação (opcional)</label>
+            <select id="fonte">
+              <option>familiar / informação direta</option>
+              <option>obituário</option>
+              <option>notícia ou reportagem</option>
+              <option>rede social</option>
+              <option>outro</option>
+            </select>
+            <div class="small-muted">Se possível, indique como você obteve esta informação.</div>
+          </div>
 
-</div>
+          <div class="form-group full">
+            <label for="foto">Foto da vítima (opcional)</label>
+            <input id="foto" type="file" accept="image/*" />
+          </div>
 
+          <div class="form-group full">
+            <label>
+              <input type="checkbox" /> Autorizo o uso das informações enviadas no memorial Projeto700mil.
+            </label>
+          </div>
+        </div>
+
+        <p class="form-note">As informações enviadas poderão ser analisadas antes de serem publicadas no memorial Projeto700mil. Caso familiares desejem correção ou remoção de um registro, poderão solicitar através do e-mail indicado no site.</p>
+
+        <button class="submit-btn" type="button">ENVIAR REGISTRO</button>
+      </form>
+    </div>
+  </div>
+
+  <script>
+    const victims = [
+      {
+        foto: '',
+        nome: 'Maria da Silva',
+        idade: '68',
+        profissao: 'Professora',
+        data: '14/04/2021',
+        local: 'São Paulo/SP'
+      },
+      {
+        foto: '',
+        nome: 'José Carlos Pereira',
+        idade: 'idade não informada',
+        profissao: 'não informado',
+        data: '22/03/2021',
+        local: 'Recife/PE'
+      },
+      {
+        foto: '',
+        nome: 'Ana Maria Souza',
+        idade: '47',
+        profissao: 'Enfermeira',
+        data: '05/05/2020',
+        local: 'Belo Horizonte/MG'
+      },
+      {
+        foto: '',
+        nome: 'Carlos Mendes',
+        idade: '72',
+        profissao: 'não informado',
+        data: 'não informado',
+        local: 'não informado'
+      },
+      {
+        foto: '',
+        nome: 'Luciana Ferreira',
+        idade: '59',
+        profissao: 'Comerciante',
+        data: '19/06/2021',
+        local: 'Rio de Janeiro/RJ'
+      },
+      {
+        foto: '',
+        nome: 'Pedro Almeida',
+        idade: '63',
+        profissao: 'Motorista',
+        data: '10/04/2021',
+        local: 'Salvador/BA'
+      }
+    ];
+
+    const searchInput = document.getElementById('searchInput');
+    const victimList = document.getElementById('victimList');
+    const counter = document.getElementById('counter');
+
+    function avatarMarkup(photo, name) {
+      if (photo) {
+        return `<img src="${photo}" alt="Foto de ${name}">`;
+      }
+      return `
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M12 12c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5Zm0 2c-3.33 0-10 1.67-10 5v3h20v-3c0-3.33-6.67-5-10-5Z"></path>
+        </svg>
+      `;
+    }
+
+    function formatCount(number) {
+      return number.toString().padStart(6, '0').replace(/(\d{3})(\d{3})/, '$1.$2');
+    }
+
+    function renderList(items) {
+      victimList.innerHTML = items.map((v) => `
+        <article class="victim-card">
+          <div class="avatar">${avatarMarkup(v.foto, v.nome)}</div>
+          <div>
+            <div class="victim-name">${v.nome} – ${v.idade || 'idade não informada'}</div>
+            <div class="victim-meta">${v.profissao || 'não informado'}</div>
+            <div class="victim-date">${v.data || 'não informado'} – ${v.local || 'não informado'}</div>
+          </div>
+        </article>
+      `).join('');
+      counter.textContent = formatCount(items.length);
+    }
+
+    renderList(victims);
+
+    searchInput.addEventListener('input', (e) => {
+      const term = e.target.value.trim().toLowerCase();
+      if (!term) {
+        renderList(victims);
+        return;
+      }
+      const filtered = victims.filter(v => v.nome.toLowerCase().includes(term));
+      renderList(filtered);
+    });
+
+    document.querySelectorAll('[data-modal]').forEach((button) => {
+      button.addEventListener('click', () => {
+        const modalId = button.getAttribute('data-modal');
+        document.getElementById(modalId).classList.add('open');
+      });
+    });
+
+    document.querySelectorAll('[data-close]').forEach((button) => {
+      button.addEventListener('click', () => {
+        const modalId = button.getAttribute('data-close');
+        document.getElementById(modalId).classList.remove('open');
+      });
+    });
+
+    document.querySelectorAll('.modal').forEach((modal) => {
+      modal.addEventListener('click', (e) => {
+        if (e.target === modal) {
+          modal.classList.remove('open');
+        }
+      });
+    });
+  </script>
 </body>
 </html>
