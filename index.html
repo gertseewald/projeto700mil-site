@@ -3,13 +3,121 @@
 <head>
 <meta charset="UTF-8">
 <title>Projeto700mil</title>
+
+<style>
+
+body{
+font-family: Arial, sans-serif;
+margin:0;
+background:#f4f4f4;
+}
+
+header{
+background:#0b4fa2;
+color:white;
+padding:15px;
+font-size:24px;
+}
+
+.container{
+display:flex;
+}
+
+.sidebar{
+width:220px;
+background:#1f6ed4;
+color:white;
+padding:15px;
+height:100vh;
+}
+
+.sidebar a{
+display:block;
+color:white;
+text-decoration:none;
+margin:10px 0;
+}
+
+.main{
+flex:1;
+padding:20px;
+}
+
+.counter{
+font-size:48px;
+font-weight:bold;
+margin:20px 0;
+}
+
+.listbox{
+background:white;
+border:1px solid #ccc;
+height:300px;
+overflow-y:scroll;
+padding:10px;
+}
+
+.search{
+margin-top:20px;
+}
+
+</style>
+
 </head>
 
 <body>
 
-<h1>Projeto700mil</h1>
+<header>
+Projeto700mil
+</header>
 
-<p>Cada nome importa.</p>
+<div class="container">
+
+<div class="sidebar">
+
+<b>Projeto700mil</b>
+
+<a href="#">Instruções</a>
+<a href="#">Correções</a>
+<a href="#">Remoção</a>
+<a href="#">Contato</a>
+
+</div>
+
+<div class="main">
+
+<h2>Cada nome importa</h2>
+
+<p>
+Memorial digital colaborativo que busca registrar os nomes das pessoas
+que morreram de COVID-19 no Brasil.
+</p>
+
+<div class="counter">
+363
+</div>
+
+<p>nomes registrados</p>
+
+<div class="listbox">
+
+Maria da Silva – SP – 2021<br>
+José Pereira – RJ – 2020<br>
+Ana Oliveira – MG – 2021<br>
+Carlos Santos – BA – 2020<br>
+João Costa – PE – 2021<br>
+
+</div>
+
+<div class="search">
+
+<input type="text" placeholder="buscar nome">
+
+</div>
+
+</div>
+
+</div>
 
 </body>
 </html>
