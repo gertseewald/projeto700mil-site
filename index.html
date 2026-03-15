@@ -345,7 +345,7 @@
       font-size: 14px;
     }
 
-    @media (max-width: 1180px) {
+    @media (max-width: 980px) {
       .page {
         grid-template-columns: 170px 1fr;
       }
@@ -353,7 +353,7 @@
         grid-template-columns: 170px 1fr;
       }
       .main-right {
-        grid-column: 1 / -1;
+        grid-column: auto;
       }
     }
       .main-right {
@@ -362,6 +362,23 @@
     }
 
     @media (max-width: 760px) {
+      .page {
+        grid-template-columns: 1fr;
+      }
+
+      .topbar {
+        grid-template-columns: 1fr;
+        min-height: auto;
+      }
+
+      .topbar > div:first-child {
+        display: none;
+      }
+
+      .main-right {
+        grid-column: auto;
+      }
+
       .topbar {
         flex-direction: column;
         align-items: flex-start;
@@ -556,56 +573,92 @@
   </div>
 
   <script>
-    const victims = [
-      {
-        foto: '',
-        nome: 'Maria da Silva',
-        idade: '68',
-        profissao: 'Professora',
-        data: '14/04/2021',
-        local: 'São Paulo/SP'
-      },
-      {
-        foto: '',
-        nome: 'José Carlos Pereira',
-        idade: 'idade não informada',
-        profissao: 'não informado',
-        data: '22/03/2021',
-        local: 'Recife/PE'
-      },
-      {
-        foto: '',
-        nome: 'Ana Maria Souza',
-        idade: '47',
-        profissao: 'Enfermeira',
-        data: '05/05/2020',
-        local: 'Belo Horizonte/MG'
-      },
-      {
-        foto: '',
-        nome: 'Carlos Mendes',
-        idade: '72',
-        profissao: 'não informado',
-        data: 'não informado',
-        local: 'não informado'
-      },
-      {
-        foto: '',
-        nome: 'Luciana Ferreira',
-        idade: '59',
-        profissao: 'Comerciante',
-        data: '19/06/2021',
-        local: 'Rio de Janeiro/RJ'
-      },
-      {
-        foto: '',
-        nome: 'Pedro Almeida',
-        idade: '63',
-        profissao: 'Motorista',
-        data: '10/04/2021',
-        local: 'Salvador/BA'
+  let victims = [];
+
+  const searchInput = document.getElementById('searchInput');
+  const victimList = document.getElementById('victimList');
+  const counter = document.getElementById('counter');
+
+  function avatarMarkup(photo, name) {
+    if (photo) {
+      return `<img src="${photo}" alt="Foto de ${name}">`;
+    }
+    return `
+      <svg viewBox="0 0 24 24" aria-hidden="true">
+        <path d="M12 12c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5Zm0 2c-3.33 0-10 1.67-10 5v3h20v-3c0-3.33-6.67-5-10-5Z"></path>
+      </svg>
+    `;
+  }
+
+  function formatCount(number) {
+    return number.toString().padStart(6, '0').replace(/(\d{3})(\d{3})/, '$1.$2');
+  }
+
+  function renderList(items) {
+    victimList.innerHTML = items.map((v) => `
+      <article class="victim-card">
+        <div class="avatar">${avatarMarkup(v.foto, v.nome)}</div>
+        <div>
+          <div class="victim-name">${v.nome} – ${v.idade || 'idade não informada'}</div>
+          <div class="victim-meta">${v.profissao || 'não informado'}</div>
+          <div class="victim-date">${v.data || 'não informado'} – ${v.local || 'não informado'}</div>
+        </div>
+      </article>
+    `).join('');
+    counter.textContent = formatCount(items.length);
+  }
+
+  async function loadVictims() {
+    try {
+      const response = await fetch('./dados.json');
+      victims = await response.json();
+      renderList(victims);
+    } catch (error) {
+      victimList.innerHTML = '<p>Não foi possível carregar os registros.</p>';
+      counter.textContent = '000.000';
+      console.error(error);
+    }
+  }
+
+  searchInput.addEventListener('input', (e) => {
+    const term = e.target.value.trim().toLowerCase();
+
+    if (!term) {
+      renderList(victims);
+      return;
+    }
+
+    const filtered = victims.filter(v =>
+      v.nome.toLowerCase().includes(term)
+    );
+
+    renderList(filtered);
+  });
+
+  document.querySelectorAll('[data-modal]').forEach((button) => {
+    button.addEventListener('click', () => {
+      const modalId = button.getAttribute('data-modal');
+      document.getElementById(modalId).classList.add('open');
+    });
+  });
+
+  document.querySelectorAll('[data-close]').forEach((button) => {
+    button.addEventListener('click', () => {
+      const modalId = button.getAttribute('data-close');
+      document.getElementById(modalId).classList.remove('open');
+    });
+  });
+
+  document.querySelectorAll('.modal').forEach((modal) => {
+    modal.addEventListener('click', (e) => {
+      if (e.target === modal) {
+        modal.classList.remove('open');
       }
-    ];
+    });
+  });
+
+  loadVictims();
+</script>
 
     const searchInput = document.getElementById('searchInput');
     const victimList = document.getElementById('victimList');
