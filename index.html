@@ -6,250 +6,264 @@
   <title>Projeto700mil</title>
   <style>
     :root {
-      --azul: #0b61b3;
-      --azul-escuro: #084b8d;
+      --azul: #3f6fd1;
+      --azul-escuro: #2e57ab;
       --fundo: #e9e9e9;
       --branco: #ffffff;
       --texto: #1f1f1f;
       --borda: #cfcfcf;
-      --cinza: #7a7a7a;
+      --cinza: #777777;
     }
 
-    * { box-sizing: border-box; }
+    * {
+      box-sizing: border-box;
+    }
 
-    body {
+    html, body {
       margin: 0;
+      padding: 0;
       font-family: Arial, Helvetica, sans-serif;
       background: var(--fundo);
       color: var(--texto);
     }
 
     .topbar {
-      background: var(--azul);
-      color: white;
       display: grid;
       grid-template-columns: 180px 1fr;
+      min-height: 120px;
+      background: var(--azul);
+      color: white;
+    }
+
+    .topbar-spacer {
+      width: 180px;
+    }
+
+    .topbar-title {
+      display: flex;
       align-items: center;
-      padding: 0;
-      min-height: 76px;
-      font-size: 18px;
-      font-weight: 700;
-      gap: 0;
+      padding: 0 28px;
+      font-size: 54px;
+      line-height: 1.1;
+      font-weight: 400;
     }
 
     .page {
       display: grid;
-      grid-template-columns: 180px 1fr 1fr;
+      grid-template-columns: 180px minmax(0, 1fr) minmax(0, 1fr);
       gap: 14px;
       padding: 14px;
-      min-height: calc(100vh - 76px);
+      align-items: start;
     }
 
     .sidebar {
       background: var(--azul);
       color: white;
-      padding: 18px 14px;
-      display: flex;
-      flex-direction: column;
-      gap: 10px;
-      min-height: 760px;
+      padding: 22px 16px;
+      min-height: calc(100vh - 148px);
     }
 
-    .sidebar a,
-    .sidebar button {
+    .sidebar button,
+    .sidebar a {
       all: unset;
-      color: white;
-      font-size: 18px;
-      cursor: pointer;
       display: block;
-      padding: 4px 0;
-      line-height: 1.35;
+      color: white;
+      font-size: 20px;
+      line-height: 1.6;
+      cursor: pointer;
+      margin-bottom: 8px;
     }
 
-    .sidebar a:hover,
-    .sidebar button:hover {
+    .sidebar button:hover,
+    .sidebar a:hover {
       text-decoration: underline;
     }
 
-    .main-left,
-    .main-right {
-      display: flex;
-      flex-direction: column;
-      gap: 14px;
+    .left-column,
+    .right-column {
+      min-width: 0;
     }
 
-    .panel {
-      background: var(--branco);
+    .text-panel {
+      background: linear-gradient(to bottom, #efefef 0%, #efefef 62%, #e2e2e2 62%, #e2e2e2 100%);
       border: 1px solid var(--borda);
-      padding: 18px;
-    }
-
-    .intro {
-      min-height: 380px;
+      min-height: 650px;
+      padding: 42px 32px;
       display: flex;
       flex-direction: column;
-      justify-content: center;
-      background: linear-gradient(to bottom, #efefef 0%, #efefef 62%, #e3e3e3 62%, #e3e3e3 100%);
+      justify-content: space-between;
     }
 
-    .intro p {
+    .text-panel p {
+      margin: 0;
       font-size: 28px;
       line-height: 1.35;
-      margin: 0 0 18px 0;
-      max-width: 100%;
       text-align: center;
     }
 
-    .intro p:last-child {
-      margin-bottom: 0;
+    .text-panel .lead {
+      margin-top: 10px;
     }
 
-    .cta-box {
-      background: var(--branco);
+    .form-button {
+      margin-top: 14px;
+      width: 100%;
+      min-height: 76px;
       border: 1px solid var(--borda);
-      min-height: 96px;
+      background: white;
+      font-size: 28px;
+      font-weight: 400;
+      cursor: pointer;
+    }
+
+    .form-button:hover {
+      background: #f8f8f8;
+    }
+
+    .counter-box {
+      border: 1px solid var(--borda);
+      background: #efefef;
+    }
+
+    .counter-number {
+      min-height: 170px;
       display: flex;
       align-items: center;
       justify-content: center;
-      cursor: pointer;
-      text-transform: lowercase;
-      font-size: 28px;
-      font-weight: 700;
-    }
-
-    .cta-box:hover {
-      background: #f7f7f7;
-    }
-
-    .counter-wrap {
-      background: var(--fundo);
-      border: 1px solid var(--borda);
-      padding: 0;
-    }
-
-    .counter {
-      background: #efefef;
-      text-align: center;
-      font-size: 84px;
-      letter-spacing: 2px;
-      font-weight: 700;
-      padding: 34px 12px 20px;
+      font-size: 110px;
       line-height: 1;
+      font-weight: 400;
+      letter-spacing: 2px;
+      padding: 10px 20px;
     }
 
-    .counter-caption {
+    .counter-label {
       background: var(--azul);
       color: white;
       text-align: center;
       font-size: 30px;
-      font-weight: 700;
-      padding: 14px 12px;
-      text-transform: lowercase;
+      padding: 12px 16px;
     }
 
-    .list-panel {
-      background: var(--branco);
+    .list-box {
+      margin-top: 14px;
       border: 1px solid var(--borda);
-      padding: 0;
-      display: flex;
-      flex-direction: column;
-      min-height: 510px;
-    }
-
-    .victim-list {
+      background: white;
+      height: 430px;
       overflow-y: auto;
-      padding: 12px;
-      display: flex;
-      flex-direction: column;
-      gap: 10px;
-      min-height: 0;
     }
 
     .victim-card {
       display: grid;
-      grid-template-columns: 64px 1fr;
-      gap: 12px;
-      border-bottom: 1px solid #e3e3e3;
-      padding-bottom: 10px;
+      grid-template-columns: 92px 1fr 1fr 1fr;
+      border-bottom: 1px solid #d7d7d7;
+      min-height: 122px;
     }
 
     .victim-card:last-child {
       border-bottom: none;
     }
 
-    .avatar {
-      width: 64px;
-      height: 64px;
-      border: 1px solid var(--borda);
+    .cell {
+      border-right: 1px solid #d7d7d7;
+      padding: 12px;
       display: flex;
       align-items: center;
       justify-content: center;
-      background: #f4f4f4;
-      overflow: hidden;
-      flex-shrink: 0;
+      text-align: center;
+      min-width: 0;
     }
 
-    .avatar img {
+    .cell:last-child {
+      border-right: none;
+    }
+
+    .photo-cell {
+      padding: 8px;
+    }
+
+    .photo-box {
+      width: 72px;
+      height: 72px;
+      border: 1px solid var(--borda);
+      border-radius: 50%;
+      background: #f1f1f1;
+      overflow: hidden;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .photo-box img {
       width: 100%;
       height: 100%;
       object-fit: cover;
-      display: block;
     }
 
-    .avatar svg {
-      width: 34px;
-      height: 34px;
-      fill: #8b8b8b;
+    .photo-box svg {
+      width: 38px;
+      height: 38px;
+      fill: #9a9a9a;
     }
 
-    .victim-name {
-      font-size: 22px;
-      font-weight: 700;
-      margin-bottom: 4px;
-      line-height: 1.2;
+    .name-age {
+      font-size: 18px;
+      line-height: 1.35;
+      flex-direction: column;
     }
 
-    .victim-meta,
-    .victim-date {
+    .name-age strong {
+      font-size: 18px;
+      font-weight: 400;
+    }
+
+    .profession,
+    .date-place {
       font-size: 16px;
       line-height: 1.35;
-      color: #333;
+      word-break: break-word;
     }
 
-    .search-panel {
-      display: flex;
-      flex-direction: column;
-      gap: 8px;
-      padding-top: 0;
-      border: none;
-      background: transparent;
+    .search-area {
+      margin-top: 14px;
+      display: grid;
+      grid-template-columns: 180px 1fr;
+      align-items: center;
+      gap: 18px;
     }
 
     .search-label {
-      font-size: 28px;
-      font-weight: 700;
+      font-size: 32px;
+      font-weight: 400;
       text-transform: lowercase;
     }
 
     .search-input {
-      width: 100%;
-      height: 64px;
+      height: 62px;
       border: 1px solid var(--borda);
       background: white;
       padding: 0 18px;
       font-size: 22px;
       outline: none;
+      width: 100%;
+    }
+
+    .empty-message {
+      padding: 20px;
+      text-align: center;
+      color: #555;
+      font-size: 18px;
     }
 
     .modal {
       position: fixed;
       inset: 0;
-      background: rgba(0,0,0,0.45);
+      background: rgba(0, 0, 0, 0.45);
       display: none;
       align-items: center;
       justify-content: center;
       padding: 20px;
-      z-index: 50;
+      z-index: 999;
     }
 
     .modal.open {
@@ -258,33 +272,33 @@
 
     .modal-content {
       background: white;
-      width: min(860px, 100%);
+      width: min(900px, 100%);
       max-height: 90vh;
       overflow-y: auto;
       border: 1px solid var(--borda);
-      padding: 22px;
+      padding: 24px;
       position: relative;
     }
 
     .modal-content h2 {
       margin: 0 0 14px 0;
-      font-size: 30px;
+      font-size: 32px;
+      font-weight: 400;
     }
 
     .modal-content p,
     .modal-content li,
     .modal-content label,
     .modal-content input,
-    .modal-content select,
-    .modal-content textarea {
+    .modal-content select {
       font-size: 16px;
       line-height: 1.45;
     }
 
     .close-btn {
       position: absolute;
-      top: 10px;
       right: 12px;
+      top: 10px;
       border: none;
       background: transparent;
       font-size: 28px;
@@ -310,34 +324,12 @@
     input[type="text"],
     input[type="email"],
     input[type="date"],
-    select,
-    textarea,
-    input[type="file"] {
+    input[type="file"],
+    select {
+      width: 100%;
       border: 1px solid var(--borda);
       padding: 10px 12px;
-      width: 100%;
       font-family: inherit;
-    }
-
-    textarea {
-      min-height: 100px;
-      resize: vertical;
-    }
-
-    .form-note {
-      margin-top: 16px;
-      color: #444;
-    }
-
-    .submit-btn {
-      margin-top: 14px;
-      background: var(--azul);
-      color: white;
-      border: none;
-      padding: 14px 18px;
-      font-size: 16px;
-      font-weight: 700;
-      cursor: pointer;
     }
 
     .small-muted {
@@ -345,65 +337,119 @@
       font-size: 14px;
     }
 
-    @media (max-width: 980px) {
-      .page {
-        grid-template-columns: 170px 1fr;
+    .submit-btn {
+      margin-top: 16px;
+      background: var(--azul);
+      color: white;
+      border: none;
+      padding: 14px 18px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    @media (max-width: 1200px) {
+      .topbar-title {
+        font-size: 42px;
       }
-      .topbar {
-        grid-template-columns: 170px 1fr;
+
+      .counter-number {
+        font-size: 84px;
       }
-      .main-right {
-        grid-column: auto;
+
+      .victim-card {
+        grid-template-columns: 86px 1.2fr 1fr 1fr;
       }
     }
-      .main-right {
-        grid-column: 1 / -1;
+
+    @media (max-width: 980px) {
+      .page {
+        grid-template-columns: 180px 1fr;
+      }
+
+      .right-column {
+        grid-column: 2;
+      }
+
+      .left-column {
+        grid-column: 2;
+      }
+
+      .text-panel {
+        min-height: 460px;
+      }
+
+      .topbar {
+        grid-template-columns: 180px 1fr;
       }
     }
 
     @media (max-width: 760px) {
-      .page {
-        grid-template-columns: 1fr;
-      }
-
       .topbar {
         grid-template-columns: 1fr;
         min-height: auto;
       }
 
-      .topbar > div:first-child {
+      .topbar-spacer {
         display: none;
       }
 
-      .main-right {
-        grid-column: auto;
-      }
-
-      .topbar {
-        flex-direction: column;
-        align-items: flex-start;
+      .topbar-title {
+        font-size: 30px;
+        padding: 18px;
       }
 
       .page {
         grid-template-columns: 1fr;
+      }
+
+      .sidebar,
+      .left-column,
+      .right-column {
+        grid-column: auto;
       }
 
       .sidebar {
         min-height: auto;
       }
 
-      .intro p {
+      .text-panel {
+        min-height: auto;
+        padding: 28px 20px;
+      }
+
+      .text-panel p {
         font-size: 22px;
       }
 
-      .counter {
+      .counter-number {
         font-size: 58px;
+        min-height: 120px;
       }
 
-      .counter-caption,
-      .search-label,
-      .cta-box {
-        font-size: 24px;
+      .counter-label {
+        font-size: 22px;
+      }
+
+      .victim-card {
+        grid-template-columns: 1fr;
+      }
+
+      .cell {
+        border-right: none;
+        border-bottom: 1px solid #d7d7d7;
+      }
+
+      .cell:last-child {
+        border-bottom: none;
+      }
+
+      .search-area {
+        grid-template-columns: 1fr;
+        gap: 8px;
+      }
+
+      .search-label {
+        font-size: 26px;
       }
 
       .form-grid {
@@ -414,8 +460,8 @@
 </head>
 <body>
   <header class="topbar">
-    <div></div>
-    <div style="padding: 0 18px; display: flex; align-items: center; height: 100%;">Projeto700mil – Cada nome importa.</div>
+    <div class="topbar-spacer"></div>
+    <div class="topbar-title">Projeto700mil – Cada nome importa.</div>
   </header>
 
   <div class="page">
@@ -427,35 +473,42 @@
       <button type="button" data-modal="aboutModal">sobre</button>
     </aside>
 
-    <main class="main-left">
-      <section class="panel intro">
-        <div>
-          <p>O Projeto700mil é um memorial digital colaborativo que busca registrar o nome das 700.000 vítimas da pandemia de COVID-19 no Brasil.</p>
-          <p>Ajude a preservar a memória das vítimas da COVID-19 no Brasil.</p>
-        </div>
-      </section>
-
-      <button class="cta-box" type="button" data-modal="formModal">formulário de cadastro</button>
-    </main>
-
-    <section class="main-right">
-      <div class="counter-wrap">
-        <div class="counter" id="counter">000.363</div>
-        <div class="counter-caption">nomes registrados</div>
+    <section class="left-column">
+      <div class="text-panel">
+        <p class="lead">
+          O Projeto700mil é um memorial digital colaborativo que busca registrar o nome das 700.000 vítimas da pandemia de COVID-19 no Brasil.
+        </p>
+        <p>
+          Ajude a preservar a memória das vítimas da COVID-19 no Brasil.
+        </p>
       </div>
 
-      <section class="list-panel">
-        <div class="victim-list" id="victimList"></div>
-      </section>
+      <button class="form-button" type="button" data-modal="formModal">
+        formulário de cadastro
+      </button>
+    </section>
 
-      <section class="search-panel">
+    <section class="right-column">
+      <div class="counter-box">
+        <div class="counter-number" id="counter">000.000</div>
+        <div class="counter-label">nomes registrados</div>
+      </div>
+
+      <div class="list-box" id="victimList"></div>
+
+      <div class="search-area">
         <div class="search-label">busca</div>
-        <input class="search-input" id="searchInput" type="text" placeholder="digite um nome" />
-      </section>
+        <input
+          type="text"
+          id="searchInput"
+          class="search-input"
+          placeholder="digite um nome"
+        />
+      </div>
     </section>
   </div>
 
-  <div class="modal" id="instructionsModal" aria-hidden="true">
+  <div class="modal" id="instructionsModal">
     <div class="modal-content">
       <button class="close-btn" type="button" data-close="instructionsModal">×</button>
       <h2>Instruções</h2>
@@ -479,15 +532,19 @@
     </div>
   </div>
 
-  <div class="modal" id="aboutModal" aria-hidden="true">
+  <div class="modal" id="aboutModal">
     <div class="modal-content">
       <button class="close-btn" type="button" data-close="aboutModal">×</button>
       <h2>Sobre</h2>
-      <p>O Projeto700mil é uma iniciativa de Gert Seewald, com o objetivo de preservar a memória das vítimas da COVID-19 no Brasil. Mais informações sobre o autor podem ser encontradas em seu <a href="https://pt.wikipedia.org/wiki/Gert_Seewald" target="_blank" rel="noopener noreferrer">verbete na Wikipédia</a>.</p>
+      <p>
+        O Projeto700mil é uma iniciativa de Gert Seewald, com o objetivo de preservar a memória das vítimas da COVID-19 no Brasil.
+        Mais informações sobre o autor podem ser encontradas em seu
+        <a href="https://pt.wikipedia.org/wiki/Gert_Seewald" target="_blank" rel="noopener noreferrer">verbete na Wikipédia</a>.
+      </p>
     </div>
   </div>
 
-  <div class="modal" id="formModal" aria-hidden="true">
+  <div class="modal" id="formModal">
     <div class="modal-content">
       <button class="close-btn" type="button" data-close="formModal">×</button>
       <h2>Cadastro de vítima da COVID-19</h2>
@@ -560,12 +617,16 @@
 
           <div class="form-group full">
             <label>
-              <input type="checkbox" /> Autorizo o uso das informações enviadas no memorial Projeto700mil.
+              <input type="checkbox" />
+              Autorizo o uso das informações enviadas no memorial Projeto700mil.
             </label>
           </div>
         </div>
 
-        <p class="form-note">As informações enviadas poderão ser analisadas antes de serem publicadas no memorial Projeto700mil. Caso familiares desejem correção ou remoção de um registro, poderão solicitar através do e-mail indicado no site.</p>
+        <p class="small-muted" style="margin-top:16px;">
+          As informações enviadas poderão ser analisadas antes de serem publicadas no memorial Projeto700mil.
+          Caso familiares desejem correção ou remoção de um registro, poderão solicitar através do e-mail indicado no site.
+        </p>
 
         <button class="submit-btn" type="button">ENVIAR REGISTRO</button>
       </form>
@@ -573,101 +634,21 @@
   </div>
 
   <script>
-  let victims = [];
-
-  const searchInput = document.getElementById('searchInput');
-  const victimList = document.getElementById('victimList');
-  const counter = document.getElementById('counter');
-
-  function avatarMarkup(photo, name) {
-    if (photo) {
-      return `<img src="${photo}" alt="Foto de ${name}">`;
-    }
-    return `
-      <svg viewBox="0 0 24 24" aria-hidden="true">
-        <path d="M12 12c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5Zm0 2c-3.33 0-10 1.67-10 5v3h20v-3c0-3.33-6.67-5-10-5Z"></path>
-      </svg>
-    `;
-  }
-
-  function formatCount(number) {
-    return number.toString().padStart(6, '0').replace(/(\d{3})(\d{3})/, '$1.$2');
-  }
-
-  function renderList(items) {
-    victimList.innerHTML = items.map((v) => `
-      <article class="victim-card">
-        <div class="avatar">${avatarMarkup(v.foto, v.nome)}</div>
-        <div>
-          <div class="victim-name">${v.nome} – ${v.idade || 'idade não informada'}</div>
-          <div class="victim-meta">${v.profissao || 'não informado'}</div>
-          <div class="victim-date">${v.data || 'não informado'} – ${v.local || 'não informado'}</div>
-        </div>
-      </article>
-    `).join('');
-    counter.textContent = formatCount(items.length);
-  }
-
-  async function loadVictims() {
-    try {
-      const response = await fetch('./dados.json');
-      victims = await response.json();
-      renderList(victims);
-    } catch (error) {
-      victimList.innerHTML = '<p>Não foi possível carregar os registros.</p>';
-      counter.textContent = '000.000';
-      console.error(error);
-    }
-  }
-
-  searchInput.addEventListener('input', (e) => {
-    const term = e.target.value.trim().toLowerCase();
-
-    if (!term) {
-      renderList(victims);
-      return;
-    }
-
-    const filtered = victims.filter(v =>
-      v.nome.toLowerCase().includes(term)
-    );
-
-    renderList(filtered);
-  });
-
-  document.querySelectorAll('[data-modal]').forEach((button) => {
-    button.addEventListener('click', () => {
-      const modalId = button.getAttribute('data-modal');
-      document.getElementById(modalId).classList.add('open');
-    });
-  });
-
-  document.querySelectorAll('[data-close]').forEach((button) => {
-    button.addEventListener('click', () => {
-      const modalId = button.getAttribute('data-close');
-      document.getElementById(modalId).classList.remove('open');
-    });
-  });
-
-  document.querySelectorAll('.modal').forEach((modal) => {
-    modal.addEventListener('click', (e) => {
-      if (e.target === modal) {
-        modal.classList.remove('open');
-      }
-    });
-  });
-
-  loadVictims();
-</script>
+    let victims = [];
 
     const searchInput = document.getElementById('searchInput');
     const victimList = document.getElementById('victimList');
     const counter = document.getElementById('counter');
 
+    function formatCount(number) {
+      return number.toString().padStart(6, '0').replace(/(\\d{3})(\\d{3})/, '$1.$2');
+    }
+
     function avatarMarkup(photo, name) {
-      if (photo) {
+      if (photo && String(photo).trim() !== '') {
         return `<img src="${photo}" alt="Foto de ${name}">`;
       }
+
       return `
         <svg viewBox="0 0 24 24" aria-hidden="true">
           <path d="M12 12c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5Zm0 2c-3.33 0-10 1.67-10 5v3h20v-3c0-3.33-6.67-5-10-5Z"></path>
@@ -675,33 +656,87 @@
       `;
     }
 
-    function formatCount(number) {
-      return number.toString().padStart(6, '0').replace(/(\d{3})(\d{3})/, '$1.$2');
+    function safeValue(value, fallback) {
+      if (value === undefined || value === null) return fallback;
+      const text = String(value).trim();
+      if (!text) return fallback;
+      return text;
     }
 
     function renderList(items) {
-      victimList.innerHTML = items.map((v) => `
-        <article class="victim-card">
-          <div class="avatar">${avatarMarkup(v.foto, v.nome)}</div>
-          <div>
-            <div class="victim-name">${v.nome} – ${v.idade || 'idade não informada'}</div>
-            <div class="victim-meta">${v.profissao || 'não informado'}</div>
-            <div class="victim-date">${v.data || 'não informado'} – ${v.local || 'não informado'}</div>
-          </div>
-        </article>
-      `).join('');
       counter.textContent = formatCount(items.length);
+
+      if (!items.length) {
+        victimList.innerHTML = '<div class="empty-message">Nenhum registro encontrado.</div>';
+        return;
+      }
+
+      victimList.innerHTML = items.map((v) => {
+        const nome = safeValue(v.nome, 'não informado');
+        const idade = safeValue(v.idade, 'idade não informada');
+        const profissao = safeValue(v.profissao, 'não informado');
+        const data = safeValue(v.data, 'não informado');
+        const local = safeValue(v.local, 'não informado');
+        const foto = safeValue(v.foto, '');
+
+        return `
+          <article class="victim-card">
+            <div class="cell photo-cell">
+              <div class="photo-box">
+                ${avatarMarkup(foto, nome)}
+              </div>
+            </div>
+            <div class="cell name-age">
+              <strong>${nome}</strong>
+              <div>${idade}</div>
+            </div>
+            <div class="cell profession">
+              ${profissao}
+            </div>
+            <div class="cell date-place">
+              ${data}<br>${local}
+            </div>
+          </article>
+        `;
+      }).join('');
     }
 
-    renderList(victims);
+    async function loadVictims() {
+      try {
+        const response = await fetch('./dados.json', { cache: 'no-store' });
 
-    searchInput.addEventListener('input', (e) => {
+        if (!response.ok) {
+          throw new Error('Não foi possível carregar dados.json');
+        }
+
+        const data = await response.json();
+
+        if (!Array.isArray(data)) {
+          throw new Error('dados.json não contém uma lista válida');
+        }
+
+        victims = data;
+        renderList(victims);
+      } catch (error) {
+        console.error(error);
+        counter.textContent = '000.000';
+        victimList.innerHTML = '<div class="empty-message">Não foi possível carregar os registros.</div>';
+      }
+    }
+
+    searchInput.addEventListener('input', function (e) {
       const term = e.target.value.trim().toLowerCase();
+
       if (!term) {
         renderList(victims);
         return;
       }
-      const filtered = victims.filter(v => v.nome.toLowerCase().includes(term));
+
+      const filtered = victims.filter((v) => {
+        const nome = safeValue(v.nome, '').toLowerCase();
+        return nome.includes(term);
+      });
+
       renderList(filtered);
     });
 
@@ -726,6 +761,8 @@
         }
       });
     });
+
+    loadVictims();
   </script>
 </body>
 </html>
