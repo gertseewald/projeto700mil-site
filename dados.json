@@ -51,7 +51,7 @@
     "nome": "Alex Sandro de Carvalho",
     "idade": "39",
     "profissao": "Técnico de enfermagem",
-    "data": "04/2020",
+    "data": "01/04/2020",
     "local": "Rio de Janeiro - RJ",
     "foto": ""
   },
@@ -64,19 +64,19 @@
     "foto": ""
   },
   {
-    "nome": "Nelson Martins Schiavinatto",
-    "idade": "80",
-    "profissao": "Médico(a) - Radiologista",
-    "data": "03/04/2020",
-    "local": "Cianorte – PR",
-    "foto": ""
-  },
-  {
     "nome": "Chiang Jeng Tyng",
     "idade": "idade não informada",
     "profissao": "Médico(a) - Radiologista",
     "data": "03/04/2020",
     "local": "São Paulo – SP",
+    "foto": ""
+  },
+  {
+    "nome": "Nelson Martins Schiavinatto",
+    "idade": "80",
+    "profissao": "Médico(a) - Radiologista",
+    "data": "03/04/2020",
+    "local": "Cianorte – PR",
     "foto": ""
   },
   {
@@ -88,19 +88,11 @@
     "foto": ""
   },
   {
-    "nome": "Ricardo Antonio Piacenso",
-    "idade": "idade não informada",
-    "profissao": "Médico(a) - Cardiologista",
-    "data": "05/04/2020",
-    "local": "Rio de Janeiro – RJ",
-    "foto": ""
-  },
-  {
-    "nome": "Paulo Fernando Moreira Palazzo",
-    "idade": "56",
-    "profissao": "Médico(a) - Hematologista",
-    "data": "05/04/2020",
-    "local": "São Paulo – SP",
+    "nome": "Florindo Corral",
+    "idade": "70",
+    "profissao": "Empresário",
+    "data": "04/04/2020",
+    "local": "não informado",
     "foto": ""
   },
   {
@@ -117,6 +109,22 @@
     "profissao": "Médico(a) - Proctologista",
     "data": "05/04/2020",
     "local": "Natal – RN",
+    "foto": ""
+  },
+  {
+    "nome": "Paulo Fernando Moreira Palazzo",
+    "idade": "56",
+    "profissao": "Médico(a) - Hematologista",
+    "data": "05/04/2020",
+    "local": "São Paulo – SP",
+    "foto": ""
+  },
+  {
+    "nome": "Ricardo Antonio Piacenso",
+    "idade": "idade não informada",
+    "profissao": "Médico(a) - Cardiologista",
+    "data": "05/04/2020",
+    "local": "Rio de Janeiro – RJ",
     "foto": ""
   },
   {
@@ -152,6 +160,14 @@
     "foto": ""
   },
   {
+    "nome": "Vitor Sapienza",
+    "idade": "86",
+    "profissao": "Político; deputado estadual de São Paulo (1987-2019)",
+    "data": "09/04/2020",
+    "local": "não informado",
+    "foto": ""
+  },
+  {
     "nome": "Adelia Maria Araujo de Almeida Oliveira",
     "idade": "idade não informada",
     "profissao": "Médico(a) - Pediatra",
@@ -160,11 +176,11 @@
     "foto": ""
   },
   {
-    "nome": "Lúcia Dantas Abrantes",
-    "idade": "66",
-    "profissao": "Médico(a)",
+    "nome": "José Ruy de Alvarenga Sampaio",
+    "idade": "idade não informada",
+    "profissao": "Médico(a) - Cirurgião",
     "data": "10/04/2020",
-    "local": "Iguatu – CE",
+    "local": "São Paulo – SP",
     "foto": ""
   },
   {
@@ -176,11 +192,11 @@
     "foto": ""
   },
   {
-    "nome": "José Ruy de Alvarenga Sampaio",
-    "idade": "idade não informada",
-    "profissao": "Médico(a) - Cirurgião",
+    "nome": "Lúcia Dantas Abrantes",
+    "idade": "66",
+    "profissao": "Médico(a)",
     "data": "10/04/2020",
-    "local": "São Paulo – SP",
+    "local": "Iguatu – CE",
     "foto": ""
   },
   {
@@ -197,6 +213,14 @@
     "profissao": "Médico(a) - Pneumologista",
     "data": "12/04/2020",
     "local": "Manaus – AM",
+    "foto": ""
+  },
+  {
+    "nome": "Antonio Tadeu Pinto da Fonseca",
+    "idade": "66",
+    "profissao": "Médico(a) - Ortopedista",
+    "data": "12/04/2020",
+    "local": "Rio Claro – SP",
     "foto": ""
   },
   {
@@ -224,11 +248,11 @@
     "foto": ""
   },
   {
-    "nome": "Antonio Tadeu Pinto da Fonseca",
-    "idade": "66",
-    "profissao": "Médico(a) - Ortopedista",
-    "data": "12/04/2020",
-    "local": "Rio Claro – SP",
+    "nome": "Jorge Alexandre de Oliveira Andrade",
+    "idade": "45",
+    "profissao": "Técnico de enfermagem",
+    "data": "13/04/2020",
+    "local": "Rio de Janeiro - RJ",
     "foto": ""
   },
   {
@@ -248,11 +272,11 @@
     "foto": ""
   },
   {
-    "nome": "Jorge Alexandre de Oliveira Andrade",
-    "idade": "45",
-    "profissao": "Técnico de enfermagem",
-    "data": "13/04/2020",
-    "local": "Rio de Janeiro - RJ",
+    "nome": "Aldo di Cillo Pagotto, S.S.S",
+    "idade": "70",
+    "profissao": "Bispo católico; arcebispo- emérito da Paraíba",
+    "data": "14/04/2020",
+    "local": "não informado",
     "foto": ""
   },
   {
@@ -272,19 +296,19 @@
     "foto": ""
   },
   {
+    "nome": "Anita Souza Vianna",
+    "idade": "63",
+    "profissao": "Técnica de enfermagem",
+    "data": "16/04/2020",
+    "local": "Rio de Janeiro - RJ",
+    "foto": ""
+  },
+  {
     "nome": "Carlos Augusto Estorari",
     "idade": "48",
     "profissao": "Médico(a) - Clínico geral",
     "data": "16/04/2020",
     "local": "Parauapebas – PA",
-    "foto": ""
-  },
-  {
-    "nome": "Élio César Marson",
-    "idade": "52",
-    "profissao": "Médico(a) - Cirurgião plástico",
-    "data": "16/04/2020",
-    "local": "Mossoró – RN",
     "foto": ""
   },
   {
@@ -296,11 +320,11 @@
     "foto": ""
   },
   {
-    "nome": "Anita Souza Vianna",
-    "idade": "63",
-    "profissao": "Técnica de enfermagem",
+    "nome": "Élio César Marson",
+    "idade": "52",
+    "profissao": "Médico(a) - Cirurgião plástico",
     "data": "16/04/2020",
-    "local": "Rio de Janeiro - RJ",
+    "local": "Mossoró – RN",
     "foto": ""
   },
   {
@@ -344,6 +368,14 @@
     "foto": ""
   },
   {
+    "nome": "Fernando Noburo Miyake",
+    "idade": "56",
+    "profissao": "Médico(a) - Clínico geral",
+    "data": "20/04/2020",
+    "local": "Santo André – SP",
+    "foto": ""
+  },
+  {
     "nome": "Flávio Neves Lima",
     "idade": "idade não informada",
     "profissao": "Médico(a) - Cirurgião geral",
@@ -368,14 +400,6 @@
     "foto": ""
   },
   {
-    "nome": "Fernando Noburo Miyake",
-    "idade": "56",
-    "profissao": "Médico(a) - Clínico geral",
-    "data": "20/04/2020",
-    "local": "Santo André – SP",
-    "foto": ""
-  },
-  {
     "nome": "Mauro Roberto dos Santos Guimarães",
     "idade": "idade não informada",
     "profissao": "Médico(a)",
@@ -397,6 +421,14 @@
     "profissao": "Médico(a)",
     "data": "21/04/2020",
     "local": "intensivista – PA",
+    "foto": ""
+  },
+  {
+    "nome": "Gerson Peres",
+    "idade": "88",
+    "profissao": "Político; deputado federal pelo Pará (1983-2003)/(2007-2011)",
+    "data": "21/04/2020",
+    "local": "não informado",
     "foto": ""
   },
   {
@@ -464,11 +496,11 @@
     "foto": ""
   },
   {
-    "nome": "Celso de Almeida Felício",
-    "idade": "idade não informada",
-    "profissao": "Médico(a) - Intensivista",
+    "nome": "Ricardo Brennand",
+    "idade": "92",
+    "profissao": "Empresário, engenheiro e colecionador de arte",
     "data": "24/04/2020",
-    "local": "Rio de Janeiro – RJ",
+    "local": "não informado",
     "foto": ""
   },
   {
@@ -480,6 +512,14 @@
     "foto": ""
   },
   {
+    "nome": "Miquéias Fernandes",
+    "idade": "69",
+    "profissao": "Político; deputado estadual do Amazonas (1991–2002)",
+    "data": "26/04/2020",
+    "local": "não informado",
+    "foto": ""
+  },
+  {
     "nome": "Paulo Gonzales",
     "idade": "60",
     "profissao": "Médico(a) - Clínico geral",
@@ -488,19 +528,19 @@
     "foto": ""
   },
   {
+    "nome": "Asdrubal Bentes",
+    "idade": "80",
+    "profissao": "Político; deputado federal pelo Pará (1987-2014)",
+    "data": "27/04/2020",
+    "local": "não informado",
+    "foto": ""
+  },
+  {
     "nome": "Avelar Feitosa",
     "idade": "idade não informada",
     "profissao": "Médico(a) - Ginecologista, ginecologista",
     "data": "27/04/2020",
     "local": "Belém – PA",
-    "foto": ""
-  },
-  {
-    "nome": "Magna Sandra Gomes de Deus",
-    "idade": "61",
-    "profissao": "Médico(a) - Ginecologista",
-    "data": "27/04/2020",
-    "local": "Niterói – RJ",
     "foto": ""
   },
   {
@@ -517,6 +557,22 @@
     "profissao": "Médico(a) - Cardiologista",
     "data": "27/04/2020",
     "local": "Rio de Janeiro – RJ",
+    "foto": ""
+  },
+  {
+    "nome": "Magna Sandra Gomes de Deus",
+    "idade": "61",
+    "profissao": "Médico(a) - Ginecologista",
+    "data": "27/04/2020",
+    "local": "Niterói – RJ",
+    "foto": ""
+  },
+  {
+    "nome": "Altamiro Moyses Zimerfogel",
+    "idade": "81",
+    "profissao": "Ativista",
+    "data": "28/04/2020",
+    "local": "não informado",
     "foto": ""
   },
   {
@@ -576,6 +632,14 @@
     "foto": ""
   },
   {
+    "nome": "Fernando Sandoval",
+    "idade": "77",
+    "profissao": "Jogador de pólo aquático",
+    "data": "01/05/2020",
+    "local": "não informado",
+    "foto": ""
+  },
+  {
     "nome": "José Guilherme da Silva Tabosa",
     "idade": "idade não informada",
     "profissao": "Médico(a)",
@@ -597,6 +661,14 @@
     "profissao": "Médico(a) - Endocrinologista",
     "data": "01/05/2020",
     "local": "Rio de Janeiro – RJ",
+    "foto": ""
+  },
+  {
+    "nome": "Sérgio Bueno de Camargo",
+    "idade": "73",
+    "profissao": "Médico",
+    "data": "02/05/2020",
+    "local": "não informado",
     "foto": ""
   },
   {
@@ -632,6 +704,14 @@
     "foto": ""
   },
   {
+    "nome": "Aldir Blanc",
+    "idade": "73",
+    "profissao": "Compositor, escritor e psiquiatra",
+    "data": "04/05/2020",
+    "local": "não informado",
+    "foto": ""
+  },
+  {
     "nome": "Aldir Blanc Mendes",
     "idade": "73",
     "profissao": "Médico(a) - Psiquiatra",
@@ -656,19 +736,19 @@
     "foto": ""
   },
   {
-    "nome": "Maurício Naoto Saheki",
-    "idade": "41",
-    "profissao": "Médico(a) - Infectologia",
-    "data": "04/05/2020",
-    "local": "Rio de Janeiro – RJ",
-    "foto": ""
-  },
-  {
     "nome": "Marcio Rubens de Almeida Ribeiro",
     "idade": "idade não informada",
     "profissao": "Médico(a)",
     "data": "04/05/2020",
     "local": "ginecologista – PA",
+    "foto": ""
+  },
+  {
+    "nome": "Maurício Naoto Saheki",
+    "idade": "41",
+    "profissao": "Médico(a) - Infectologia",
+    "data": "04/05/2020",
+    "local": "Rio de Janeiro – RJ",
     "foto": ""
   },
   {
@@ -680,10 +760,18 @@
     "foto": ""
   },
   {
-    "nome": "Aldir Blanc",
-    "idade": "73",
-    "profissao": "Compositor, escritor e psiquiatra",
-    "data": "04/05/2020",
+    "nome": "Ciro Pessoa",
+    "idade": "62",
+    "profissao": "Músico e cantor",
+    "data": "05/05/2020",
+    "local": "não informado",
+    "foto": ""
+  },
+  {
+    "nome": "João Kabeção",
+    "idade": "47",
+    "profissao": "Skatista",
+    "data": "05/05/2020",
     "local": "não informado",
     "foto": ""
   },
@@ -693,14 +781,6 @@
     "profissao": "Médico(a) - Clínico geral",
     "data": "05/05/2020",
     "local": "Manaus – AM",
-    "foto": ""
-  },
-  {
-    "nome": "Ciro Pessoa",
-    "idade": "62",
-    "profissao": "Músico e cantor",
-    "data": "05/05/2020",
-    "local": "não informado",
     "foto": ""
   },
   {
@@ -736,6 +816,14 @@
     "foto": ""
   },
   {
+    "nome": "Daisy Lúcidi",
+    "idade": "90",
+    "profissao": "Atriz, política e radialista",
+    "data": "07/05/2020",
+    "local": "não informado",
+    "foto": ""
+  },
+  {
     "nome": "Flávio Rezende Dias",
     "idade": "83",
     "profissao": "Médico(a) - Oftalmologista",
@@ -749,14 +837,6 @@
     "profissao": "Médico(a)",
     "data": "07/05/2020",
     "local": "Roberto Carvalho Lima - PA",
-    "foto": ""
-  },
-  {
-    "nome": "Daisy Lúcidi",
-    "idade": "90",
-    "profissao": "Atriz, política e radialista",
-    "data": "07/05/2020",
-    "local": "não informado",
     "foto": ""
   },
   {
@@ -784,11 +864,51 @@
     "foto": ""
   },
   {
+    "nome": "Jesus Chediak",
+    "idade": "78",
+    "profissao": "Jornalista, teatrólogo e cineasta",
+    "data": "08/05/2020",
+    "local": "não informado",
+    "foto": ""
+  },
+  {
+    "nome": "Lúcia Braga",
+    "idade": "85",
+    "profissao": "Política; deputada federal pela Paraíba (1987-1995)/(2003-2007)",
+    "data": "08/05/2020",
+    "local": "não informado",
+    "foto": ""
+  },
+  {
     "nome": "Manoel Amaral Maciel",
     "idade": "idade não informada",
     "profissao": "Médico(a)",
     "data": "08/05/2020",
     "local": "Manoel Amaral Maciel - PA",
+    "foto": ""
+  },
+  {
+    "nome": "Vicente André Gomes",
+    "idade": "68",
+    "profissao": "Político; deputado federal por Pernambuco (1995–1999)",
+    "data": "08/05/2020",
+    "local": "não informado",
+    "foto": ""
+  },
+  {
+    "nome": "Abraham Palatnik",
+    "idade": "92",
+    "profissao": "Artista plástico e inventor",
+    "data": "09/05/2020",
+    "local": "não informado",
+    "foto": ""
+  },
+  {
+    "nome": "Carlos José",
+    "idade": "85",
+    "profissao": "Cantor",
+    "data": "09/05/2020",
+    "local": "não informado",
     "foto": ""
   },
   {
@@ -832,10 +952,10 @@
     "foto": ""
   },
   {
-    "nome": "Abraham Palatnik",
-    "idade": "92",
-    "profissao": "Artista plástico e inventor",
-    "data": "09/05/2020",
+    "nome": "David Corrêa",
+    "idade": "82",
+    "profissao": "Cantor e compositor",
+    "data": "10/05/2020",
     "local": "não informado",
     "foto": ""
   },
@@ -845,6 +965,14 @@
     "profissao": "Médico(a)",
     "data": "10/05/2020",
     "local": "cardiologista – PA",
+    "foto": ""
+  },
+  {
+    "nome": "Lourdes Catão",
+    "idade": "93",
+    "profissao": "Decoradora e socialite",
+    "data": "10/05/2020",
+    "local": "não informado",
     "foto": ""
   },
   {
@@ -859,14 +987,6 @@
     "nome": "Sérgio Sant'Anna",
     "idade": "78",
     "profissao": "Escritor e contista",
-    "data": "10/05/2020",
-    "local": "não informado",
-    "foto": ""
-  },
-  {
-    "nome": "David Corrêa",
-    "idade": "82",
-    "profissao": "Cantor e compositor",
     "data": "10/05/2020",
     "local": "não informado",
     "foto": ""
@@ -984,19 +1104,19 @@
     "foto": ""
   },
   {
-    "nome": "Victor Luiz Bom",
-    "idade": "idade não informada",
-    "profissao": "Médico(a) - Radiologista",
-    "data": "15/05/2020",
-    "local": "Rio de Janeiro – RJ",
-    "foto": ""
-  },
-  {
     "nome": "Olga Savary",
     "idade": "86",
     "profissao": "Escritora, poeta e crítica literária",
     "data": "15/05/2020",
     "local": "não informado",
+    "foto": ""
+  },
+  {
+    "nome": "Victor Luiz Bom",
+    "idade": "idade não informada",
+    "profissao": "Médico(a) - Radiologista",
+    "data": "15/05/2020",
+    "local": "Rio de Janeiro – RJ",
     "foto": ""
   },
   {
@@ -1008,11 +1128,11 @@
     "foto": ""
   },
   {
-    "nome": "Luis Alberto Beleiro Barreiro",
-    "idade": "idade não informada",
-    "profissao": "Médico(a) - Angiologista",
-    "data": "17/05/2020",
-    "local": "Rio de Janeiro – RJ",
+    "nome": "Mário Chermont",
+    "idade": "83",
+    "profissao": "Político; deputado federal pelo Pará (1991-1995)",
+    "data": "16/05/2020",
+    "local": "não informado",
     "foto": ""
   },
   {
@@ -1021,6 +1141,14 @@
     "profissao": "Médico(a) - Ortopedista",
     "data": "17/05/2020",
     "local": "Cabo de Santo Agostinho – PE",
+    "foto": ""
+  },
+  {
+    "nome": "Luis Alberto Beleiro Barreiro",
+    "idade": "idade não informada",
+    "profissao": "Médico(a) - Angiologista",
+    "data": "17/05/2020",
+    "local": "Rio de Janeiro – RJ",
     "foto": ""
   },
   {
@@ -1040,6 +1168,22 @@
     "foto": ""
   },
   {
+    "nome": "Rafael Fragoso",
+    "idade": "62",
+    "profissao": "Empresário e esportista de Hipismo",
+    "data": "17/05/2020",
+    "local": "não informado",
+    "foto": ""
+  },
+  {
+    "nome": "Wilson Braga",
+    "idade": "88",
+    "profissao": "Político; governador da Paraíba (1983-1987)",
+    "data": "18/05/2020",
+    "local": "não informado",
+    "foto": ""
+  },
+  {
     "nome": "Eduardo Vidoso",
     "idade": "68",
     "profissao": "Médico(a) - Ortopedista",
@@ -1053,6 +1197,14 @@
     "profissao": "Médico(a)",
     "data": "19/05/2020",
     "local": "urologista – PA",
+    "foto": ""
+  },
+  {
+    "nome": "Gil Vianna",
+    "idade": "54",
+    "profissao": "Político; deputado estadual do Rio de Janeiro (2017-2020)",
+    "data": "19/05/2020",
+    "local": "não informado",
     "foto": ""
   },
   {
@@ -1104,6 +1256,14 @@
     "foto": ""
   },
   {
+    "nome": "Dinaldo Wanderley",
+    "idade": "69",
+    "profissao": "Político; prefeito de Patos (1997-2004)",
+    "data": "24/05/2020",
+    "local": "não informado",
+    "foto": ""
+  },
+  {
     "nome": "João Batista Medeiros Costa",
     "idade": "65",
     "profissao": "Médico(a) - Gastroenterologista",
@@ -1136,10 +1296,26 @@
     "foto": ""
   },
   {
+    "nome": "Célio Taveira Filho",
+    "idade": "79",
+    "profissao": "Futebolista",
+    "data": "29/05/2020",
+    "local": "não informado",
+    "foto": ""
+  },
+  {
     "nome": "Evaldo Gouveia",
     "idade": "91",
     "profissao": "Músico e compositor",
     "data": "29/05/2020",
+    "local": "não informado",
+    "foto": ""
+  },
+  {
+    "nome": "Nicolau dos Santos Neto",
+    "idade": "91",
+    "profissao": "Advogado e desembargador",
+    "data": "31/05/2020",
     "local": "não informado",
     "foto": ""
   },
@@ -1160,6 +1336,14 @@
     "foto": ""
   },
   {
+    "nome": "Jimy Raw",
+    "idade": "58",
+    "profissao": "Radialista",
+    "data": "02/06/2020",
+    "local": "não informado",
+    "foto": ""
+  },
+  {
     "nome": "João Angelim",
     "idade": "78",
     "profissao": "Médico(a) - Urologista",
@@ -1176,6 +1360,22 @@
     "foto": ""
   },
   {
+    "nome": "Dulce Nunes",
+    "idade": "90",
+    "profissao": "Atriz, cantora e compositora",
+    "data": "04/06/2020",
+    "local": "não informado",
+    "foto": ""
+  },
+  {
+    "nome": "Fabiana Anastácio",
+    "idade": "45",
+    "profissao": "Cantora gospel",
+    "data": "04/06/2020",
+    "local": "não informado",
+    "foto": ""
+  },
+  {
     "nome": "Marden Washington Pires Cavalcante",
     "idade": "idade não informada",
     "profissao": "Médico(a) - Ortopedista",
@@ -1184,10 +1384,10 @@
     "foto": ""
   },
   {
-    "nome": "Fabiana Anastácio",
-    "idade": "45",
-    "profissao": "Cantora gospel",
-    "data": "04/06/2020",
+    "nome": "Carlos Lessa",
+    "idade": "83",
+    "profissao": "Economista",
+    "data": "05/06/2020",
     "local": "não informado",
     "foto": ""
   },
@@ -1205,14 +1405,6 @@
     "profissao": "Médico(a) - Gastroenterologista",
     "data": "05/06/2020",
     "local": "Belém – PA",
-    "foto": ""
-  },
-  {
-    "nome": "Carlos Lessa",
-    "idade": "83",
-    "profissao": "Economista",
-    "data": "05/06/2020",
-    "local": "não informado",
     "foto": ""
   },
   {
@@ -1248,6 +1440,14 @@
     "foto": ""
   },
   {
+    "nome": "Carivaldina Oliveira da Costa",
+    "idade": "80",
+    "profissao": "Líder quilombola",
+    "data": "10/06/2020",
+    "local": "não informado",
+    "foto": ""
+  },
+  {
     "nome": "Terezinha Aparecida Matos",
     "idade": "idade não informada",
     "profissao": "Médico(a)",
@@ -1280,11 +1480,35 @@
     "foto": ""
   },
   {
+    "nome": "Zenóbio Toscano",
+    "idade": "74",
+    "profissao": "Político; prefeito de Guarabira (2013-2020)",
+    "data": "14/06/2020",
+    "local": "não informado",
+    "foto": ""
+  },
+  {
+    "nome": "José Gentil Rosa",
+    "idade": "80",
+    "profissao": "Político; deputado estadual do Maranhão (2019-2020)",
+    "data": "15/06/2020",
+    "local": "não informado",
+    "foto": ""
+  },
+  {
     "nome": "Reginaldo Silva",
     "idade": "74",
     "profissao": "Médico(a) - Ginecologista e obstetra",
     "data": "15/06/2020",
     "local": "Aracajú – SE",
+    "foto": ""
+  },
+  {
+    "nome": "Renato de Jesus",
+    "idade": "57",
+    "profissao": "Político; deputado estadual do Rio de Janeiro (1995-2011)",
+    "data": "15/06/2020",
+    "local": "não informado",
     "foto": ""
   },
   {
@@ -1312,6 +1536,14 @@
     "foto": ""
   },
   {
+    "nome": "Mário Calixto Filho",
+    "idade": "73",
+    "profissao": "Empresário, jornalista e político; senador por Rondônia (2004-2005)",
+    "data": "17/06/2020",
+    "local": "não informado",
+    "foto": ""
+  },
+  {
     "nome": "Adelmaro Cavalcanti Júnior",
     "idade": "62",
     "profissao": "Médico(a) - Anestesiologista",
@@ -1333,6 +1565,14 @@
     "profissao": "Médico(a) - Anestesiologista",
     "data": "18/06/2020",
     "local": "Cariacica – ES",
+    "foto": ""
+  },
+  {
+    "nome": "Sylvio Capanema",
+    "idade": "82",
+    "profissao": "Advogado, desembargador, professor de Direito Civil",
+    "data": "20/06/2020",
+    "local": "não informado",
     "foto": ""
   },
   {
@@ -1368,6 +1608,14 @@
     "foto": ""
   },
   {
+    "nome": "Ciro Ricardo Pires de Castro",
+    "idade": "75",
+    "profissao": "Médico(a) - Clínico geral",
+    "data": "22/06/2020",
+    "local": "Porto Alegre – RS",
+    "foto": ""
+  },
+  {
     "nome": "José Raymundo",
     "idade": "71",
     "profissao": "Médico(a) - Traumatologista",
@@ -1376,11 +1624,11 @@
     "foto": ""
   },
   {
-    "nome": "Ciro Ricardo Pires de Castro",
+    "nome": "Bernaldina José Pedro",
     "idade": "75",
-    "profissao": "Médico(a) - Clínico geral",
-    "data": "22/06/2020",
-    "local": "Porto Alegre – RS",
+    "profissao": "Ativista",
+    "data": "24/06/2020",
+    "local": "não informado",
     "foto": ""
   },
   {
@@ -1397,6 +1645,14 @@
     "profissao": "Médico(a) - Pediatra",
     "data": "26/06/2020",
     "local": "Macapá – AP",
+    "foto": ""
+  },
+  {
+    "nome": "Félix de Almeida Mendonça",
+    "idade": "92",
+    "profissao": "Político; deputado federal pela Bahia (1983–1987)/(1991–2011)",
+    "data": "26/06/2020",
+    "local": "não informado",
     "foto": ""
   },
   {
@@ -1456,11 +1712,27 @@
     "foto": ""
   },
   {
+    "nome": "Eurídice Moreira",
+    "idade": "81",
+    "profissao": "Político; deputado estadual da Paraíba (1995–1998)",
+    "data": "01/07/2020",
+    "local": "não informado",
+    "foto": ""
+  },
+  {
     "nome": "Josias Rosa da Silva",
     "idade": "78",
     "profissao": "Médico(a) - Ginecologista e obstetra",
     "data": "01/07/2020",
     "local": "Goiânia – GO",
+    "foto": ""
+  },
+  {
+    "nome": "José Itamar de Freitas",
+    "idade": "85",
+    "profissao": "Jornalista",
+    "data": "01/07/2020",
+    "local": "não informado",
     "foto": ""
   },
   {
@@ -1496,11 +1768,35 @@
     "foto": ""
   },
   {
+    "nome": "Wanderley Mariz",
+    "idade": "79",
+    "profissao": "Político; deputado federal pelo Rio Grande do Norte (1975–1987)",
+    "data": "02/07/2020",
+    "local": "não informado",
+    "foto": ""
+  },
+  {
+    "nome": "Aristoteles Atheniense",
+    "idade": "84",
+    "profissao": "Advogado, jurista e professor universitário",
+    "data": "03/07/2020",
+    "local": "não informado",
+    "foto": ""
+  },
+  {
     "nome": "Ilmar Romão",
     "idade": "72",
     "profissao": "Médico(a)",
     "data": "03/07/2020",
     "local": "Palmeira dos Índios – AL",
+    "foto": ""
+  },
+  {
+    "nome": "Antônio Bivar",
+    "idade": "81",
+    "profissao": "Autor e dramaturgo",
+    "data": "05/07/2020",
+    "local": "não informado",
     "foto": ""
   },
   {
@@ -1525,6 +1821,14 @@
     "profissao": "Médico(a) - Cardiologista",
     "data": "06/07/2020",
     "local": "Dourados – MS",
+    "foto": ""
+  },
+  {
+    "nome": "Domingos Mãhörõ",
+    "idade": "60",
+    "profissao": "Cacique xavante, líder da aldeia Sangradouro e ativista",
+    "data": "06/07/2020",
+    "local": "não informado",
     "foto": ""
   },
   {
@@ -1576,11 +1880,11 @@
     "foto": ""
   },
   {
-    "nome": "Marco Antonio Campos Santana",
-    "idade": "35",
-    "profissao": "Médico(a)",
-    "data": "13/07/2020",
-    "local": "Aracajú – SE",
+    "nome": "Nelson Meurer",
+    "idade": "77",
+    "profissao": "Político; deputado federal pelo Paraná (1995–2019)",
+    "data": "12/07/2020",
+    "local": "não informado",
     "foto": ""
   },
   {
@@ -1592,11 +1896,27 @@
     "foto": ""
   },
   {
+    "nome": "Gerardo Juraci Campelo Leite",
+    "idade": "88",
+    "profissao": "Político; deputado estadual do Piauí (1994-2015)",
+    "data": "13/07/2020",
+    "local": "não informado",
+    "foto": ""
+  },
+  {
     "nome": "Lindomar de Freitas Santos",
     "idade": "65",
     "profissao": "Médico(a) - Teresina pi",
     "data": "13/07/2020",
     "local": "não informado",
+    "foto": ""
+  },
+  {
+    "nome": "Marco Antonio Campos Santana",
+    "idade": "35",
+    "profissao": "Médico(a)",
+    "data": "13/07/2020",
+    "local": "Aracajú – SE",
     "foto": ""
   },
   {
@@ -1608,14 +1928,6 @@
     "foto": ""
   },
   {
-    "nome": "Fábio Carvalho",
-    "idade": "39",
-    "profissao": "Médico(a) - Anestesiologista",
-    "data": "14/07/2020",
-    "local": "Teresina – PI",
-    "foto": ""
-  },
-  {
     "nome": "Fernando Ferretti",
     "idade": "idade não informada",
     "profissao": "Médico(a)",
@@ -1624,11 +1936,11 @@
     "foto": ""
   },
   {
-    "nome": "José Amauri de Sousa Macedo",
-    "idade": "53",
-    "profissao": "Médico(a) - Clínico geral",
+    "nome": "Fábio Carvalho",
+    "idade": "39",
+    "profissao": "Médico(a) - Anestesiologista",
     "data": "14/07/2020",
-    "local": "Imperatriz – MA",
+    "local": "Teresina – PI",
     "foto": ""
   },
   {
@@ -1640,11 +1952,11 @@
     "foto": ""
   },
   {
-    "nome": "João José Carneiro",
-    "idade": "78",
-    "profissao": "Médico(a) - Cardiologista",
-    "data": "17/07/2020",
-    "local": "Ribeirão Preto – SP",
+    "nome": "Manoel Batista Chaves Filho",
+    "idade": "64",
+    "profissao": "Político; prefeito de Ingá (2013-2020)",
+    "data": "16/07/2020",
+    "local": "não informado",
     "foto": ""
   },
   {
@@ -1656,11 +1968,43 @@
     "foto": ""
   },
   {
+    "nome": "José Paulo de Andrade",
+    "idade": "78",
+    "profissao": "Jornalista e radialista",
+    "data": "17/07/2020",
+    "local": "não informado",
+    "foto": ""
+  },
+  {
+    "nome": "João José Carneiro",
+    "idade": "78",
+    "profissao": "Médico(a) - Cardiologista",
+    "data": "17/07/2020",
+    "local": "Ribeirão Preto – SP",
+    "foto": ""
+  },
+  {
+    "nome": "Ângela von Nowakonski",
+    "idade": "67",
+    "profissao": "Médica e pesquisadora",
+    "data": "17/07/2020",
+    "local": "não informado",
+    "foto": ""
+  },
+  {
     "nome": "Fernando Augusto Moreno Gurginski",
     "idade": "26",
     "profissao": "Médico(a) - Clínico geral",
     "data": "18/07/2020",
     "local": "Cuiabá – MT",
+    "foto": ""
+  },
+  {
+    "nome": "Henrique Soares da Costa",
+    "idade": "57",
+    "profissao": "Bispo católico; bispo de Palmares",
+    "data": "18/07/2020",
+    "local": "não informado",
     "foto": ""
   },
   {
@@ -1736,6 +2080,14 @@
     "foto": ""
   },
   {
+    "nome": "José Mentor",
+    "idade": "71",
+    "profissao": "Político; deputado federal por São Paulo (2003-2019)",
+    "data": "25/07/2020",
+    "local": "não informado",
+    "foto": ""
+  },
+  {
     "nome": "Raul Lima Barros",
     "idade": "28",
     "profissao": "Médico(a) - Clínico geral",
@@ -1784,14 +2136,6 @@
     "foto": ""
   },
   {
-    "nome": "Vera Lúcia Machado Nunes",
-    "idade": "75",
-    "profissao": "Médico(a) - Ginecologista e obstetra",
-    "data": "30/07/2020",
-    "local": "Balneário Camboriú – SC",
-    "foto": ""
-  },
-  {
     "nome": "Mansueto Martins Magalhães",
     "idade": "86",
     "profissao": "Médico(a) - Oftalmologista",
@@ -1805,6 +2149,14 @@
     "profissao": "Médico(a) - Neurocirurgião",
     "data": "30/07/2020",
     "local": "Salvador – BA",
+    "foto": ""
+  },
+  {
+    "nome": "Vera Lúcia Machado Nunes",
+    "idade": "75",
+    "profissao": "Médico(a) - Ginecologista e obstetra",
+    "data": "30/07/2020",
+    "local": "Balneário Camboriú – SC",
     "foto": ""
   },
   {
@@ -1824,14 +2176,6 @@
     "foto": ""
   },
   {
-    "nome": "Marco Aurélio de Oliveira Barros",
-    "idade": "85",
-    "profissao": "Médico(a) - Cardiologista",
-    "data": "01/08/2020",
-    "local": "João Pessoa – PB",
-    "foto": ""
-  },
-  {
     "nome": "José Carlos Machado de Carvalho",
     "idade": "idade não informada",
     "profissao": "Médico(a)",
@@ -1840,11 +2184,35 @@
     "foto": ""
   },
   {
+    "nome": "Marco Aurélio de Oliveira Barros",
+    "idade": "85",
+    "profissao": "Médico(a) - Cardiologista",
+    "data": "01/08/2020",
+    "local": "João Pessoa – PB",
+    "foto": ""
+  },
+  {
     "nome": "Brancildes Olímpio do Espírito Santo Júnior",
     "idade": "63",
     "profissao": "Médico(a) - Hematologista",
     "data": "02/08/2020",
     "local": "Barreiras – BA",
+    "foto": ""
+  },
+  {
+    "nome": "Celso Luiz Gatti",
+    "idade": "61",
+    "profissao": "Médico(a) - Geriatra",
+    "data": "02/08/2020",
+    "local": "São Bernardo do Campo – SP",
+    "foto": ""
+  },
+  {
+    "nome": "Juan Edwin Coca Flores",
+    "idade": "idade não informada",
+    "profissao": "Médico(a) - Ortopedista e traumatologista",
+    "data": "02/08/2020",
+    "local": "São LuÍS – MA",
     "foto": ""
   },
   {
@@ -1864,19 +2232,11 @@
     "foto": ""
   },
   {
-    "nome": "Juan Edwin Coca Flores",
-    "idade": "idade não informada",
-    "profissao": "Médico(a) - Ortopedista e traumatologista",
-    "data": "02/08/2020",
-    "local": "São LuÍS – MA",
-    "foto": ""
-  },
-  {
-    "nome": "Celso Luiz Gatti",
-    "idade": "61",
-    "profissao": "Médico(a) - Geriatra",
-    "data": "02/08/2020",
-    "local": "São Bernardo do Campo – SP",
+    "nome": "Aritana Yawalapiti",
+    "idade": "71",
+    "profissao": "Cacique indígena",
+    "data": "05/08/2020",
+    "local": "não informado",
     "foto": ""
   },
   {
@@ -1888,14 +2248,6 @@
     "foto": ""
   },
   {
-    "nome": "José Carlos Lemgruber Porto",
-    "idade": "62",
-    "profissao": "Médico(a)",
-    "data": "05/08/2020",
-    "local": "Teresópolis – RJ",
-    "foto": ""
-  },
-  {
     "nome": "Gésio Amadeu",
     "idade": "73",
     "profissao": "Ator",
@@ -1904,11 +2256,11 @@
     "foto": ""
   },
   {
-    "nome": "Aritana Yawalapiti",
-    "idade": "71",
-    "profissao": "Cacique indígena",
+    "nome": "José Carlos Lemgruber Porto",
+    "idade": "62",
+    "profissao": "Médico(a)",
     "data": "05/08/2020",
-    "local": "não informado",
+    "local": "Teresópolis – RJ",
     "foto": ""
   },
   {
@@ -1944,11 +2296,27 @@
     "foto": ""
   },
   {
+    "nome": "Enio Mainardi",
+    "idade": "85",
+    "profissao": "Publicitário",
+    "data": "08/08/2020",
+    "local": "não informado",
+    "foto": ""
+  },
+  {
     "nome": "Lucas Augusto Pires",
     "idade": "32",
     "profissao": "Médico(a) - Neurocirurgião",
     "data": "08/08/2020",
     "local": "Ivaiporã – PR",
+    "foto": ""
+  },
+  {
+    "nome": "Andréia de Olicar",
+    "idade": "44",
+    "profissao": "Cantora",
+    "data": "09/08/2020",
+    "local": "não informado",
     "foto": ""
   },
   {
@@ -2016,6 +2384,22 @@
     "foto": ""
   },
   {
+    "nome": "Caio Narcio",
+    "idade": "33",
+    "profissao": "Cientista social e político; deputado federal por Minas Gerais (2015-2019)",
+    "data": "16/08/2020",
+    "local": "não informado",
+    "foto": ""
+  },
+  {
+    "nome": "Elsimar Coutinho",
+    "idade": "90",
+    "profissao": "Cientista e médico ginecologista",
+    "data": "17/08/2020",
+    "local": "não informado",
+    "foto": ""
+  },
+  {
     "nome": "Elsimar Metzker Coutinho",
     "idade": "90",
     "profissao": "Médico(a) - Endocrinologista",
@@ -2072,6 +2456,14 @@
     "foto": ""
   },
   {
+    "nome": "Ronaldo Adriano",
+    "idade": "70",
+    "profissao": "Cantor",
+    "data": "21/08/2020",
+    "local": "não informado",
+    "foto": ""
+  },
+  {
     "nome": "Mauríco Shigueo Oshiro",
     "idade": "42",
     "profissao": "Médico(a)",
@@ -2085,6 +2477,14 @@
     "profissao": "Médico(a)",
     "data": "22/08/2020",
     "local": "Porto Alegre – RS",
+    "foto": ""
+  },
+  {
+    "nome": "Sálvio Dino",
+    "idade": "88",
+    "profissao": "Político; deputado federal pelo Maranhão (1963–1964)/(1974–1979)",
+    "data": "24/08/2020",
+    "local": "não informado",
     "foto": ""
   },
   {
@@ -2120,19 +2520,19 @@
     "foto": ""
   },
   {
-    "nome": "Wilson Meneguci",
-    "idade": "86",
-    "profissao": "Médico(a) - Pneumologista",
-    "data": "31/08/2020",
-    "local": "Presidente Prudente – SP",
-    "foto": ""
-  },
-  {
     "nome": "Francisco de Assis Gouveia",
     "idade": "62",
     "profissao": "Médico(a) - Cardiologista",
     "data": "31/08/2020",
     "local": "Nossa Senhora da Glória – SE",
+    "foto": ""
+  },
+  {
+    "nome": "Wilson Meneguci",
+    "idade": "86",
+    "profissao": "Médico(a) - Pneumologista",
+    "data": "31/08/2020",
+    "local": "Presidente Prudente – SP",
     "foto": ""
   },
   {
@@ -2144,6 +2544,14 @@
     "foto": ""
   },
   {
+    "nome": "Guido Céspedes",
+    "idade": "46",
+    "profissao": "Médico(a)",
+    "data": "02/09/2020",
+    "local": "Sinop – MT",
+    "foto": ""
+  },
+  {
     "nome": "Marcos Pety Sereja",
     "idade": "34",
     "profissao": "Médico(a) - Socorrista",
@@ -2152,11 +2560,11 @@
     "foto": ""
   },
   {
-    "nome": "Guido Céspedes",
-    "idade": "46",
-    "profissao": "Médico(a)",
-    "data": "02/09/2020",
-    "local": "Sinop – MT",
+    "nome": "Antônio de Jesus Dias",
+    "idade": "78",
+    "profissao": "Político; deputado federal por Goiás (1987-1993)",
+    "data": "03/09/2020",
+    "local": "não informado",
     "foto": ""
   },
   {
@@ -2296,14 +2704,6 @@
     "foto": ""
   },
   {
-    "nome": "João Roque Freitas Cordeiro",
-    "idade": "69",
-    "profissao": "Médico(a) - Cardiologista",
-    "data": "27/09/2020",
-    "local": "Araras – SP",
-    "foto": ""
-  },
-  {
     "nome": "Emílio Fernandes Vasques Júnior",
     "idade": "67",
     "profissao": "Médico(a) - Psiquiatra",
@@ -2312,11 +2712,27 @@
     "foto": ""
   },
   {
+    "nome": "João Roque Freitas Cordeiro",
+    "idade": "69",
+    "profissao": "Médico(a) - Cardiologista",
+    "data": "27/09/2020",
+    "local": "Araras – SP",
+    "foto": ""
+  },
+  {
     "nome": "Fábio Pesse",
     "idade": "62",
     "profissao": "Médico(a) - Pediatra",
     "data": "02/10/2020",
     "local": "Araras – SP",
+    "foto": ""
+  },
+  {
+    "nome": "Joselito Falcão de Amorim",
+    "idade": "101",
+    "profissao": "Político; prefeito de Feira de Santana (1964-1967)",
+    "data": "05/10/2020",
+    "local": "não informado",
     "foto": ""
   },
   {
@@ -2368,19 +2784,19 @@
     "foto": ""
   },
   {
-    "nome": "Marcos Cardia de Oliveira",
-    "idade": "53",
-    "profissao": "Médico(a) - Cardiologista",
-    "data": "20/10/2020",
-    "local": "Porto Alegre – RS",
-    "foto": ""
-  },
-  {
     "nome": "Marcelo Falco Garcia",
     "idade": "61",
     "profissao": "Médico(a) - Neurologista",
     "data": "20/10/2020",
     "local": "Ribeirão Preto – SP",
+    "foto": ""
+  },
+  {
+    "nome": "Marcos Cardia de Oliveira",
+    "idade": "53",
+    "profissao": "Médico(a) - Cardiologista",
+    "data": "20/10/2020",
+    "local": "Porto Alegre – RS",
     "foto": ""
   },
   {
@@ -2416,6 +2832,14 @@
     "foto": ""
   },
   {
+    "nome": "Cleusa Ema Quilici Belczak",
+    "idade": "69",
+    "profissao": "Médico(a) - Cirurgiã vascular",
+    "data": "30/10/2020",
+    "local": "Maringá – PR",
+    "foto": ""
+  },
+  {
     "nome": "Gilberto Severino",
     "idade": "79",
     "profissao": "Médico(a) - Ginecologista e obstetra",
@@ -2424,11 +2848,11 @@
     "foto": ""
   },
   {
-    "nome": "Cleusa Ema Quilici Belczak",
-    "idade": "69",
-    "profissao": "Médico(a) - Cirurgiã vascular",
+    "nome": "João Peixoto",
+    "idade": "75",
+    "profissao": "Político; deputado estadual do Rio de Janeiro (1998-2020)",
     "data": "30/10/2020",
-    "local": "Maringá – PR",
+    "local": "não informado",
     "foto": ""
   },
   {
@@ -2488,6 +2912,14 @@
     "foto": ""
   },
   {
+    "nome": "José de Oliveira Fernandes",
+    "idade": "76",
+    "profissao": "Economista, professor e político; prefeito de Manaus (1979-1982)",
+    "data": "12/11/2020",
+    "local": "não informado",
+    "foto": ""
+  },
+  {
     "nome": "Zina de Oliveira Macedo",
     "idade": "77",
     "profissao": "Médico(a) - Pediatra",
@@ -2528,14 +2960,6 @@
     "foto": ""
   },
   {
-    "nome": "Roberto Castilho Pereira",
-    "idade": "69",
-    "profissao": "Médico(a) - Pediatra",
-    "data": "18/11/2020",
-    "local": "São Paulo – SP",
-    "foto": ""
-  },
-  {
     "nome": "José Alejandro Arce Mejia Filho",
     "idade": "56",
     "profissao": "Médico(a) - Cirurgião geral e ginecologista",
@@ -2568,19 +2992,19 @@
     "foto": ""
   },
   {
-    "nome": "Renaud Pimentel Frazão Filho",
-    "idade": "79",
-    "profissao": "Médico(a) - Reumatologista",
-    "data": "21/11/2020",
-    "local": "Blumenau – SC",
-    "foto": ""
-  },
-  {
     "nome": "Marlene Abrantes Pereira",
     "idade": "idade não informada",
     "profissao": "Médico(a) - Pediatra",
     "data": "21/11/2020",
     "local": "João Pessoa – PB",
+    "foto": ""
+  },
+  {
+    "nome": "Renaud Pimentel Frazão Filho",
+    "idade": "79",
+    "profissao": "Médico(a) - Reumatologista",
+    "data": "21/11/2020",
+    "local": "Blumenau – SC",
     "foto": ""
   },
   {
@@ -2597,6 +3021,14 @@
     "profissao": "Médico(a) - Anestesiologista",
     "data": "23/11/2020",
     "local": "Petrolina – PE",
+    "foto": ""
+  },
+  {
+    "nome": "João Alves Filho",
+    "idade": "79",
+    "profissao": "Engenheiro e político; prefeito de Aracaju (2013-2017)",
+    "data": "23/11/2020",
+    "local": "não informado",
     "foto": ""
   },
   {
@@ -2621,6 +3053,14 @@
     "profissao": "Médico(a)",
     "data": "25/11/2020",
     "local": "Pinhão – PR",
+    "foto": ""
+  },
+  {
+    "nome": "Roberto Leitão",
+    "idade": "83",
+    "profissao": "Lutador",
+    "data": "28/11/2020",
+    "local": "não informado",
     "foto": ""
   },
   {
@@ -2661,6 +3101,14 @@
     "profissao": "Médico(a) - Pediatra",
     "data": "02/12/2020",
     "local": "Guarapuava – SC",
+    "foto": ""
+  },
+  {
+    "nome": "Rodela",
+    "idade": "66",
+    "profissao": "Humorista",
+    "data": "02/12/2020",
+    "local": "não informado",
     "foto": ""
   },
   {
@@ -2712,14 +3160,6 @@
     "foto": ""
   },
   {
-    "nome": "Reinaldo Barbosa Caixeta",
-    "idade": "63",
-    "profissao": "Médico(a) - Ginecologista",
-    "data": "06/12/2020",
-    "local": "São Mateus – ES",
-    "foto": ""
-  },
-  {
     "nome": "José Walter Oliveira da Silva",
     "idade": "64",
     "profissao": "Médico(a) - Cirurgião geral",
@@ -2728,11 +3168,11 @@
     "foto": ""
   },
   {
-    "nome": "Fernando Tolentino",
-    "idade": "70",
-    "profissao": "Médico(a) - Obstetra",
-    "data": "07/12/2020",
-    "local": "Sete Lagoas – MG",
+    "nome": "Reinaldo Barbosa Caixeta",
+    "idade": "63",
+    "profissao": "Médico(a) - Ginecologista",
+    "data": "06/12/2020",
+    "local": "São Mateus – ES",
     "foto": ""
   },
   {
@@ -2744,11 +3184,11 @@
     "foto": ""
   },
   {
-    "nome": "Ricardo José Lopes da Cruz",
-    "idade": "66",
-    "profissao": "Médico(a)",
-    "data": "08/12/2020",
-    "local": "Rio de Janeiro – RJ",
+    "nome": "Fernando Tolentino",
+    "idade": "70",
+    "profissao": "Médico(a) - Obstetra",
+    "data": "07/12/2020",
+    "local": "Sete Lagoas – MG",
     "foto": ""
   },
   {
@@ -2760,10 +3200,66 @@
     "foto": ""
   },
   {
+    "nome": "Ricardo José Lopes da Cruz",
+    "idade": "66",
+    "profissao": "Médico(a)",
+    "data": "08/12/2020",
+    "local": "Rio de Janeiro – RJ",
+    "foto": ""
+  },
+  {
+    "nome": "Artenir Werner",
+    "idade": "80",
+    "profissao": "Político; deputado estadual de Santa Catarina (1979-1991)",
+    "data": "09/12/2020",
+    "local": "não informado",
+    "foto": ""
+  },
+  {
+    "nome": "Osvaldo Cochrane Filho",
+    "idade": "87",
+    "profissao": "Jogador de pólo aquático",
+    "data": "09/12/2020",
+    "local": "não informado",
+    "foto": ""
+  },
+  {
+    "nome": "Severiano Mário Porto",
+    "idade": "90",
+    "profissao": "Arquiteto",
+    "data": "10/12/2020",
+    "local": "não informado",
+    "foto": ""
+  },
+  {
+    "nome": "Farid Abrão David",
+    "idade": "76",
+    "profissao": "Político; prefeito de Nilópolis (2017-2020)",
+    "data": "11/12/2020",
+    "local": "não informado",
+    "foto": ""
+  },
+  {
     "nome": "Ubirany",
     "idade": "80",
     "profissao": "Cantor e músico",
     "data": "11/12/2020",
+    "local": "não informado",
+    "foto": ""
+  },
+  {
+    "nome": "Carlos Eduardo Cadoca",
+    "idade": "80",
+    "profissao": "Político; deputado federal por Pernambuco (1999-2018)",
+    "data": "13/12/2020",
+    "local": "não informado",
+    "foto": ""
+  },
+  {
+    "nome": "Marcelo Veiga",
+    "idade": "56",
+    "profissao": "Futebolista e treinador",
+    "data": "14/12/2020",
     "local": "não informado",
     "foto": ""
   },
@@ -2776,10 +3272,106 @@
     "foto": ""
   },
   {
+    "nome": "Paulo César dos Santos (Paulinho)",
+    "idade": "68",
+    "profissao": "Cantor e músico do conjunto Roupa Nova",
+    "data": "14/12/2020",
+    "local": "não informado",
+    "foto": ""
+  },
+  {
+    "nome": "Orlando Duarte",
+    "idade": "88",
+    "profissao": "Jornalista esportivo",
+    "data": "15/12/2020",
+    "local": "não informado",
+    "foto": ""
+  },
+  {
+    "nome": "Renê Weber",
+    "idade": "59",
+    "profissao": "Futebolista e treinador",
+    "data": "16/12/2020",
+    "local": "não informado",
+    "foto": ""
+  },
+  {
     "nome": "Nicette Bruno",
     "idade": "87",
     "profissao": "Atriz",
     "data": "20/12/2020",
+    "local": "não informado",
+    "foto": ""
+  },
+  {
+    "nome": "Matheus",
+    "idade": "57",
+    "profissao": "Cantor",
+    "data": "22/12/2020",
+    "local": "não informado",
+    "foto": ""
+  },
+  {
+    "nome": "Irani Barbosa",
+    "idade": "70",
+    "profissao": "Político; deputado federal por Minas Gerais (1991-1995)",
+    "data": "23/12/2020",
+    "local": "não informado",
+    "foto": ""
+  },
+  {
+    "nome": "Vilmar Ballin",
+    "idade": "62",
+    "profissao": "Político; prefeito de Sapucaia do Sul (2009-2017)",
+    "data": "23/12/2020",
+    "local": "não informado",
+    "foto": ""
+  },
+  {
+    "nome": "Djalma Bastos de Morais",
+    "idade": "73",
+    "profissao": "Político; ministro das Comunicações (1993-1995)",
+    "data": "25/12/2020",
+    "local": "não informado",
+    "foto": ""
+  },
+  {
+    "nome": "Antônio Aiacyda",
+    "idade": "71",
+    "profissao": "Político; prefeito de Mairiporã (2017-2020)",
+    "data": "28/12/2020",
+    "local": "não informado",
+    "foto": ""
+  },
+  {
+    "nome": "Ibsen Henrique de Castro",
+    "idade": "82",
+    "profissao": "Político; deputado federal por Goiás (1995-1999)",
+    "data": "30/12/2020",
+    "local": "não informado",
+    "foto": ""
+  },
+  {
+    "nome": "Cléber Eduardo Arado",
+    "idade": "48",
+    "profissao": "Futebolista",
+    "data": "02/01/2021",
+    "local": "não informado",
+    "foto": ""
+  },
+  {
+    "nome": "Ricardo Akinobu Yamauti",
+    "idade": "71",
+    "profissao": "Político; prefeito de Praia Grande (1997-2000)",
+    "data": "03/01/2021",
+    "local": "não informado",
+    "foto": ""
+  },
+  {
+    "nome": "Bonifácio Andrada",
+    "idade": "90",
+    "profissao": "Advogado, jornalista, político e professor; deputado federal por Minas Gerais (1979-2019)",
+    "data": "05/01/2021",
     "local": "não informado",
     "foto": ""
   },
@@ -2792,10 +3384,106 @@
     "foto": ""
   },
   {
+    "nome": "João Henrique de Souza",
+    "idade": "78",
+    "profissao": "Delegado de polícia, juiz eleitoral e político; deputado estadual da Paraíba (2007-2021)",
+    "data": "12/01/2021",
+    "local": "não informado",
+    "foto": ""
+  },
+  {
+    "nome": "Algaci Tulio",
+    "idade": "80",
+    "profissao": "Jornalista, radialista e político paranaense; vereador por Curitiba (1983-1987/2009-2013), deputado estadual pelo Paraná (1987-1996/1999-2003) e vice-prefeito de Curitiba (1989-1993/1997-1999)",
+    "data": "13/01/2021",
+    "local": "não informado",
+    "foto": ""
+  },
+  {
+    "nome": "Eusébio Oscar Scheid",
+    "idade": "88",
+    "profissao": "Arcebispo emérito do Rio de Janeiro",
+    "data": "13/01/2021",
+    "local": "não informado",
+    "foto": ""
+  },
+  {
     "nome": "Maguito Vilela",
     "idade": "71",
     "profissao": "Político",
     "data": "13/01/2021",
+    "local": "não informado",
+    "foto": ""
+  },
+  {
+    "nome": "Péricles Ferreira dos Anjos",
+    "idade": "77",
+    "profissao": "Médico e político; deputado estadual por Minas Gerais (1987-1999)",
+    "data": "14/01/2021",
+    "local": "não informado",
+    "foto": ""
+  },
+  {
+    "nome": "Alex Periscinoto",
+    "idade": "95",
+    "profissao": "Publicitário",
+    "data": "17/01/2021",
+    "local": "não informado",
+    "foto": ""
+  },
+  {
+    "nome": "Hamilton Carvalhido",
+    "idade": "79",
+    "profissao": "Ministro do Superior Tribunal de Justiça (1999-2011)",
+    "data": "17/01/2021",
+    "local": "não informado",
+    "foto": ""
+  },
+  {
+    "nome": "Geraldo Antônio Miotto",
+    "idade": "65",
+    "profissao": "Militar",
+    "data": "20/01/2021",
+    "local": "não informado",
+    "foto": ""
+  },
+  {
+    "nome": "Fábio Lúcio Rodrigues Avelar",
+    "idade": "71",
+    "profissao": "Engenheiro e político; deputado estadual por Minas Gerais (1999-2011)",
+    "data": "26/01/2021",
+    "local": "não informado",
+    "foto": ""
+  },
+  {
+    "nome": "Ygona Moura",
+    "idade": "23",
+    "profissao": "Influenciadora brasileira",
+    "data": "27/01/2021",
+    "local": "não informado",
+    "foto": ""
+  },
+  {
+    "nome": "Líber Gadelha",
+    "idade": "64",
+    "profissao": "Guitarrista e produtor musical",
+    "data": "30/01/2021",
+    "local": "não informado",
+    "foto": ""
+  },
+  {
+    "nome": "Édino Fonseca",
+    "idade": "74",
+    "profissao": "Pastor e político; deputado estadual pelo Rio de Janeiro (2003-2014)",
+    "data": "03/02/2021",
+    "local": "não informado",
+    "foto": ""
+  },
+  {
+    "nome": "Roberto Torres",
+    "idade": "82",
+    "profissao": "Político; deputado federal por Alagoas (1987-1995)",
+    "data": "04/02/2021",
     "local": "não informado",
     "foto": ""
   },
@@ -2816,9 +3504,105 @@
     "foto": ""
   },
   {
+    "nome": "Flávio Pinho",
+    "idade": "91",
+    "profissao": "Futebolista",
+    "data": "23/02/2021",
+    "local": "não informado",
+    "foto": ""
+  },
+  {
+    "nome": "Heyder Abas Palheta",
+    "idade": "87",
+    "profissao": "Futebolista",
+    "data": "23/02/2021",
+    "local": "não informado",
+    "foto": ""
+  },
+  {
+    "nome": "Frederico Campos",
+    "idade": "93",
+    "profissao": "Político; governador do Mato Grosso (1979-1983)",
+    "data": "01/03/2021",
+    "local": "não informado",
+    "foto": ""
+  },
+  {
+    "nome": "Ruy Scarpino",
+    "idade": "59",
+    "profissao": "Técnico de futebol",
+    "data": "03/03/2021",
+    "local": "não informado",
+    "foto": ""
+  },
+  {
+    "nome": "José Carlos da Silva Júnior",
+    "idade": "94",
+    "profissao": "Político; senador pela Paraíba (1996-1999)",
+    "data": "05/03/2021",
+    "local": "não informado",
+    "foto": ""
+  },
+  {
+    "nome": "Mauro Aparecido dos Santos",
+    "idade": "66",
+    "profissao": "Bispo católico; arcebispo de Cascavel",
+    "data": "11/03/2021",
+    "local": "não informado",
+    "foto": ""
+  },
+  {
+    "nome": "Silvio Favero",
+    "idade": "54",
+    "profissao": "Político; deputado estadual do Mato Grosso (2019-2021)",
+    "data": "13/03/2021",
+    "local": "não informado",
+    "foto": ""
+  },
+  {
+    "nome": "David Dias Pimentel",
+    "idade": "79",
+    "profissao": "Bispo católico; bispo de São João da Boa Vista",
+    "data": "16/03/2021",
+    "local": "não informado",
+    "foto": ""
+  },
+  {
+    "nome": "Euclides Scalco",
+    "idade": "88",
+    "profissao": "Político; diretor-geral da Itaipu Binacional (1995-2002) e ministro-chefe da Secretaria-Geral da Presidência (2002)",
+    "data": "16/03/2021",
+    "local": "não informado",
+    "foto": ""
+  },
+  {
+    "nome": "Helenês Cândido",
+    "idade": "86",
+    "profissao": "Político; governador de Goiás (1998-1999)",
+    "data": "17/03/2021",
+    "local": "não informado",
+    "foto": ""
+  },
+  {
+    "nome": "Herzem Gusmão",
+    "idade": "72",
+    "profissao": "Jornalista e político; prefeito de Vitória da Conquista (2017-2021)",
+    "data": "18/03/2021",
+    "local": "não informado",
+    "foto": ""
+  },
+  {
     "nome": "Major Olímpio",
     "idade": "58",
     "profissao": "Político",
+    "data": "18/03/2021",
+    "local": "não informado",
+    "foto": ""
+  },
+  {
+    "nome": "Zeno Veloso",
+    "idade": "75",
+    "profissao": "Jurista, notário, professor e político; deputado estadual do Pará (1986-1990)",
     "data": "18/03/2021",
     "local": "não informado",
     "foto": ""
@@ -2832,10 +3616,74 @@
     "foto": ""
   },
   {
+    "nome": "Luiz Ferreira Martins",
+    "idade": "85",
+    "profissao": "Médico, professor e político; deputado federal por São Paulo (1983-1987)",
+    "data": "20/03/2021",
+    "local": "não informado",
+    "foto": ""
+  },
+  {
+    "nome": "Henrique do Rego Almeida",
+    "idade": "84",
+    "profissao": "Político; senador pelo Amapá (1991-1999)",
+    "data": "22/03/2021",
+    "local": "não informado",
+    "foto": ""
+  },
+  {
+    "nome": "Haroldo Lima",
+    "idade": "81",
+    "profissao": "Político; deputado federal pela Bahia (1983-2003) e diretor-geral da Agência Nacional do Petróleo (2005-2011)",
+    "data": "24/03/2021",
+    "local": "não informado",
+    "foto": ""
+  },
+  {
+    "nome": "Paulo Stein",
+    "idade": "73",
+    "profissao": "Jornalista e locutor esportivo",
+    "data": "27/03/2021",
+    "local": "não informado",
+    "foto": ""
+  },
+  {
+    "nome": "Cláudio Petraglia",
+    "idade": "91",
+    "profissao": "Músico",
+    "data": "31/03/2021",
+    "local": "não informado",
+    "foto": ""
+  },
+  {
+    "nome": "Ivair Nogueira do Pinho",
+    "idade": "69",
+    "profissao": "Político; prefeito de Betim (1991-1992) e deputado estadual de Minas Gerais (1995-2011)",
+    "data": "31/03/2021",
+    "local": "não informado",
+    "foto": ""
+  },
+  {
     "nome": "João Acaiabe",
     "idade": "76",
     "profissao": "Ator",
     "data": "31/03/2021",
+    "local": "não informado",
+    "foto": ""
+  },
+  {
+    "nome": "Angelo Perugini",
+    "idade": "65",
+    "profissao": "Político; prefeito de Hortolândia (2017-2021)",
+    "data": "01/04/2021",
+    "local": "não informado",
+    "foto": ""
+  },
+  {
+    "nome": "Jean Luc Rosat",
+    "idade": "67",
+    "profissao": "Voleibolista",
+    "data": "02/04/2021",
     "local": "não informado",
     "foto": ""
   },
@@ -2848,10 +3696,170 @@
     "foto": ""
   },
   {
+    "nome": "José Adauto Bezerra",
+    "idade": "94",
+    "profissao": "Político; governador do Ceará (1975-1978)",
+    "data": "03/04/2021",
+    "local": "não informado",
+    "foto": ""
+  },
+  {
+    "nome": "Paulo Medina",
+    "idade": "78",
+    "profissao": "Ministro do Superior Tribunal de Justiça (2001-2010)",
+    "data": "03/04/2021",
+    "local": "não informado",
+    "foto": ""
+  },
+  {
+    "nome": "Robert de Almendra Freitas",
+    "idade": "73",
+    "profissao": "Político; deputado estadual do Piauí (1987-2002)",
+    "data": "05/04/2021",
+    "local": "não informado",
+    "foto": ""
+  },
+  {
+    "nome": "Alfredo Bosi",
+    "idade": "84",
+    "profissao": "Crítico literário",
+    "data": "07/04/2021",
+    "local": "não informado",
+    "foto": ""
+  },
+  {
+    "nome": "Ismael Ivo",
+    "idade": "66",
+    "profissao": "Dançarino e coreógrafo",
+    "data": "08/04/2021",
+    "local": "não informado",
+    "foto": ""
+  },
+  {
+    "nome": "Roseli Machado",
+    "idade": "52",
+    "profissao": "Maratonista",
+    "data": "08/04/2021",
+    "local": "não informado",
+    "foto": ""
+  },
+  {
+    "nome": "Abdul Hamid Sebba",
+    "idade": "86",
+    "profissao": "Político; deputado estadual de Goiás (1995-2003)",
+    "data": "09/04/2021",
+    "local": "não informado",
+    "foto": ""
+  },
+  {
+    "nome": "Nelson Bornier",
+    "idade": "71",
+    "profissao": "Político; deputado federal pelo Rio de Janeiro (2003-2012) e prefeito de Nova Iguaçu (2013-2016)",
+    "data": "11/04/2021",
+    "local": "não informado",
+    "foto": ""
+  },
+  {
+    "nome": "Pedro Ivo Ferreira Caminhas",
+    "idade": "68",
+    "profissao": "Político; deputado estadual de Minas Gerais (2001-2008) e vice-prefeito de Betim (2009-2012)",
+    "data": "11/04/2021",
+    "local": "não informado",
+    "foto": ""
+  },
+  {
+    "nome": "Irondi Mantovani Pugliesi",
+    "idade": "73",
+    "profissao": "Política; deputada estadual do Paraná (1983-1999)",
+    "data": "12/04/2021",
+    "local": "não informado",
+    "foto": ""
+  },
+  {
+    "nome": "Ruth Roberta de Souza",
+    "idade": "52",
+    "profissao": "Jogadora de basquete; campeã mundial",
+    "data": "13/04/2021",
+    "local": "não informado",
+    "foto": ""
+  },
+  {
+    "nome": "José Carlos Schiavinato",
+    "idade": "66",
+    "profissao": "Político; deputado federal pelo Paraná (2019-2021)",
+    "data": "14/04/2021",
+    "local": "não informado",
+    "foto": ""
+  },
+  {
+    "nome": "Gilmar de Carvalho",
+    "idade": "71",
+    "profissao": "Professor",
+    "data": "17/04/2021",
+    "local": "não informado",
+    "foto": ""
+  },
+  {
+    "nome": "Luiz Humberto Carneiro",
+    "idade": "68",
+    "profissao": "Político; deputado estadual de Minas Gerais (2003-2021)",
+    "data": "17/04/2021",
+    "local": "não informado",
+    "foto": ""
+  },
+  {
+    "nome": "Alípio Freire",
+    "idade": "75",
+    "profissao": "Jornalista",
+    "data": "22/04/2021",
+    "local": "não informado",
+    "foto": ""
+  },
+  {
+    "nome": "Levy Fidelix",
+    "idade": "69",
+    "profissao": "Político; presidente nacional do Partido Renovador Trabalhista Brasileiro (1994-2021)",
+    "data": "23/04/2021",
+    "local": "não informado",
+    "foto": ""
+  },
+  {
+    "nome": "Walmir Oliveira da Costa",
+    "idade": "63",
+    "profissao": "Ministro do Tribunal Superior do Trabalho (2007-2021)",
+    "data": "28/04/2021",
+    "local": "não informado",
+    "foto": ""
+  },
+  {
     "nome": "Paulo Gustavo",
     "idade": "42",
     "profissao": "Ator e comediante",
     "data": "04/05/2021",
+    "local": "não informado",
+    "foto": ""
+  },
+  {
+    "nome": "Willian Santiago",
+    "idade": "30",
+    "profissao": "Ilustrador e designer gráfico",
+    "data": "04/05/2021",
+    "local": "não informado",
+    "foto": ""
+  },
+  {
+    "nome": "Luiz Gonzaga Paes Landim",
+    "idade": "79",
+    "profissao": "Político; deputado estadual do Piauí (1979-1991)",
+    "data": "23/05/2021",
+    "local": "não informado",
+    "foto": ""
+  },
+  {
+    "nome": "Cabo Almi",
+    "idade": "58",
+    "profissao": "Político; deputado estadual do Mato Grosso do Sul (2011-2021)",
+    "data": "24/05/2021",
     "local": "não informado",
     "foto": ""
   },
@@ -2864,10 +3872,194 @@
     "foto": ""
   },
   {
+    "nome": "Fábio Campana",
+    "idade": "73",
+    "profissao": "Jornalista e escritor",
+    "data": "29/05/2021",
+    "local": "não informado",
+    "foto": ""
+  },
+  {
+    "nome": "Marco Maciel",
+    "idade": "80",
+    "profissao": "Político; vice-Presidente da República (1995-2003)",
+    "data": "12/06/2021",
+    "local": "não informado",
+    "foto": ""
+  },
+  {
+    "nome": "Carlos Geraldo Langoni",
+    "idade": "76",
+    "profissao": "Economista, Ex-Presidente do Banco Central",
+    "data": "13/06/2021",
+    "local": "não informado",
+    "foto": ""
+  },
+  {
+    "nome": "Ari Magalhães",
+    "idade": "92",
+    "profissao": "Político; deputado federal pelo Piauí (1995-1999)",
+    "data": "15/06/2021",
+    "local": "não informado",
+    "foto": ""
+  },
+  {
+    "nome": "Reynaldo Rayol",
+    "idade": "76",
+    "profissao": "Músico e produtor artístico",
+    "data": "15/06/2021",
+    "local": "não informado",
+    "foto": ""
+  },
+  {
+    "nome": "Laíla",
+    "idade": "78",
+    "profissao": "Carnavalesco",
+    "data": "18/06/2021",
+    "local": "não informado",
+    "foto": ""
+  },
+  {
+    "nome": "Lucas Pereira",
+    "idade": "39",
+    "profissao": "Ex-jogador de futebol",
+    "data": "20/06/2021",
+    "local": "não informado",
+    "foto": ""
+  },
+  {
+    "nome": "José Tavares da Silva Neto",
+    "idade": "72",
+    "profissao": "Político; deputado federal pelo Paraná (1983-1991)",
+    "data": "22/06/2021",
+    "local": "não informado",
+    "foto": ""
+  },
+  {
+    "nome": "João da Rocha Ribeiro Dias",
+    "idade": "69",
+    "profissao": "Político; senador pelo Tocantins (1997-2000)",
+    "data": "26/06/2021",
+    "local": "não informado",
+    "foto": ""
+  },
+  {
+    "nome": "Waldemar Marques de Oliveira Filho",
+    "idade": "69",
+    "profissao": "Político; prefeito de Ferraz de Vasconcelos (1997-2000)",
+    "data": "03/07/2021",
+    "local": "não informado",
+    "foto": ""
+  },
+  {
+    "nome": "Pedro Wosgrau Filho",
+    "idade": "73",
+    "profissao": "Político; prefeito de Ponta Grossa (2005-2012)",
+    "data": "13/07/2021",
+    "local": "não informado",
+    "foto": ""
+  },
+  {
+    "nome": "Roberto Romano",
+    "idade": "75",
+    "profissao": "Filósofo e professor",
+    "data": "22/07/2021",
+    "local": "não informado",
+    "foto": ""
+  },
+  {
+    "nome": "Júlio Chaves",
+    "idade": "76",
+    "profissao": "Dublador",
+    "data": "10/08/2021",
+    "local": "não informado",
+    "foto": ""
+  },
+  {
     "nome": "Tarcísio Meira",
     "idade": "85",
     "profissao": "Ator",
     "data": "12/08/2021",
+    "local": "não informado",
+    "foto": ""
+  },
+  {
+    "nome": "Simão Sessim",
+    "idade": "85",
+    "profissao": "Político; deputado federal pelo Rio de Janeiro (1979-2019)",
+    "data": "16/08/2021",
+    "local": "não informado",
+    "foto": ""
+  },
+  {
+    "nome": "José Alberto Hermógenes",
+    "idade": "76",
+    "profissao": "Médico sanitarista",
+    "data": "23/08/2021",
+    "local": "não informado",
+    "foto": ""
+  },
+  {
+    "nome": "Tarcísio Padilha",
+    "idade": "93",
+    "profissao": "Filósofo e professor",
+    "data": "09/09/2021",
+    "local": "não informado",
+    "foto": ""
+  },
+  {
+    "nome": "André Zacharow",
+    "idade": "82",
+    "profissao": "Político; deputado federal pelo Paraná (2003-2015)",
+    "data": "10/09/2021",
+    "local": "não informado",
+    "foto": ""
+  },
+  {
+    "nome": "Carlos Neder",
+    "idade": "67",
+    "profissao": "Médico e político; deputado estadual por São Paulo (2005-2013)",
+    "data": "25/09/2021",
+    "local": "não informado",
+    "foto": ""
+  },
+  {
+    "nome": "José Freire Falcão",
+    "idade": "95",
+    "profissao": "Bispo católico; arcebispo emérito de Brasília",
+    "data": "27/09/2021",
+    "local": "não informado",
+    "foto": ""
+  },
+  {
+    "nome": "Ernani Diniz Lucas",
+    "idade": "70",
+    "profissao": "Cartunista, mas conhecido como Nani",
+    "data": "08/10/2021",
+    "local": "não informado",
+    "foto": ""
+  },
+  {
+    "nome": "Lailson de Holanda",
+    "idade": "68",
+    "profissao": "Cartunista e músico",
+    "data": "26/10/2021",
+    "local": "não informado",
+    "foto": ""
+  },
+  {
+    "nome": "Geraldo Brindeiro",
+    "idade": "73",
+    "profissao": "Ex-Procurador Geral da República (1995-2003)",
+    "data": "29/10/2021",
+    "local": "não informado",
+    "foto": ""
+  },
+  {
+    "nome": "Tilden Santiago",
+    "idade": "81",
+    "profissao": "Político; deputado federal e embaixador",
+    "data": "02/02/2022",
     "local": "não informado",
     "foto": ""
   },
@@ -2893,14 +4085,6 @@
     "profissao": "Cientista político e historiador",
     "data": "13/08/2023",
     "local": "não informado",
-    "foto": ""
-  },
-  {
-    "nome": "Nome",
-    "idade": "Idade",
-    "profissao": "Profissão",
-    "data": "Data",
-    "local": "Local",
     "foto": ""
   }
 ]
